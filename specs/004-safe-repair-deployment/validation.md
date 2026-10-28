@@ -17,6 +17,8 @@ El primer CI del sandbox detectó una dependencia nativa opcional de Jest omitid
 
 La siguiente ejecución CI detectó la ausencia de identidad Git durante el commit del candidato. Se configuró nombre/correo únicamente dentro del repositorio temporal. El [job Docker de la ejecución final](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40776863560/job/123128439757) aprobó las siete pruebas en Linux. La ejecución completa y sus resultados están disponibles en [GitHub Actions](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40776863560).
 
+**Resultado final del backend: CI aprobado.** El job general completó 18 suites, 372 pruebas aprobadas y 5 omitidas, en 191,869 segundos. Las cinco omitidas son los casos Docker que se ejecutan en el job separado; allí se aprobaron 7 pruebas en 13,65 segundos (incluidos dos casos de configuración que también aparecen en el job general). No sumar ambos conteos como pruebas únicas. Se aprobaron además TypeScript, ESLint y las pruebas PostgreSQL de plataforma. El frontend y la validación documental también finalizaron en verde.
+
 ## Flujo comprobado
 
 ```mermaid
