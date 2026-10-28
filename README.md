@@ -14,6 +14,7 @@ Repositorio documental independiente para la revisión docente de **Specificatio
 | Constitución y principios | [Constitución del backend](specs/constitution.md) y [frontend](frontend/specs/constitution.md) |
 | Especificación, plan y tareas SDD | [Adopción SDD](specs/001-sdd-foundation/spec.md), [plan](specs/001-sdd-foundation/plan.md), [tareas](specs/001-sdd-foundation/tasks.md) |
 | Separación de este repositorio | [Especificación](specs/003-documentation-repository/spec.md), [plan](specs/003-documentation-repository/plan.md), [tareas](specs/003-documentation-repository/tasks.md) |
+| Evidencia de la entrega independiente | [Validación y publicación comprobada](specs/003-documentation-repository/validation.md) |
 | Spec Kit operativo | [.specify/](.specify/), [habilidades](.agents/skills/) y [plantillas visibles](specs/templates/) |
 | Segundo cerebro conceptual | [Inicio del conocimiento](specs/segundo-cerebro/00-Segundo-cerebro.md) |
 | Módulos de la aplicación | [Mapa de módulos](specs/segundo-cerebro/arquitectura/00-Arquitectura-modulos.md) |
