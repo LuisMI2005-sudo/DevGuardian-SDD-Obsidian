@@ -18,3 +18,7 @@ La arquitectura objetivo, la implementación local y el despliegue productivo so
 ## Cambios respecto de las copias originales
 
 Se añadieron portada y recorrido docente, esta procedencia, una especificación de separación, validación de la bóveda, workflow documental y configuración compartida del grafo. Los índices de apertura identifican esta bóveda independiente; los documentos históricos conservan su contexto temporal.
+
+## Actualización de reparación aislada (2026-10-28)
+
+La especificación `004-safe-repair-deployment` incorpora evidencia nueva de la rama `validate-isolated-repair`: backend `0f6ced284a323d539a21e83d783f3de413bf5827` y frontend `da32b57d32bd5487567ac2ecd23fbe16443987be`. Se redactó a partir del código y ejecuciones comprobadas, sin reemplazar las copias históricas de otras especificaciones ni copiar código de negocio. El alcance posterior autorizado es validar en local y CI antes de desplegar; no acredita cambios en Render ni generación real con Anthropic.
