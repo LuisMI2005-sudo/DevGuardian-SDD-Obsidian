@@ -36,3 +36,7 @@ La ampliación de relaciones HU/issues/PRs del mismo corte inspeccionó archivos
 ## Definición de dos incrementos finales
 
 `specs/006-final-increments/` define INC-01 (HU-44) e INC-02 (HU-46) a partir de código ya existente; no introduce una nueva implementación. Se verificó como base técnica backend `f9438efecb32df9175819fd6f0667b91b1529c42` y frontend `f83d9286b2d1c5ccdfb51056a6a345b62449c611`, ambos del 20/10/2026. La primera aparición de identidad/platform y Shell/remotos comprobada en Git corresponde a `d6af0f7c0d67a5d7a0d9eb453ba77a3df82f10f6` y `22d4b2d82c5dca9ca798cc6647ba9f2feca69965`, del 28/10. Los documentos y la selección son posteriores al código; la base y la propuesta no se presentan como aceptadas por el docente. Los criterios manuales y el guion siguen pendientes de ejecución final.
+
+## Coordinación de fixes y validaciones
+
+CONTROL_DE_FIXES.md y specs/007-release-qa/cases.json se construyeron a partir del inventario de HU vigente y una consulta de los 18 issues abiertos del backend el 29/10/2026. Se creó el issue #57 como índice, no como HU ni bug adicional. Se preservaron los estados de los 18 issues y no se inventaron responsables. Las 20 fichas incluyen dos aceptaciones de incrementos dentro de HU-37. Los archivos/pruebas enlazados proceden del inventario anterior; las nuevas fichas no acreditan una reproducción ni un resultado nuevo de producto.

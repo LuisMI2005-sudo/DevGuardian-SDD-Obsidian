@@ -28,6 +28,7 @@ Repositorio documental independiente para la revisión docente de **Specificatio
 | Consolidación con recuperación de proyectos | [Merges, PRs y pruebas de integración](specs/004-safe-repair-deployment/consolidation.md) |
 | Backlog y trazabilidad final | [51 HU e issues](specs/005-final-traceability/backlog.md), [matriz de evidencia](specs/005-final-traceability/traceability.md), [especificación](specs/005-final-traceability/spec.md), [plan](specs/005-final-traceability/plan.md) y [validación](specs/005-final-traceability/validation.md) |
 | Dos incrementos del proyecto final | [INC-01 Organizaciones y accesos / INC-02 Espacio modular](specs/006-final-increments/spec.md), [antes y después](specs/006-final-increments/evidence.md) y [guion de demo](specs/006-final-increments/demo.md) |
+| Lista única para coordinar fixes | [CONTROL_DE_FIXES.md](CONTROL_DE_FIXES.md): 18 seguimientos de HU y dos aceptaciones de incrementos, pasos, resultado esperado, prueba y responsable; [índice GitHub #57](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/57) |
 
 ## Abrir en Obsidian
 
@@ -89,6 +90,8 @@ La CI comprueba que las copias de las plantillas estén sincronizadas, que los e
 `npm run traceability:check` comprueba las 51 HU, sus issues registrados, estados, métricas, enlaces fijados a SHA y las huellas de las copias del backlog/matriz. El corte del 29/10 contiene 33 cierres técnicos, 12 historias parciales y 6 pendientes; los cierres retrospectivos no acreditan una aprobación humana ni un despliegue. Los documentos históricos conservan sus resultados fechados; este backlog y la matriz constituyen el índice de estado vigente.
 
 La [matriz HU → issue → PR](specs/005-final-traceability/traceability.md#relaciones-explícitas-con-prs) distingue documentación retrospectiva, controles de UI e integración técnica/histórica. Los issues enlazan los PRs aplicables y los PRs abiertos enlazan de vuelta los issues. La coincidencia de archivo no se presenta como aceptación completa; donde falta un PR original comprobado se conserva el enlace al commit, sin inventarlo. El registro verificable de archivos y estados está en [pull-requests.json](specs/005-final-traceability/pull-requests.json).
+
+Para coordinar los arreglos usar una sola lista: [CONTROL_DE_FIXES.md](CONTROL_DE_FIXES.md). La fuente editable es [cases.json](specs/007-release-qa/cases.json); tras cambiar un caso ejecutar `npm run qa:render` y `npm run qa:check`. No asigna personas ni confirma bugs por existir una brecha de pruebas. Los arreglos se reclaman en su issue antes de editar y se cierran con evidencia revisada. La lista reutiliza las HU abiertas; #57 es solo el coordinador, no una HU nueva.
 
 ## Repositorios de implementación
 

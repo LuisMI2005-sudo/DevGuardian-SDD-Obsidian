@@ -10,6 +10,8 @@
     "sdd:check": "node scripts/spec-kit-docs.mjs check && node frontend/scripts/spec-kit-docs.mjs check",
     "vault:check": "node scripts/check-vault.mjs",
     "traceability:check": "node scripts/check-traceability.mjs",
-    "check": "npm run sdd:check && npm run vault:check && npm run traceability:check"
+    "qa:render": "node scripts/render-fix-control.mjs",
+    "qa:check": "node scripts/check-fix-control.mjs",
+    "check": "npm run sdd:check && npm run vault:check && npm run traceability:check && npm run qa:check"
   }
 }
