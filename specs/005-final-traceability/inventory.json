@@ -618,13 +618,13 @@
       "id": 48,
       "title": "Navegar el segundo cerebro independiente en Obsidian",
       "state": "Parcial",
-      "repo": "backend",
+      "repo": "documentation",
       "source": ".obsidian/graph.json",
       "test": "scripts/check-vault.mjs",
       "gap": "Estructura y enlaces comprobados; falta revisión visual del equipo y ensayo de navegación para defensa.",
       "sourceUrl": "https://github.com/LuisMI2005-sudo/DevGuardian-SDD-Obsidian/blob/b1e1a41865058aea1f41440a53b32268ae053555/.obsidian/graph.json",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/DevGuardian-SDD-Obsidian/blob/b1e1a41865058aea1f41440a53b32268ae053555/scripts/check-vault.mjs",
-      "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
+      "ci": "https://github.com/LuisMI2005-sudo/DevGuardian-SDD-Obsidian/actions/runs/40947798822",
       "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/53"
     },
     {
@@ -669,5 +669,5 @@
   ],
   "backendBacklogSha256": "3f2cd8ec9836870f120173cd67da0f512847193c2c18a3742c66c8a4d11d0f42",
   "documentBacklogSha256": "2a94dd656b294ea30a79a09cca5a1ab363cbf19f3aeec670bad35625a3b89c19",
-  "matrixSha256": "bb584548a22302a37c0fa7a1974dfb06ade9acf235d1d77279545a1e8f95563b"
+  "matrixSha256": "3d7c1b3011515136f9a1bed695d7989929c6da308171c4ee4f56f114387931c6"
 }
