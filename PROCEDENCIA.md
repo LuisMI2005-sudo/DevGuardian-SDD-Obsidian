@@ -40,3 +40,7 @@ La ampliación de relaciones HU/issues/PRs del mismo corte inspeccionó archivos
 ## Coordinación de fixes y validaciones
 
 CONTROL_DE_FIXES.md y specs/007-release-qa/cases.json se construyeron a partir del inventario de HU vigente y una consulta de los 18 issues abiertos del backend el 29/10/2026. Se creó el issue #57 como índice, no como HU ni bug adicional. Se preservaron los estados de los 18 issues y no se inventaron responsables. Las 20 fichas incluyen dos aceptaciones de incrementos dentro de HU-37. Los archivos/pruebas enlazados proceden del inventario anterior; las nuevas fichas no acreditan una reproducción ni un resultado nuevo de producto.
+
+## Checklist ejecutable de los incrementos
+
+CHECKLIST_ACEPTACION_INCREMENTOS.md traduce los 12 criterios ya definidos en specs/006-final-increments/ a pasos, resultados esperados y un acta por versión. Se contrastaron con gateway, Shell/loader y pruebas PostgreSQL existentes; la preparación no ejecutó ensayos nuevos ni marcó casillas de aceptación. QA-004/QA-005 y los issues #42/#57 enlazan el mismo protocolo. La comprobación documental valida que los IDs cubran exactamente los seis criterios de cada incremento; no acredita resultados manuales ni sustituye al revisor.

@@ -24,5 +24,6 @@ La solicitud del usuario selecciona INC-01 Gestión segura de organizaciones y a
 - [ ] T006 Ejecutar y registrar los seis remotos, fallo/reintento y reconstrucción independiente de INC-02.
 - [ ] T007 Revisar esta selección con los tres integrantes y presentar el contraste al docente.
 - [ ] T008 Registrar la aceptación del docente, si se obtiene; no marcarla automáticamente.
+- [x] T009 Preparar checklist ejecutable de los 12 criterios con estados iniciales No ejecutado y acta por SHA; enlazarlo a QA-004/QA-005 sin cerrar el ensayo.
 
 Las revisiones humanas no se sustituyen por un comprobador. No se asignan expositores sin acuerdo del equipo.

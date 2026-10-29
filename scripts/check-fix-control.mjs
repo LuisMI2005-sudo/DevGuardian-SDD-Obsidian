@@ -4,6 +4,12 @@ const root=new URL('../',import.meta.url);
 const data=JSON.parse(await readFile(new URL('specs/007-release-qa/cases.json',root),'utf8'));
 const inventory=JSON.parse(await readFile(new URL('specs/005-final-traceability/inventory.json',root),'utf8'));
 const doc=await readFile(new URL('CONTROL_DE_FIXES.md',root),'utf8');
+const checklist=await readFile(new URL('CHECKLIST_ACEPTACION_INCREMENTOS.md',root),'utf8');
+const checklistIds=[...checklist.matchAll(/^- \[[ x]\] \*\*(INC-\d{2}-AC\d{2})/gm)].map(match=>match[1]);
+const expectedCriteria=inventory.finalIncrements.flatMap(increment=>increment.acceptanceIds);
+assert.equal(checklistIds.length,12,'El checklist debe cubrir los 12 criterios originales.');
+assert.equal(new Set(checklistIds).size,12,'Criterio de aceptación duplicado.');
+assert.deepEqual([...checklistIds].sort(),[...expectedCriteria].sort());
 assert(data.cases.length>=20);
 assert.equal(new Set(data.cases.map(c=>c.id)).size,data.cases.length,'ID QA duplicado.');
 assert.match(data.coordinatorIssue,/^https:\/\/github\.com\/LuisMI2005-sudo\/ProyectoCertiIA\/issues\/\d+$/);
@@ -26,6 +32,11 @@ for(const c of data.cases){
   assert(doc.includes(c.title));
   assert(doc.includes(c.expected));
   assert(doc.includes(c.verification));
+  if(['QA-004','QA-005'].includes(c.id)){
+    assert.match(c.acceptanceChecklist,/^https:\/\/github\.com\/LuisMI2005-sudo\/DevGuardian-SDD-Obsidian\/blob\/main\/CHECKLIST_ACEPTACION_INCREMENTOS\.md#/);
+    assert(c.verification.includes(c.acceptanceChecklist));
+    assert(doc.includes(c.acceptanceChecklist));
+  }
   if(c.state==='Cerrado'){
     assert(c.owner&&c.reviewer,`${c.id}: cierre sin responsable/revisor.`);
     assert(typeof c.evidenceRecorded==='string'&&c.evidenceRecorded.length>20,`${c.id}: cierre sin evidencia registrada.`);
@@ -34,4 +45,4 @@ for(const c of data.cases){
 }
 for(const row of inventory.records.filter(row=>row.state!=='Completada técnica'))assert(data.cases.some(c=>c.trackingHu===row.id),`HU-${row.id}: seguimiento abierto sin ficha QA.`);
 assert.equal(data.confirmedBugs,data.cases.filter(c=>c.confirmedBug).length);
-console.log(`Control de fixes: ${data.cases.length} casos únicos; todas las HU abiertas cubiertas; ${data.confirmedBugs} bugs confirmados en este registro. Reproducción, expectativas y verificación comprobadas estructuralmente; no se ejecutan pruebas de producto.`);
+console.log(`Control de fixes: ${data.cases.length} casos únicos; HU abiertas cubiertas; checklist con 12 criterios alineados y QA-004/QA-005 enlazados; ${data.confirmedBugs} bugs confirmados en este registro. Verificación estructural; no ejecuta ni aprueba los ensayos de producto.`);

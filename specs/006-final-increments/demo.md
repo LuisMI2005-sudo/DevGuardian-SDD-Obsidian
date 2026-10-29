@@ -5,6 +5,8 @@ tags: [devguardian, dg/verificacion, dg/direccion]
 
 Este documento prepara el ensayo; no registra una ejecución nueva. Usar el perfil local platform, no la web legacy publicada, para demostrar autenticación multitenant y microfrontends. Presentación sugerida: aproximadamente diez minutos, ajustables al tiempo del docente.
 
+Para registrar resultados y no limitarse al guion, ejecutar el [checklist de aceptación](../../CHECKLIST_ACEPTACION_INCREMENTOS.md). Los casos de manifiesto y JS fallidos se distinguen: recuperar tras una recarga no acredita que el botón de reintento haya recuperado por sí mismo el remoto.
+
 ## Preparación antes de exponer
 
 1. Seguir [la puesta en marcha local](../002-platform-migration/local-development.md). PostgreSQL y las bases de platform deben estar disponibles. `platform:init` se usa una sola vez; no reinicializar un entorno ya preparado.

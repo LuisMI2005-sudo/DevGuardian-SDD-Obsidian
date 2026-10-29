@@ -154,7 +154,7 @@ Los trabajos de Jest/pytest, recursos MCP y robustez no se ocultan ni se cierran
 
 **Resultado esperado:** Se cumplen INC-01-AC01 a AC06; el aislamiento lo aplica el servidor/BD y no solo el filtro de la UI.
 
-**Prueba o verificación de cierre:** tests/platform/postgres.test.mjs y security.test.mjs con PostgreSQL efímero activo; acta manual de los seis criterios. Sin DEVGUARDIAN_TEST_ADMIN_URL los casos SQL omitidos no acreditan RLS.
+**Prueba o verificación de cierre:** tests/platform/postgres.test.mjs y security.test.mjs con PostgreSQL efímero activo; acta manual de los seis criterios. Sin DEVGUARDIAN_TEST_ADMIN_URL los casos SQL omitidos no acreditan RLS. Registrar los seis criterios y sus evidencias en el [checklist de aceptación](https://github.com/LuisMI2005-sudo/DevGuardian-SDD-Obsidian/blob/main/CHECKLIST_ACEPTACION_INCREMENTOS.md#inc-01-organizaciones-y-accesos).
 
 **Referencia existente:** [código/prueba/documentación](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/platform/postgres.test.mjs). Es referencia del criterio, no constancia de que la nueva comprobación ya pasó.
 
@@ -179,7 +179,7 @@ Los trabajos de Jest/pytest, recursos MCP y robustez no se ocultan ni se cierran
 
 **Resultado esperado:** Se cumplen INC-02-AC01 a AC06 y se distingue un build modular de una simple navegación entre componentes.
 
-**Prueba o verificación de cierre:** tests/platform.test.tsx cubre ciclo/contexto con loader simulado; añadir evidencia real de navegador, recuperación y build:remote -- review. Si el import fallido queda cacheado, registrar la recarga necesaria; no declarar recuperación inexistente.
+**Prueba o verificación de cierre:** tests/platform.test.tsx cubre ciclo/contexto con loader simulado; añadir evidencia real de navegador, recuperación y build:remote -- review. Si el import fallido queda cacheado, registrar la recarga necesaria; no declarar recuperación inexistente. Registrar los seis criterios y sus evidencias en el [checklist de aceptación](https://github.com/LuisMI2005-sudo/DevGuardian-SDD-Obsidian/blob/main/CHECKLIST_ACEPTACION_INCREMENTOS.md#inc-02-shell-y-microfrontends).
 
 **Referencia existente:** [código/prueba/documentación](https://github.com/SebhastianCampero-Collab/Frontend/blob/3b06f56e3bf2a213155865760649218c8d3b16d6/tests/platform.test.tsx). Es referencia del criterio, no constancia de que la nueva comprobación ya pasó.
 

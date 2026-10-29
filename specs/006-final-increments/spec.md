@@ -79,3 +79,5 @@ flowchart LR
 La infraestructura distribuida es soporte de ambos incrementos. El motor AST, Git, pruebas, MCP y guardrails conserva su autoridad. Esta selección no autoriza fusionar PRs, desplegar, habilitar reparaciones cloud ni afirmar aceptación docente. Los incrementos están implementados con evidencia local/CI; la aceptación de la demo final sigue pendiente.
 
 Ver [plan y tareas](plan.md), [evidencia](evidence.md) y [guion de demostración](demo.md).
+
+Para ejecutar la aceptación usar el [checklist de los 12 criterios](../../CHECKLIST_ACEPTACION_INCREMENTOS.md). Incluye precondiciones, pasos positivos/negativos, evidencia y acta por versión. Prepararlo no cambia el estado de la aceptación ni reemplaza los criterios definidos aquí.
