@@ -38,4 +38,8 @@ flowchart LR
 
 Las ramas locales Dev y dev se actualizaron por fast-forward a los merges; las ramas remotas de entrega permanecen sin modificar durante la preparación. Los PRs utilizan validate-isolated-repair como origen. Abrir un PR no configura un ejecutor cloud ni acredita generación real con Anthropic.
 
+## Resultado final de CI
+
+Ambos pipelines de integración finalizaron aprobados. Backend: 19 suites y 375 pruebas aprobadas, con cinco casos Docker omitidos en el job general y cubiertos por el job separado, que aprobó sus siete pruebas. Dos de esas siete son de configuración y también se ejecutan en la suite general; no sumar los conteos como pruebas únicas. Frontend: 125 pruebas aprobadas en 14 archivos, además de tipos, lint y builds normal/plataforma. La validación documental también aprobó. La fusión remota permanece pendiente para respetar la instrucción previa de validar en local y CI antes del despliegue.
+
 Consultar [validación anterior](validation.md) y [alcance](spec.md). La evidencia de CI de esta combinación corresponde a [backend](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149) y [frontend](https://github.com/SebhastianCampero-Collab/Frontend/actions/runs/40942339109); comprobar su estado antes de publicar.
