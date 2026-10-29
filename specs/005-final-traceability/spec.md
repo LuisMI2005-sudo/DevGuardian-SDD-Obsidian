@@ -13,6 +13,7 @@ Fecha: 2026-10-29. Solicitud: actualizar el backlog, retirar métricas y recorri
 - FR-004: cada HU debe enlazar issue, código/configuración, pruebas o evidencia aplicable, especificación/plan y PR conocido. La falta de evidencia se indica como pendiente.
 - FR-005: los issues creados ahora son registros retrospectivos o de planificación actual; no se atribuyen al sprint original ni equivalen a revisión humana, venta, defensa o aprobación del docente.
 - FR-006: mantener un backlog canónico en backend y una copia documental identificada en la bóveda independiente; comprobar estados, conteos, enlaces y correspondencia entre ambas copias.
+- FR-007: vincular issues y PRs en ambos sentidos, indicando si la relación es documental, de controles de interfaz, integración actual o integración histórica de un archivo. Comprobar el archivo relacionado y el estado del PR. No inventar PRs originales cuando no hay evidencia ni introducir cierres automáticos para historias incompletas.
 
 ## Alcance y límites
 

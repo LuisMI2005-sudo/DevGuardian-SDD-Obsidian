@@ -9,5 +9,6 @@ tags: [devguardian, dg/sdd]
 4. Registrar cada HU en GitHub de forma idempotente por identificador/título. Describir la reconstrucción retrospectiva y enlazar evidencia; los asuntos parciales o pendientes continúan abiertos.
 5. Generar la matriz de trazabilidad y los conteos a partir del mismo inventario; enlazar código y pruebas mediante SHA fijo.
 6. Actualizar el README y publicar la copia documental en la bóveda. Verificar documentos y enlaces sin ejecutar suites de negocio para cambios exclusivamente documentales.
+7. Para la solicitud posterior de vinculación HU/issues/PRs, comprobar archivos y estados de los PRs, añadir referencias recíprocas con alcance explícito y conservar el estado de las 51 historias. Mantener los PRs históricos integrados sin editar.
 
 No se asignan integrantes ni estimaciones sin acuerdo del equipo. Cerrar un issue que registra evidencia técnica no acredita despliegue ni aceptación humana.

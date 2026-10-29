@@ -87,6 +87,8 @@ La CI comprueba que las copias de las plantillas estén sincronizadas, que los e
 
 `npm run traceability:check` comprueba las 51 HU, sus issues registrados, estados, métricas, enlaces fijados a SHA y las huellas de las copias del backlog/matriz. El corte del 29/10 contiene 33 cierres técnicos, 12 historias parciales y 6 pendientes; los cierres retrospectivos no acreditan una aprobación humana ni un despliegue. Los documentos históricos conservan sus resultados fechados; este backlog y la matriz constituyen el índice de estado vigente.
 
+La [matriz HU → issue → PR](specs/005-final-traceability/traceability.md#relaciones-explícitas-con-prs) distingue documentación retrospectiva, controles de UI e integración técnica/histórica. Los issues enlazan los PRs aplicables y los PRs abiertos enlazan de vuelta los issues. La coincidencia de archivo no se presenta como aceptación completa; donde falta un PR original comprobado se conserva el enlace al commit, sin inventarlo. El registro verificable de archivos y estados está en [pull-requests.json](specs/005-final-traceability/pull-requests.json).
+
 ## Repositorios de implementación
 
 - [Backend DevGuardian](https://github.com/LuisMI2005-sudo/ProyectoCertiIA), rama `Dev`.

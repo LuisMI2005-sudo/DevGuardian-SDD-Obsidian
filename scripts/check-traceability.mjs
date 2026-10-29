@@ -5,6 +5,7 @@ const root = new URL('../', import.meta.url);
 const directory = new URL('specs/005-final-traceability/', root);
 const inventory = JSON.parse(await readFile(new URL('inventory.json', directory), 'utf8'));
 const issues = JSON.parse(await readFile(new URL('issues.json', directory), 'utf8'));
+const pullRequests = JSON.parse(await readFile(new URL('pull-requests.json', directory), 'utf8'));
 const backlog = await readFile(new URL('backlog.md', directory), 'utf8');
 const matrix = await readFile(new URL('traceability.md', directory), 'utf8');
 const hash = value => createHash('sha256').update(String(value).replaceAll('\r\n', '\n')).digest('hex');
@@ -31,6 +32,16 @@ for (let index = 0; index < 51; index++) {
   assert.match(item.issue, /^https:\/\/github\.com\/LuisMI2005-sudo\/ProyectoCertiIA\/issues\/\d+$/);
   assert(matrix.includes(`### ${label}`));
   assert(matrix.includes(item.issue));
+  assert(Array.isArray(item.pullRequests) && item.pullRequests.length > 0, `${label}: faltan PRs relacionados.`);
+  for (const relation of item.pullRequests) {
+    const pr = pullRequests.requests.find(entry => entry.url === relation.url);
+    assert(pr, `${label}: PR sin instantánea verificada.`);
+    assert(pr.files.includes(relation.proof), `${label}: el archivo citado no pertenece al PR.`);
+    assert.equal(relation.merged, pr.merged);
+    assert.equal(relation.state, pr.state);
+    assert(relation.scope.length > 20, `${label}: falta aclarar el alcance del vínculo.`);
+    assert(matrix.includes(relation.url));
+  }
   for (const link of [item.sourceUrl, item.evidenceUrl]) {
     assert.match(link, /^https:\/\/github\.com\/[^/]+\/[^/]+\/blob\/[a-f\d]{40}\//);
     assert(matrix.includes(link));
@@ -46,4 +57,4 @@ try {
 } catch (error) {
   if (error.code !== 'ENOENT') throw error;
 }
-console.log(`Trazabilidad: 51 HU únicas, 51 issues, estados, métricas, enlaces por SHA y copias comprobados. ${JSON.stringify(counts)}. No sustituye aceptación humana ni comprueba el estado remoto de issues.`);
+console.log(`Trazabilidad: 51 HU únicas, 51 issues, vínculos a PRs con archivos/estados, métricas, enlaces por SHA y copias comprobados. ${JSON.stringify(counts)}. No sustituye aceptación humana ni comprueba estados remotos posteriores al corte.`);

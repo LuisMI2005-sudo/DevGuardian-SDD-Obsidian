@@ -24,6 +24,16 @@ Los scripts de registro reutilizan el ID de HU para no duplicar issues; una segu
 
 Las métricas se fijan al CI de código integrado: backend 39cb46a, 19 suites y 375 aprobadas/5 omitidas en el job general; Docker 7 aprobadas (dos de configuración duplicadas en el general); frontend 3b06f56, 125 aprobadas en 14 archivos. No se suman como pruebas únicas ni se atribuyen automáticamente a producción.
 
+## Vinculación explícita de HU, issues y PRs
+
+La solicitud posterior se resolvió reutilizando los 51 issues existentes: no se creó ningún duplicado ni se cambió su estado. La comprobación remota encontró 51 bloques de relaciones en 51 issues, 33 cerrados y 18 abiertos. Los PRs backend #5 y frontend #1 permanecen abiertos, sin fusionar, y contienen las referencias recíprocas.
+
+Se inspeccionaron los archivos y estados de seis PRs (backend #1 a #5 y frontend #1). El registro contiene 102 relaciones tipadas, que no equivalen a 102 PRs diferentes: una HU puede vincularse al mismo PR por documentación y por integración. El alcance aclara que los PRs no acreditan por sí solos aceptación íntegra, despliegue ni primera implementación. PR #4 se identifica como documentación histórica de HU-25/HU-26; no como implementación del agente.
+
+El PR #5 incluye las 51 historias en su actualización documental. Las relaciones técnicas adicionales solo se registran con un alcance explícito y archivo presente en la instantánea. Cuando no se comprobó un PR histórico propio, se conserva el enlace al commit y se declara el vínculo documental actual; no se inventa un PR original ni se editan las descripciones de PRs históricos ya integrados. Los pendientes humanos y cloud no reciben palabras de cierre automático.
+
+`npm run check` aprobó la matriz ampliada: comprueba también que cada relación tenga alcance, que su archivo figure en el PR registrado y que el estado coincida con la instantánea. `pull-requests.json` es evidencia del corte de consulta; el comprobador offline no verifica estados futuros de GitHub.
+
 ## Límites
 
 Quedan pendientes revisión humana del backlog/constitución, asignación de responsables, definición del incremento final con el docente, defensa individual, ensayo de Obsidian, auditoría integral de secretos y entrega final autorizada. Este trabajo cierra el registro documental y el seguimiento; no implementa los criterios todavía abiertos.

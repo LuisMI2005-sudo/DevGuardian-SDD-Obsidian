@@ -14,7 +14,25 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/package.json",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/shared.test.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/6"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/6",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/1",
+          "kind": "integración histórica de archivo",
+          "scope": "Incluye cambios en package.json. La coincidencia de archivo no demuestra aceptación íntegra ni que fuera la primera implementación de la HU.",
+          "state": "closed",
+          "merged": true,
+          "proof": "package.json"
+        }
+      ]
     },
     {
       "id": 2,
@@ -27,7 +45,17 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/shared/contracts.ts",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/shared.test.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/7"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/7",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        }
+      ]
     },
     {
       "id": 3,
@@ -40,7 +68,17 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/shared/path-security.ts",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/shared.test.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/8"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/8",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        }
+      ]
     },
     {
       "id": 4,
@@ -53,7 +91,17 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/analyzer/ast-analyzer.ts",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/analyzer/analyzer.test.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/9"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/9",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        }
+      ]
     },
     {
       "id": 5,
@@ -66,7 +114,17 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/analyzer/ast-analyzer.ts",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/analyzer/analyzer.test.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/10"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/10",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        }
+      ]
     },
     {
       "id": 6,
@@ -79,7 +137,17 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/analyzer/eslint-analyzer.ts",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/analyzer/analyzer.test.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/11"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/11",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        }
+      ]
     },
     {
       "id": 7,
@@ -92,7 +160,17 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/analyzer/index.ts",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/analyzer/analyzer.test.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/12"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/12",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        }
+      ]
     },
     {
       "id": 8,
@@ -105,7 +183,17 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/git-controller/repository.ts",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/git-controller/controller.test.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/13"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/13",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        }
+      ]
     },
     {
       "id": 9,
@@ -118,7 +206,33 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/git-controller/patch-manager.ts",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/git-controller/controller.test.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/14"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/14",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/1",
+          "kind": "integración histórica de archivo",
+          "scope": "Incluye cambios en src/git-controller/patch-manager.ts. La coincidencia de archivo no demuestra aceptación íntegra ni que fuera la primera implementación de la HU.",
+          "state": "closed",
+          "merged": true,
+          "proof": "src/git-controller/patch-manager.ts"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/2",
+          "kind": "integración histórica de archivo",
+          "scope": "Incluye cambios en src/git-controller/patch-manager.ts. La coincidencia de archivo no demuestra aceptación íntegra ni que fuera la primera implementación de la HU.",
+          "state": "closed",
+          "merged": true,
+          "proof": "src/git-controller/patch-manager.ts"
+        }
+      ]
     },
     {
       "id": 10,
@@ -131,7 +245,33 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/git-controller/patch-manager.ts",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/git-controller/controller.test.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/15"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/15",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/1",
+          "kind": "integración histórica de archivo",
+          "scope": "Incluye cambios en src/git-controller/patch-manager.ts. La coincidencia de archivo no demuestra aceptación íntegra ni que fuera la primera implementación de la HU.",
+          "state": "closed",
+          "merged": true,
+          "proof": "src/git-controller/patch-manager.ts"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/2",
+          "kind": "integración histórica de archivo",
+          "scope": "Incluye cambios en src/git-controller/patch-manager.ts. La coincidencia de archivo no demuestra aceptación íntegra ni que fuera la primera implementación de la HU.",
+          "state": "closed",
+          "merged": true,
+          "proof": "src/git-controller/patch-manager.ts"
+        }
+      ]
     },
     {
       "id": 11,
@@ -144,7 +284,33 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/git-controller/patch-manager.ts",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/git-controller/controller.test.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/16"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/16",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/1",
+          "kind": "integración histórica de archivo",
+          "scope": "Incluye cambios en src/git-controller/patch-manager.ts. La coincidencia de archivo no demuestra aceptación íntegra ni que fuera la primera implementación de la HU.",
+          "state": "closed",
+          "merged": true,
+          "proof": "src/git-controller/patch-manager.ts"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/2",
+          "kind": "integración histórica de archivo",
+          "scope": "Incluye cambios en src/git-controller/patch-manager.ts. La coincidencia de archivo no demuestra aceptación íntegra ni que fuera la primera implementación de la HU.",
+          "state": "closed",
+          "merged": true,
+          "proof": "src/git-controller/patch-manager.ts"
+        }
+      ]
     },
     {
       "id": 12,
@@ -157,7 +323,33 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/test-runner/index.ts",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/test-runner/runner.test.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/17"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/17",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "integración y verificación",
+          "scope": "Consolida el sandbox y sus controles; no cierra criterios cloud, humanos o de robustez que sigan pendientes.",
+          "state": "open",
+          "merged": false,
+          "proof": "tests/test-runner/sandbox.test.mjs"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/1",
+          "kind": "integración histórica de archivo",
+          "scope": "Incluye cambios en src/test-runner/index.ts. La coincidencia de archivo no demuestra aceptación íntegra ni que fuera la primera implementación de la HU.",
+          "state": "closed",
+          "merged": true,
+          "proof": "src/test-runner/index.ts"
+        }
+      ]
     },
     {
       "id": 13,
@@ -170,7 +362,25 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/test-runner/index.ts",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/test-runner/runner.test.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/18"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/18",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/1",
+          "kind": "integración histórica de archivo",
+          "scope": "Incluye cambios en src/test-runner/index.ts. La coincidencia de archivo no demuestra aceptación íntegra ni que fuera la primera implementación de la HU.",
+          "state": "closed",
+          "merged": true,
+          "proof": "src/test-runner/index.ts"
+        }
+      ]
     },
     {
       "id": 14,
@@ -183,7 +393,25 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/test-runner/index.ts",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/test-runner/runner.test.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/19"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/19",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/1",
+          "kind": "integración histórica de archivo",
+          "scope": "Incluye cambios en src/test-runner/index.ts. La coincidencia de archivo no demuestra aceptación íntegra ni que fuera la primera implementación de la HU.",
+          "state": "closed",
+          "merged": true,
+          "proof": "src/test-runner/index.ts"
+        }
+      ]
     },
     {
       "id": 15,
@@ -196,7 +424,49 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/.github/workflows/ci.yml",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/test-runner/sandbox.test.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/20"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/20",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "integración y verificación",
+          "scope": "Consolida el sandbox y sus controles; no cierra criterios cloud, humanos o de robustez que sigan pendientes.",
+          "state": "open",
+          "merged": false,
+          "proof": "tests/test-runner/sandbox.test.mjs"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/1",
+          "kind": "integración histórica de archivo",
+          "scope": "Incluye cambios en .github/workflows/ci.yml. La coincidencia de archivo no demuestra aceptación íntegra ni que fuera la primera implementación de la HU.",
+          "state": "closed",
+          "merged": true,
+          "proof": ".github/workflows/ci.yml"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/2",
+          "kind": "integración histórica de archivo",
+          "scope": "Incluye cambios en .github/workflows/ci.yml. La coincidencia de archivo no demuestra aceptación íntegra ni que fuera la primera implementación de la HU.",
+          "state": "closed",
+          "merged": true,
+          "proof": ".github/workflows/ci.yml"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/3",
+          "kind": "integración histórica de archivo",
+          "scope": "Incluye cambios en .github/workflows/ci.yml. La coincidencia de archivo no demuestra aceptación íntegra ni que fuera la primera implementación de la HU.",
+          "state": "closed",
+          "merged": true,
+          "proof": ".github/workflows/ci.yml"
+        }
+      ]
     },
     {
       "id": 16,
@@ -209,7 +479,25 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/test-runner/index.ts",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/test-runner/runner.test.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/21"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/21",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/1",
+          "kind": "integración histórica de archivo",
+          "scope": "Incluye cambios en src/test-runner/index.ts. La coincidencia de archivo no demuestra aceptación íntegra ni que fuera la primera implementación de la HU.",
+          "state": "closed",
+          "merged": true,
+          "proof": "src/test-runner/index.ts"
+        }
+      ]
     },
     {
       "id": 17,
@@ -222,7 +510,25 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/test-runner/reports.ts",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/test-runner/runner.test.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/22"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/22",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/1",
+          "kind": "integración histórica de archivo",
+          "scope": "Incluye cambios en src/test-runner/reports.ts. La coincidencia de archivo no demuestra aceptación íntegra ni que fuera la primera implementación de la HU.",
+          "state": "closed",
+          "merged": true,
+          "proof": "src/test-runner/reports.ts"
+        }
+      ]
     },
     {
       "id": 18,
@@ -235,7 +541,33 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/subagents/coordinator.ts",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/subagents/subagents.test.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/23"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/23",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "integración y verificación",
+          "scope": "Consolida el sandbox y sus controles; no cierra criterios cloud, humanos o de robustez que sigan pendientes.",
+          "state": "open",
+          "merged": false,
+          "proof": "tests/test-runner/sandbox.test.mjs"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/1",
+          "kind": "integración histórica de archivo",
+          "scope": "Incluye cambios en src/subagents/coordinator.ts. La coincidencia de archivo no demuestra aceptación íntegra ni que fuera la primera implementación de la HU.",
+          "state": "closed",
+          "merged": true,
+          "proof": "src/subagents/coordinator.ts"
+        }
+      ]
     },
     {
       "id": 19,
@@ -248,7 +580,33 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/test-runner/reports.ts",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/test-runner/runner.test.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/24"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/24",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "integración y verificación",
+          "scope": "Consolida el sandbox y sus controles; no cierra criterios cloud, humanos o de robustez que sigan pendientes.",
+          "state": "open",
+          "merged": false,
+          "proof": "tests/test-runner/sandbox.test.mjs"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/1",
+          "kind": "integración histórica de archivo",
+          "scope": "Incluye cambios en src/test-runner/reports.ts. La coincidencia de archivo no demuestra aceptación íntegra ni que fuera la primera implementación de la HU.",
+          "state": "closed",
+          "merged": true,
+          "proof": "src/test-runner/reports.ts"
+        }
+      ]
     },
     {
       "id": 20,
@@ -261,7 +619,25 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/test-runner/README.md",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/shared/contracts.ts",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/25"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/25",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/1",
+          "kind": "integración histórica de archivo",
+          "scope": "Incluye cambios en src/test-runner/README.md. La coincidencia de archivo no demuestra aceptación íntegra ni que fuera la primera implementación de la HU.",
+          "state": "closed",
+          "merged": true,
+          "proof": "src/test-runner/README.md"
+        }
+      ]
     },
     {
       "id": 21,
@@ -274,7 +650,49 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/.github/workflows/ci.yml",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/.github/workflows/ci.yml",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/26"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/26",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "integración y verificación",
+          "scope": "Consolida el sandbox y sus controles; no cierra criterios cloud, humanos o de robustez que sigan pendientes.",
+          "state": "open",
+          "merged": false,
+          "proof": "tests/test-runner/sandbox.test.mjs"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/1",
+          "kind": "integración histórica de archivo",
+          "scope": "Incluye cambios en .github/workflows/ci.yml. La coincidencia de archivo no demuestra aceptación íntegra ni que fuera la primera implementación de la HU.",
+          "state": "closed",
+          "merged": true,
+          "proof": ".github/workflows/ci.yml"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/2",
+          "kind": "integración histórica de archivo",
+          "scope": "Incluye cambios en .github/workflows/ci.yml. La coincidencia de archivo no demuestra aceptación íntegra ni que fuera la primera implementación de la HU.",
+          "state": "closed",
+          "merged": true,
+          "proof": ".github/workflows/ci.yml"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/3",
+          "kind": "integración histórica de archivo",
+          "scope": "Incluye cambios en .github/workflows/ci.yml. La coincidencia de archivo no demuestra aceptación íntegra ni que fuera la primera implementación de la HU.",
+          "state": "closed",
+          "merged": true,
+          "proof": ".github/workflows/ci.yml"
+        }
+      ]
     },
     {
       "id": 22,
@@ -287,7 +705,17 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/AGENTS.md",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/README.md",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/27"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/27",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        }
+      ]
     },
     {
       "id": 23,
@@ -300,7 +728,25 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/mcp/server.ts",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/server/server.test.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/28"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/28",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/1",
+          "kind": "integración histórica de archivo",
+          "scope": "Incluye cambios en src/mcp/server.ts. La coincidencia de archivo no demuestra aceptación íntegra ni que fuera la primera implementación de la HU.",
+          "state": "closed",
+          "merged": true,
+          "proof": "src/mcp/server.ts"
+        }
+      ]
     },
     {
       "id": 24,
@@ -313,7 +759,25 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/mcp-server/index.ts",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/mcp-server/server.test.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/29"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/29",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/2",
+          "kind": "integración histórica de archivo",
+          "scope": "Incluye cambios en src/mcp-server/index.ts. La coincidencia de archivo no demuestra aceptación íntegra ni que fuera la primera implementación de la HU.",
+          "state": "closed",
+          "merged": true,
+          "proof": "src/mcp-server/index.ts"
+        }
+      ]
     },
     {
       "id": 25,
@@ -326,7 +790,33 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/agent-client/planner.ts",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/agent-client/agent.test.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/30"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/30",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/1",
+          "kind": "integración histórica de archivo",
+          "scope": "Incluye cambios en src/agent-client/planner.ts. La coincidencia de archivo no demuestra aceptación íntegra ni que fuera la primera implementación de la HU.",
+          "state": "closed",
+          "merged": true,
+          "proof": "src/agent-client/planner.ts"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/4",
+          "kind": "documentación histórica",
+          "scope": "Documenta HU-25/HU-26; no implementa por sí mismo el Agent Client.",
+          "state": "closed",
+          "merged": true,
+          "proof": "backlog.md"
+        }
+      ]
     },
     {
       "id": 26,
@@ -339,7 +829,41 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/agent-client/orchestrator.ts",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/agent-client/agent.test.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/31"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/31",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "integración y verificación",
+          "scope": "Consolida el sandbox y sus controles; no cierra criterios cloud, humanos o de robustez que sigan pendientes.",
+          "state": "open",
+          "merged": false,
+          "proof": "tests/test-runner/sandbox.test.mjs"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/1",
+          "kind": "integración histórica de archivo",
+          "scope": "Incluye cambios en src/agent-client/orchestrator.ts. La coincidencia de archivo no demuestra aceptación íntegra ni que fuera la primera implementación de la HU.",
+          "state": "closed",
+          "merged": true,
+          "proof": "src/agent-client/orchestrator.ts"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/4",
+          "kind": "documentación histórica",
+          "scope": "Documenta HU-25/HU-26; no implementa por sí mismo el Agent Client.",
+          "state": "closed",
+          "merged": true,
+          "proof": "backlog.md"
+        }
+      ]
     },
     {
       "id": 27,
@@ -352,7 +876,25 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/hooks/builtin-hooks.ts",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/hooks/hooks.test.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/32"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/32",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/1",
+          "kind": "integración histórica de archivo",
+          "scope": "Incluye cambios en src/hooks/builtin-hooks.ts. La coincidencia de archivo no demuestra aceptación íntegra ni que fuera la primera implementación de la HU.",
+          "state": "closed",
+          "merged": true,
+          "proof": "src/hooks/builtin-hooks.ts"
+        }
+      ]
     },
     {
       "id": 28,
@@ -365,7 +907,25 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/subagents/specialists.ts",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/subagents/subagents.test.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/33"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/33",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/1",
+          "kind": "integración histórica de archivo",
+          "scope": "Incluye cambios en src/subagents/specialists.ts. La coincidencia de archivo no demuestra aceptación íntegra ni que fuera la primera implementación de la HU.",
+          "state": "closed",
+          "merged": true,
+          "proof": "src/subagents/specialists.ts"
+        }
+      ]
     },
     {
       "id": 29,
@@ -378,7 +938,25 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/db/schema.sql",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/db/db.test.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/34"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/34",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/1",
+          "kind": "integración histórica de archivo",
+          "scope": "Incluye cambios en src/db/schema.sql. La coincidencia de archivo no demuestra aceptación íntegra ni que fuera la primera implementación de la HU.",
+          "state": "closed",
+          "merged": true,
+          "proof": "src/db/schema.sql"
+        }
+      ]
     },
     {
       "id": 30,
@@ -391,7 +969,33 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/server/application.ts",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/server/server.test.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/35"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/35",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "integración y verificación",
+          "scope": "Consolida el sandbox y sus controles; no cierra criterios cloud, humanos o de robustez que sigan pendientes.",
+          "state": "open",
+          "merged": false,
+          "proof": "tests/test-runner/sandbox.test.mjs"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/1",
+          "kind": "integración histórica de archivo",
+          "scope": "Incluye cambios en src/server/application.ts. La coincidencia de archivo no demuestra aceptación íntegra ni que fuera la primera implementación de la HU.",
+          "state": "closed",
+          "merged": true,
+          "proof": "src/server/application.ts"
+        }
+      ]
     },
     {
       "id": 31,
@@ -404,7 +1008,25 @@
       "sourceUrl": "https://github.com/SebhastianCampero-Collab/Frontend/blob/3b06f56e3bf2a213155865760649218c8d3b16d6/src/App.tsx",
       "evidenceUrl": "https://github.com/SebhastianCampero-Collab/Frontend/blob/3b06f56e3bf2a213155865760649218c8d3b16d6/tests/navigation.test.tsx",
       "ci": "https://github.com/SebhastianCampero-Collab/Frontend/actions/runs/40942339109",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/36"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/36",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        },
+        {
+          "url": "https://github.com/SebhastianCampero-Collab/Frontend/pull/1",
+          "kind": "controles de interfaz",
+          "scope": "Comprueba capacidades de aislamiento en AuditPanel; la recuperación base ya estaba en dev. No acredita despliegue.",
+          "state": "open",
+          "merged": false,
+          "proof": "src/components/AuditPanel.tsx"
+        }
+      ]
     },
     {
       "id": 32,
@@ -417,7 +1039,17 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/mcp/server.ts",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/server/README.md",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/37"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/37",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        }
+      ]
     },
     {
       "id": 33,
@@ -430,7 +1062,17 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/db/postgres-adapter.ts",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/db/db.test.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/38"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/38",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        }
+      ]
     },
     {
       "id": 34,
@@ -443,7 +1085,17 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/server/main.ts",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/server/server.test.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/39"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/39",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        }
+      ]
     },
     {
       "id": 35,
@@ -456,7 +1108,17 @@
       "sourceUrl": "https://github.com/SebhastianCampero-Collab/Frontend/blob/3b06f56e3bf2a213155865760649218c8d3b16d6/src/App.tsx",
       "evidenceUrl": "https://github.com/SebhastianCampero-Collab/Frontend/blob/3b06f56e3bf2a213155865760649218c8d3b16d6/tests/client.test.ts",
       "ci": "https://github.com/SebhastianCampero-Collab/Frontend/actions/runs/40942339109",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/40"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/40",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        }
+      ]
     },
     {
       "id": 36,
@@ -469,7 +1131,17 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/.github/workflows/ci.yml",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/.github/workflows/ci.yml",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/41"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/41",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        }
+      ]
     },
     {
       "id": 37,
@@ -482,7 +1154,17 @@
       "sourceUrl": "https://github.com/SebhastianCampero-Collab/Frontend/blob/3b06f56e3bf2a213155865760649218c8d3b16d6/src/components/AuditPanel.tsx",
       "evidenceUrl": "https://github.com/SebhastianCampero-Collab/Frontend/blob/3b06f56e3bf2a213155865760649218c8d3b16d6/tests/audit-state.test.tsx",
       "ci": "https://github.com/SebhastianCampero-Collab/Frontend/actions/runs/40942339109",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/42"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/42",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        }
+      ]
     },
     {
       "id": 38,
@@ -495,7 +1177,33 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/README.md",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/README.md",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/43"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/43",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "integración y verificación",
+          "scope": "Consolida el sandbox y sus controles; no cierra criterios cloud, humanos o de robustez que sigan pendientes.",
+          "state": "open",
+          "merged": false,
+          "proof": "tests/test-runner/sandbox.test.mjs"
+        },
+        {
+          "url": "https://github.com/SebhastianCampero-Collab/Frontend/pull/1",
+          "kind": "controles de interfaz",
+          "scope": "Comprueba capacidades de aislamiento en AuditPanel; la recuperación base ya estaba en dev. No acredita despliegue.",
+          "state": "open",
+          "merged": false,
+          "proof": "src/components/AuditPanel.tsx"
+        }
+      ]
     },
     {
       "id": 39,
@@ -508,7 +1216,17 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/README.md",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/README.md",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/44"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/44",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        }
+      ]
     },
     {
       "id": 40,
@@ -521,7 +1239,17 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/.gitignore",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/.gitignore",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/45"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/45",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        }
+      ]
     },
     {
       "id": 41,
@@ -534,7 +1262,33 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/test-runner/index.ts",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/test-runner/runner.test.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/46"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/46",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "integración y verificación",
+          "scope": "Consolida el sandbox y sus controles; no cierra criterios cloud, humanos o de robustez que sigan pendientes.",
+          "state": "open",
+          "merged": false,
+          "proof": "tests/test-runner/sandbox.test.mjs"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/1",
+          "kind": "integración histórica de archivo",
+          "scope": "Incluye cambios en src/test-runner/index.ts. La coincidencia de archivo no demuestra aceptación íntegra ni que fuera la primera implementación de la HU.",
+          "state": "closed",
+          "merged": true,
+          "proof": "src/test-runner/index.ts"
+        }
+      ]
     },
     {
       "id": 42,
@@ -547,7 +1301,33 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/test-runner/index.ts",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/test-runner/runner.test.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/47"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/47",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "integración y verificación",
+          "scope": "Consolida el sandbox y sus controles; no cierra criterios cloud, humanos o de robustez que sigan pendientes.",
+          "state": "open",
+          "merged": false,
+          "proof": "tests/test-runner/sandbox.test.mjs"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/1",
+          "kind": "integración histórica de archivo",
+          "scope": "Incluye cambios en src/test-runner/index.ts. La coincidencia de archivo no demuestra aceptación íntegra ni que fuera la primera implementación de la HU.",
+          "state": "closed",
+          "merged": true,
+          "proof": "src/test-runner/index.ts"
+        }
+      ]
     },
     {
       "id": 43,
@@ -560,7 +1340,33 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/test-runner/process.ts",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/test-runner/runner.test.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/48"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/48",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "integración y verificación",
+          "scope": "Consolida el sandbox y sus controles; no cierra criterios cloud, humanos o de robustez que sigan pendientes.",
+          "state": "open",
+          "merged": false,
+          "proof": "tests/test-runner/sandbox.test.mjs"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/1",
+          "kind": "integración histórica de archivo",
+          "scope": "Incluye cambios en src/test-runner/process.ts. La coincidencia de archivo no demuestra aceptación íntegra ni que fuera la primera implementación de la HU.",
+          "state": "closed",
+          "merged": true,
+          "proof": "src/test-runner/process.ts"
+        }
+      ]
     },
     {
       "id": 44,
@@ -573,7 +1379,17 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/platform/security.ts",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/platform/postgres.test.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/49"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/49",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        }
+      ]
     },
     {
       "id": 45,
@@ -586,7 +1402,17 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/platform/domains.ts",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/platform/security.test.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/50"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/50",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        }
+      ]
     },
     {
       "id": 46,
@@ -599,7 +1425,17 @@
       "sourceUrl": "https://github.com/SebhastianCampero-Collab/Frontend/blob/3b06f56e3bf2a213155865760649218c8d3b16d6/src/platform/shell.tsx",
       "evidenceUrl": "https://github.com/SebhastianCampero-Collab/Frontend/blob/3b06f56e3bf2a213155865760649218c8d3b16d6/tests/platform.test.tsx",
       "ci": "https://github.com/SebhastianCampero-Collab/Frontend/actions/runs/40942339109",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/51"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/51",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        }
+      ]
     },
     {
       "id": 47,
@@ -612,7 +1448,17 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/.specify/memory/constitution.md",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/scripts/spec-kit-docs.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/52"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/52",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        }
+      ]
     },
     {
       "id": 48,
@@ -625,7 +1471,17 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/DevGuardian-SDD-Obsidian/blob/b1e1a41865058aea1f41440a53b32268ae053555/.obsidian/graph.json",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/DevGuardian-SDD-Obsidian/blob/b1e1a41865058aea1f41440a53b32268ae053555/scripts/check-vault.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/DevGuardian-SDD-Obsidian/actions/runs/40947798822",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/53"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/53",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        }
+      ]
     },
     {
       "id": 49,
@@ -638,7 +1494,33 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/server/project-reclone.ts",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/server/project-reclone.test.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/54"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/54",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "integración y verificación",
+          "scope": "Consolida el sandbox y sus controles; no cierra criterios cloud, humanos o de robustez que sigan pendientes.",
+          "state": "open",
+          "merged": false,
+          "proof": "tests/test-runner/sandbox.test.mjs"
+        },
+        {
+          "url": "https://github.com/SebhastianCampero-Collab/Frontend/pull/1",
+          "kind": "controles de interfaz",
+          "scope": "Comprueba capacidades de aislamiento en AuditPanel; la recuperación base ya estaba en dev. No acredita despliegue.",
+          "state": "open",
+          "merged": false,
+          "proof": "src/components/AuditPanel.tsx"
+        }
+      ]
     },
     {
       "id": 50,
@@ -651,7 +1533,33 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/test-runner/docker-sandbox.ts",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/test-runner/sandbox.test.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/55"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/55",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        },
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "integración y verificación",
+          "scope": "Consolida el sandbox y sus controles; no cierra criterios cloud, humanos o de robustez que sigan pendientes.",
+          "state": "open",
+          "merged": false,
+          "proof": "tests/test-runner/sandbox.test.mjs"
+        },
+        {
+          "url": "https://github.com/SebhastianCampero-Collab/Frontend/pull/1",
+          "kind": "controles de interfaz",
+          "scope": "Comprueba capacidades de aislamiento en AuditPanel; la recuperación base ya estaba en dev. No acredita despliegue.",
+          "state": "open",
+          "merged": false,
+          "proof": "src/components/AuditPanel.tsx"
+        }
+      ]
     },
     {
       "id": 51,
@@ -664,10 +1572,20 @@
       "sourceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/src/ide-integration/policy.ts",
       "evidenceUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/ide-integration/ide-hooks.test.mjs",
       "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40942257149",
-      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/56"
+      "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/56",
+      "pullRequests": [
+        {
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5",
+          "kind": "documentación retrospectiva",
+          "scope": "Actualiza backlog y matriz de esta HU; no acredita su implementación original.",
+          "state": "open",
+          "merged": false,
+          "proof": "backlog.md"
+        }
+      ]
     }
   ],
   "backendBacklogSha256": "3f2cd8ec9836870f120173cd67da0f512847193c2c18a3742c66c8a4d11d0f42",
   "documentBacklogSha256": "2a94dd656b294ea30a79a09cca5a1ab363cbf19f3aeec670bad35625a3b89c19",
-  "matrixSha256": "3d7c1b3011515136f9a1bed695d7989929c6da308171c4ee4f56f114387931c6"
+  "matrixSha256": "435a3ecf789c34f3e1c198af6da2e5e00ed25facef395b480909c6d7abf032f8"
 }
