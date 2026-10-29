@@ -7,7 +7,7 @@ const inventory = JSON.parse(await readFile(new URL('inventory.json', directory)
 const issues = JSON.parse(await readFile(new URL('issues.json', directory), 'utf8'));
 const backlog = await readFile(new URL('backlog.md', directory), 'utf8');
 const matrix = await readFile(new URL('traceability.md', directory), 'utf8');
-const hash = value => createHash('sha256').update(value).digest('hex');
+const hash = value => createHash('sha256').update(String(value).replaceAll('\r\n', '\n')).digest('hex');
 assert.equal(hash(backlog), inventory.documentBacklogSha256, 'La copia del backlog cambió sin actualizar la evidencia.');
 assert.equal(hash(matrix), inventory.matrixSha256, 'La matriz cambió sin actualizar su inventario.');
 const sections = [...backlog.matchAll(/^### HU-(\d+) (.+)$/gm)];
