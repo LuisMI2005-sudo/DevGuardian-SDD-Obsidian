@@ -22,3 +22,5 @@ Se añadieron portada y recorrido docente, esta procedencia, una especificación
 ## Actualización de reparación aislada (2026-10-28)
 
 La especificación `004-safe-repair-deployment` incorpora evidencia nueva de la rama `validate-isolated-repair`: backend `0f6ced284a323d539a21e83d783f3de413bf5827` y frontend `da32b57d32bd5487567ac2ecd23fbe16443987be`. Se redactó a partir del código y ejecuciones comprobadas, sin reemplazar las copias históricas de otras especificaciones ni copiar código de negocio. El alcance posterior autorizado es validar en local y CI antes de desplegar; no acredita cambios en Render ni generación real con Anthropic.
+
+La consolidación del 2026-10-29 incorpora evidencia de los merges backend `39cb46a93b3c750100e09aab93950607aff357da` y frontend `3b06f56e3bf2a213155865760649218c8d3b16d6`, preparados en PRs hacia las ramas de entrega. Consultar `specs/004-safe-repair-deployment/consolidation.md`; no se reemplazaron las evidencias históricas ni se copiaron secretos o código de negocio.

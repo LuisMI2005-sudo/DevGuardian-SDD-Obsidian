@@ -25,6 +25,7 @@ Repositorio documental independiente para la revisión docente de **Specificatio
 | Especificaciones del frontend | [Índice SDD del frontend](frontend/specs/README.md) |
 | Evidencia y limitaciones | [Validación local de la migración](specs/002-platform-migration/validation.md) y [procedencia](PROCEDENCIA.md) |
 | Reparación aislada, validación local y CI | [Alcance](specs/004-safe-repair-deployment/spec.md), [plan](specs/004-safe-repair-deployment/plan.md) y [evidencia](specs/004-safe-repair-deployment/validation.md) |
+| Consolidación con recuperación de proyectos | [Merges, PRs y pruebas de integración](specs/004-safe-repair-deployment/consolidation.md) |
 
 ## Abrir en Obsidian
 
