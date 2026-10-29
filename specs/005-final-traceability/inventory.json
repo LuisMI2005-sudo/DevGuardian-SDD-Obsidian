@@ -1585,7 +1585,52 @@
       ]
     }
   ],
-  "backendBacklogSha256": "3f2cd8ec9836870f120173cd67da0f512847193c2c18a3742c66c8a4d11d0f42",
-  "documentBacklogSha256": "2a94dd656b294ea30a79a09cca5a1ab363cbf19f3aeec670bad35625a3b89c19",
-  "matrixSha256": "435a3ecf789c34f3e1c198af6da2e5e00ed25facef395b480909c6d7abf032f8"
+  "backendBacklogSha256": "11c70780bb770a9e8aa040d52e59f705b8fea6b2fe70a60aa03f5f3d375658e3",
+  "documentBacklogSha256": "167cd46930c28515da2ee6a89e2a22fb9cd558db48aaf5b90b7be787cc4b9495",
+  "matrixSha256": "ee0371eb22f4f618758ef3d5c20a1cdb5d8ff416444bda8730544c429ded6489",
+  "finalIncrements": [
+    {
+      "id": "INC-01",
+      "name": "Gestión segura de organizaciones y accesos",
+      "primaryHu": 44,
+      "supportHus": [
+        45
+      ],
+      "spec": "https://github.com/LuisMI2005-sudo/DevGuardian-SDD-Obsidian/blob/main/specs/006-final-increments/spec.md#inc-01-gestión-segura-de-organizaciones-y-accesos",
+      "acceptanceIds": [
+        "INC-01-AC01",
+        "INC-01-AC02",
+        "INC-01-AC03",
+        "INC-01-AC04",
+        "INC-01-AC05",
+        "INC-01-AC06"
+      ],
+      "teacherAccepted": false,
+      "manualDemoRecorded": false
+    },
+    {
+      "id": "INC-02",
+      "name": "Espacio de trabajo modular con microfrontends",
+      "primaryHu": 46,
+      "supportHus": [
+        31
+      ],
+      "spec": "https://github.com/LuisMI2005-sudo/DevGuardian-SDD-Obsidian/blob/main/specs/006-final-increments/spec.md#inc-02-espacio-de-trabajo-modular-con-microfrontends",
+      "acceptanceIds": [
+        "INC-02-AC01",
+        "INC-02-AC02",
+        "INC-02-AC03",
+        "INC-02-AC04",
+        "INC-02-AC05",
+        "INC-02-AC06"
+      ],
+      "teacherAccepted": false,
+      "manualDemoRecorded": false
+    }
+  ],
+  "incrementBaseline": {
+    "backend": "f9438efecb32df9175819fd6f0667b91b1529c42",
+    "frontend": "f83d9286b2d1c5ccdfb51056a6a345b62449c611",
+    "basis": "Commits técnicos de entrega del 20/10/2026; conformidad del docente pendiente."
+  }
 }

@@ -27,6 +27,7 @@ Repositorio documental independiente para la revisión docente de **Specificatio
 | Reparación aislada, validación local y CI | [Alcance](specs/004-safe-repair-deployment/spec.md), [plan](specs/004-safe-repair-deployment/plan.md) y [evidencia](specs/004-safe-repair-deployment/validation.md) |
 | Consolidación con recuperación de proyectos | [Merges, PRs y pruebas de integración](specs/004-safe-repair-deployment/consolidation.md) |
 | Backlog y trazabilidad final | [51 HU e issues](specs/005-final-traceability/backlog.md), [matriz de evidencia](specs/005-final-traceability/traceability.md), [especificación](specs/005-final-traceability/spec.md), [plan](specs/005-final-traceability/plan.md) y [validación](specs/005-final-traceability/validation.md) |
+| Dos incrementos del proyecto final | [INC-01 Organizaciones y accesos / INC-02 Espacio modular](specs/006-final-increments/spec.md), [antes y después](specs/006-final-increments/evidence.md) y [guion de demo](specs/006-final-increments/demo.md) |
 
 ## Abrir en Obsidian
 

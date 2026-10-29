@@ -49,6 +49,20 @@ for (let index = 0; index < 51; index++) {
   counts[item.state] = (counts[item.state] ?? 0) + 1;
 }
 for (const [state, count] of Object.entries(counts)) assert(backlog.includes(`| ${state} | ${count} |`));
+const increments = inventory.finalIncrements;
+assert.equal(increments.length, 2, 'La definición final debe contener exactamente dos incrementos.');
+assert.equal(new Set(increments.map(item => item.id)).size, 2);
+assert.deepEqual(increments.map(item => item.primaryHu), [44, 46]);
+const incrementSpec = await readFile(new URL('../006-final-increments/spec.md', directory), 'utf8');
+for (const increment of increments) {
+  assert.equal(increment.acceptanceIds.length, 6);
+  assert.equal(new Set(increment.acceptanceIds).size, 6);
+  assert.equal(typeof increment.teacherAccepted, 'boolean');
+  assert.equal(typeof increment.manualDemoRecorded, 'boolean');
+  assert(backlog.includes(increment.name));
+  assert(matrix.includes(increment.spec));
+  for (const id of increment.acceptanceIds) assert(incrementSpec.includes(id));
+}
 // In a multi-repository local workspace, also check the canonical source.
 const canonical = new URL('../ProyectoCertiIA/backlog.md', root);
 try {

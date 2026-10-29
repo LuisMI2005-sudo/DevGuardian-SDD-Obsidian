@@ -32,3 +32,7 @@ La consolidación del 2026-10-29 incorpora evidencia de los merges backend `39cb
 El backlog, README y matriz del backend se publicaron en el commit documental `e1019d1b10a2ae7f0ec285e7371d577a4df854e3`, dentro del PR #5 sin fusionarlo. No se cambió código de aplicación ni la rama remota Dev. Las huellas documentales normalizan LF/CRLF para permitir la comprobación tanto en Windows como en Linux.
 
 La ampliación de relaciones HU/issues/PRs del mismo corte inspeccionó archivos y estados de los PRs backend #1–#5 y frontend #1. La instantánea está en `specs/005-final-traceability/pull-requests.json`; las referencias gestionadas se añadieron a los 51 issues existentes y solo a los dos PRs abiertos. No se crearon issues adicionales, no se modificaron autores/fechas originales y no se cambiaron estados ni PRs históricos integrados.
+
+## Definición de dos incrementos finales
+
+`specs/006-final-increments/` define INC-01 (HU-44) e INC-02 (HU-46) a partir de código ya existente; no introduce una nueva implementación. Se verificó como base técnica backend `f9438efecb32df9175819fd6f0667b91b1529c42` y frontend `f83d9286b2d1c5ccdfb51056a6a345b62449c611`, ambos del 20/10/2026. La primera aparición de identidad/platform y Shell/remotos comprobada en Git corresponde a `d6af0f7c0d67a5d7a0d9eb453ba77a3df82f10f6` y `22d4b2d82c5dca9ca798cc6647ba9f2feca69965`, del 28/10. Los documentos y la selección son posteriores al código; la base y la propuesta no se presentan como aceptadas por el docente. Los criterios manuales y el guion siguen pendientes de ejecución final.

@@ -8,3 +8,5 @@ Registro del 29/10/2026; no se afirma que esta lista existiera antes de la imple
 - [ ] T004 Acordar con el docente los dos módulos del incremento final y sus criterios; no se deduce de contar procesos o carpetas.
 - [ ] T005 Autorizar despliegue distribuido y migración de datos productivos; fuera de la validación local existente.
 - [ ] T006 Repetir la demostración y registrar SHA/identificadores de la versión final; [HU-37 / issue #42](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/42).
+
+La selección propuesta ya está definida en [INC-01 e INC-02](../006-final-increments/spec.md): organizaciones y accesos seguros, y espacio de trabajo modular con microfrontends. T004 sigue pendiente porque requiere conformidad del docente; definir la propuesta no equivale a obtenerla.
