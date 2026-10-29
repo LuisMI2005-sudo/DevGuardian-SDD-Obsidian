@@ -26,6 +26,7 @@ Repositorio documental independiente para la revisión docente de **Specificatio
 | Evidencia y limitaciones | [Validación local de la migración](specs/002-platform-migration/validation.md) y [procedencia](PROCEDENCIA.md) |
 | Reparación aislada, validación local y CI | [Alcance](specs/004-safe-repair-deployment/spec.md), [plan](specs/004-safe-repair-deployment/plan.md) y [evidencia](specs/004-safe-repair-deployment/validation.md) |
 | Consolidación con recuperación de proyectos | [Merges, PRs y pruebas de integración](specs/004-safe-repair-deployment/consolidation.md) |
+| Backlog y trazabilidad final | [51 HU e issues](specs/005-final-traceability/backlog.md), [matriz de evidencia](specs/005-final-traceability/traceability.md), [especificación](specs/005-final-traceability/spec.md), [plan](specs/005-final-traceability/plan.md) y [validación](specs/005-final-traceability/validation.md) |
 
 ## Abrir en Obsidian
 
@@ -83,6 +84,8 @@ npm run check
 ```
 
 La CI comprueba que las copias de las plantillas estén sincronizadas, que los enlaces locales y los archivos Canvas existan, y que los diagramas utilicen cercas Mermaid compatibles. Es una validación estructural: no sustituye la revisión visual en Obsidian ni ejecuta las pruebas de la aplicación.
+
+`npm run traceability:check` comprueba las 51 HU, sus issues registrados, estados, métricas, enlaces fijados a SHA y las huellas de las copias del backlog/matriz. El corte del 29/10 contiene 33 cierres técnicos, 12 historias parciales y 6 pendientes; los cierres retrospectivos no acreditan una aprobación humana ni un despliegue. Los documentos históricos conservan sus resultados fechados; este backlog y la matriz constituyen el índice de estado vigente.
 
 ## Repositorios de implementación
 

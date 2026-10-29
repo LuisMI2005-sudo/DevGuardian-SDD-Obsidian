@@ -1,0 +1,410 @@
+[
+  {
+    "id": 1,
+    "number": 6,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/6",
+    "state": "closed",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 2,
+    "number": 7,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/7",
+    "state": "closed",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 3,
+    "number": 8,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/8",
+    "state": "closed",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 4,
+    "number": 9,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/9",
+    "state": "closed",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 5,
+    "number": 10,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/10",
+    "state": "closed",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 6,
+    "number": 11,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/11",
+    "state": "closed",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 7,
+    "number": 12,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/12",
+    "state": "closed",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 8,
+    "number": 13,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/13",
+    "state": "closed",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 9,
+    "number": 14,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/14",
+    "state": "closed",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 10,
+    "number": 15,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/15",
+    "state": "closed",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 11,
+    "number": 16,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/16",
+    "state": "closed",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 12,
+    "number": 17,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/17",
+    "state": "open",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 13,
+    "number": 18,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/18",
+    "state": "closed",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 14,
+    "number": 19,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/19",
+    "state": "closed",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 15,
+    "number": 20,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/20",
+    "state": "closed",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 16,
+    "number": 21,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/21",
+    "state": "closed",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 17,
+    "number": 22,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/22",
+    "state": "closed",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 18,
+    "number": 23,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/23",
+    "state": "open",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 19,
+    "number": 24,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/24",
+    "state": "open",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 20,
+    "number": 25,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/25",
+    "state": "closed",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 21,
+    "number": 26,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/26",
+    "state": "closed",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 22,
+    "number": 27,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/27",
+    "state": "open",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 23,
+    "number": 28,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/28",
+    "state": "closed",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 24,
+    "number": 29,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/29",
+    "state": "open",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 25,
+    "number": 30,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/30",
+    "state": "closed",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 26,
+    "number": 31,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/31",
+    "state": "closed",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 27,
+    "number": 32,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/32",
+    "state": "closed",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 28,
+    "number": 33,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/33",
+    "state": "closed",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 29,
+    "number": 34,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/34",
+    "state": "closed",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 30,
+    "number": 35,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/35",
+    "state": "closed",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 31,
+    "number": 36,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/36",
+    "state": "closed",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 32,
+    "number": 37,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/37",
+    "state": "open",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 33,
+    "number": 38,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/38",
+    "state": "closed",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 34,
+    "number": 39,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/39",
+    "state": "closed",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 35,
+    "number": 40,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/40",
+    "state": "closed",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 36,
+    "number": 41,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/41",
+    "state": "open",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 37,
+    "number": 42,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/42",
+    "state": "open",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 38,
+    "number": 43,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/43",
+    "state": "open",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 39,
+    "number": 44,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/44",
+    "state": "open",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 40,
+    "number": 45,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/45",
+    "state": "open",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 41,
+    "number": 46,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/46",
+    "state": "open",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 42,
+    "number": 47,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/47",
+    "state": "open",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 43,
+    "number": 48,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/48",
+    "state": "open",
+    "recordedAt": "2026-10-29",
+    "retrospective": true
+  },
+  {
+    "id": 44,
+    "number": 49,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/49",
+    "state": "closed",
+    "recordedAt": "2026-10-29",
+    "retrospective": false
+  },
+  {
+    "id": 45,
+    "number": 50,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/50",
+    "state": "closed",
+    "recordedAt": "2026-10-29",
+    "retrospective": false
+  },
+  {
+    "id": 46,
+    "number": 51,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/51",
+    "state": "closed",
+    "recordedAt": "2026-10-29",
+    "retrospective": false
+  },
+  {
+    "id": 47,
+    "number": 52,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/52",
+    "state": "open",
+    "recordedAt": "2026-10-29",
+    "retrospective": false
+  },
+  {
+    "id": 48,
+    "number": 53,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/53",
+    "state": "open",
+    "recordedAt": "2026-10-29",
+    "retrospective": false
+  },
+  {
+    "id": 49,
+    "number": 54,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/54",
+    "state": "closed",
+    "recordedAt": "2026-10-29",
+    "retrospective": false
+  },
+  {
+    "id": 50,
+    "number": 55,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/55",
+    "state": "open",
+    "recordedAt": "2026-10-29",
+    "retrospective": false
+  },
+  {
+    "id": 51,
+    "number": 56,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/56",
+    "state": "open",
+    "recordedAt": "2026-10-29",
+    "retrospective": false
+  }
+]
