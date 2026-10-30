@@ -3,7 +3,7 @@ tags: [devguardian, dg/seguridad, dg/verificacion]
 ---
 # Edición verificación y rechazo de hooks nativos
 
-**Fecha:** 30/10/2026, America/La_Paz. **Resultado:** los tres comportamientos solicitados se comprobaron en una sesión nativa real. Se encontró y corrigió un defecto del envoltorio Windows; se conservan los intentos rojo y verde. **Integración:** corrección publicada en [PR #58](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/58), en borrador hacia `Dev`, sin fusionar ni modificar el despliegue.
+**Fecha:** 30/10/2026, America/La_Paz. **Resultado:** los tres comportamientos solicitados se comprobaron en una sesión nativa real. Se encontró y corrigió un defecto del envoltorio Windows; se conservan los intentos rojo y verde. **Integración:** [PR #58](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/58) fusionado en `Dev` el 30/10/2026 como `5ba0c46ab46bc4b3d2d45d1b0d9d23723ce2d9eb`, por autorización expresa del usuario. Se conserva la evidencia previa y el [recibo de integración](integration.json).
 
 ## Criterios de aceptación
 
@@ -13,7 +13,7 @@ tags: [devguardian, dg/seguridad, dg/verificacion]
 - [x] HK-04 Rechazo explícito de `PreToolUse` antes de crear el marcador protegido.
 - [x] HK-05 Trazas correlacionadas, integridad comprobada y fixtures retiradas.
 
-Estos resultados cierran el ensayo técnico de AS-06/QA-006. La integración del fix en la rama de entrega permanece identificada en el PR; no se declara aceptación docente ni una fusión inexistente.
+Estos resultados cierran AS-06/QA-006 y la corrección ya está integrada en la rama de entrega. La aceptación docente se mantiene separada.
 
 ## Entorno y versiones
 
@@ -72,8 +72,12 @@ Se publican metadatos y mensajes de resultado sanitizados. Los rollouts completo
 
 ## Estado de entrega
 
-QA-006 registra **ensayo nativo completo** y enlaza el PR de la corrección. El defecto reproducido quedó clasificado como bug confirmado; el conteo del registro incluye casos históricos y no equivale a bugs activos en producción. AS-06 de la demostración anterior está completado mediante este seguimiento; los fallos anteriores conservan su contexto histórico. La versión pública de la aplicación continúa separada de esta rama de desarrollo.
+QA-006 queda **cerrado** tras el ensayo nativo y la integración autorizada del PR #58 en `Dev`. El defecto reproducido quedó clasificado como bug confirmado; el conteo del registro incluye casos históricos y no equivale a bugs activos en producción. AS-06 de la demostración anterior está completado mediante este seguimiento; los fallos anteriores conservan su contexto histórico. La copia local de `Dev` se actualizó por fast-forward y conserva un árbol limpio. El árbol del merge coincide exactamente con el HEAD aprobado del PR. Esta integración no acredita por sí sola qué commit sirve Render; el hosting no se modificó manualmente.
 
 El CI del PR aprobó los trabajos de TypeScript/ESLint/Jest/pytest y de reparación real en Docker sobre `637fbde`. Los verificadores documentales también pasaron: 156 Markdown, 3 Canvas, 69 Mermaid y 20 grupos. [Recibo de validación](validation.json). El CI no sustituye la prueba nativa Windows descrita arriba; ambas evidencias se identifican por separado.
 
 Referencias de comportamiento: [hooks oficiales](https://learn.chatgpt.com/docs/hooks) y [sandbox Windows/MXC](https://learn.chatgpt.com/docs/windows/windows-sandbox). La prueba de exit codes y las sesiones locales sustentan los resultados de esta acta; la documentación de producto no sustituye esas ejecuciones.
+
+## CI posterior a la integración
+
+El pipeline de `Dev` sobre `5ba0c46` terminó aprobado en el segundo intento. El primero pasó Docker y 18 suites generales, pero nueve casos PostgreSQL fallaron en la preparación por `EADDRINUSE` en un puerto local ocupado. Se repitió exclusivamente el job fallido, con el mismo commit y sin cambiar u omitir casos. La repetición aprobó el job general; se conserva el fallo y no se afirma haber corregido la selección de puertos de la fixture. [Recibo de repetición](merge-ci-retry.json) y [resultado final](post-merge-ci.json).

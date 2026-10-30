@@ -2,8 +2,15 @@
   "created": true,
   "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/58",
   "number": 58,
-  "state": "open",
-  "draft": true,
+  "state": "closed",
+  "draft": false,
   "head": "637fbde2abba69255ed22c326dee5ed3dfb58849",
-  "base": "Dev"
+  "base": "Dev",
+  "initialState": {
+    "state": "open",
+    "draft": true
+  },
+  "merged": true,
+  "mergedAt": "2026-10-30T11:31:48Z",
+  "mergeCommit": "5ba0c46ab46bc4b3d2d45d1b0d9d23723ce2d9eb"
 }

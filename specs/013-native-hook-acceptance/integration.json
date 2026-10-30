@@ -1,0 +1,41 @@
+{
+  "at": "2026-10-30T11:31:50.500Z",
+  "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/58",
+  "state": "closed",
+  "draft": false,
+  "merged": true,
+  "mergedAt": "2026-10-30T11:31:48Z",
+  "head": "637fbde2abba69255ed22c326dee5ed3dfb58849",
+  "base": "Dev",
+  "mergeCommit": "5ba0c46ab46bc4b3d2d45d1b0d9d23723ce2d9eb",
+  "headTree": "5050bf8909fa0d79a340e64aad0800bd752aaf6d",
+  "mergeTree": "5050bf8909fa0d79a340e64aad0800bd752aaf6d",
+  "treesEqual": true,
+  "checks": [
+    {
+      "name": "Reparación real con Jest y pytest en Docker",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/41047398799/job/124034732746"
+    },
+    {
+      "name": "TypeScript, ESLint, Jest y pytest",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/41047398799/job/124034732336"
+    }
+  ],
+  "postMergeCI": {
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/41048730145",
+    "head": "5ba0c46ab46bc4b3d2d45d1b0d9d23723ce2d9eb",
+    "attempt": 2,
+    "conclusion": "success",
+    "initialAttempt": {
+      "conclusion": "failure",
+      "otherSuitesPassed": 18,
+      "cause": "PostgreSQL fixture setup: EADDRINUSE on 127.0.0.1:45608",
+      "affectedCases": 9
+    },
+    "retry": "Only failed job; tests and code unchanged"
+  }
+}

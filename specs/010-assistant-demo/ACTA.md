@@ -7,7 +7,7 @@ tags: [devguardian, dg/verificacion, dg/ia, dg/seguridad]
 
 ## Actualización del 30/10/2026
 
-La prueba de edición permitida, verificación posterior y rechazo protegido se completó en [la aceptación nativa posterior](../013-native-hook-acceptance/ACTA.md), usando MXC y una corrección autorizada que conserva el código 2 de PowerShell. Los fallos y pendientes narrados abajo corresponden al ensayo inicial del 29/10. La corrección está en PR #58 y no modifica la versión desplegada mientras no se integre.
+La prueba de edición permitida, verificación posterior y rechazo protegido se completó en [la aceptación nativa posterior](../013-native-hook-acceptance/ACTA.md), usando MXC y una corrección autorizada que conserva el código 2 de PowerShell. Los fallos y pendientes narrados abajo corresponden al ensayo inicial del 29/10. La corrección del PR #58 fue integrada en `Dev` el 30/10/2026; el acta posterior registra el merge y distingue la integración Git del commit servido por el hosting.
 
 ## Versiones y trazabilidad
 

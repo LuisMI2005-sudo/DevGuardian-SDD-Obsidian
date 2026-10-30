@@ -68,3 +68,7 @@ El 29/10/2026 se consultó el panel de Render en modo de lectura: backend 15eedc
 ## Aceptación nativa de edición y rechazo (30/10/2026)
 
 `specs/013-native-hook-acceptance/` acredita la repetición con Codex CLI 0.162.1 y MXC, conservando el sandbox y las políticas. El ensayo rojo reveló que PowerShell convertía 2 en 1; el usuario autorizó la corrección explícita de los siete commandWindows y su revisión normal de confianza. La sesión verde creó una fixture permitida, recibió verificación posterior aprobada y rechazó el marcador protegido antes de crearlo. Se retiraron las fixtures y se compararon las huellas de controles y pruebas. La corrección mínima está en backend `637fbde2abba69255ed22c326dee5ed3dfb58849`, PR #58 hacia Dev; no se fusionó ni cambió el despliegue. Se publican únicamente eventos y metadatos sanitizados, sin rollouts internos ni código de negocio.
+
+## Integración del PR de hooks (30/10/2026)
+
+Por instrucción expresa del usuario se sacó de borrador y fusionó el PR backend #58 hacia Dev, preservando commits y autoría. Merge `5ba0c46ab46bc4b3d2d45d1b0d9d23723ce2d9eb`, con árbol idéntico al HEAD aprobado `637fbde2abba69255ed22c326dee5ed3dfb58849`; diff limitado a siete comandos Windows de .codex/hooks.json. La copia local se actualizó por fast-forward, QA-006 quedó cerrado y el recibo está en specs/013-native-hook-acceptance/integration.json. No se afirma un nuevo estado Live del hosting por el hecho de fusionar ni se modifican las evidencias históricas de Render.

@@ -1,0 +1,28 @@
+{
+  "recordedAt": "2026-10-30T11:44:46.6933217Z",
+  "status": "completed",
+  "head": "5ba0c46ab46bc4b3d2d45d1b0d9d23723ce2d9eb",
+  "id": 41048730145,
+  "conclusion": "success",
+  "retry": "Only failed job; tests and code unchanged",
+  "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/41048730145",
+  "jobs": [
+    {
+      "conclusion": "success",
+      "status": "completed",
+      "name": "TypeScript, ESLint, Jest y pytest"
+    },
+    {
+      "conclusion": "success",
+      "status": "completed",
+      "name": "Reparación real con Jest y pytest en Docker"
+    }
+  ],
+  "initialAttempt": {
+    "conclusion": "failure",
+    "otherSuitesPassed": 18,
+    "cause": "PostgreSQL fixture setup: EADDRINUSE on 127.0.0.1:45608",
+    "affectedCases": 9
+  },
+  "attempt": 2
+}

@@ -190,11 +190,11 @@ Los trabajos de Jest/pytest, recursos MCP y robustez no se ocultan ni se cierran
 **Acreditar activación de hooks del asistente**
 
 - **Tipo / prioridad:** Bug confirmado / P0.
-- **Estado registrado:** Ensayo nativo completo; corrección en PR #58 pendiente de integración; consultar la evidencia antes de declararlo comprobado.
+- **Estado registrado:** Cerrado; consultar la evidencia antes de declararlo comprobado.
 - **HU / issue de seguimiento:** [HU-51](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/56).
-- **Área sugerida:** QA / entorno de desarrollo. **Responsable:** Codex (ensayo nativo autorizado por el usuario). **Revisor:** Por asignar.
+- **Área sugerida:** QA / entorno de desarrollo. **Responsable:** Codex (ensayo nativo autorizado por el usuario). **Revisor:** Codex (diff, CI y trazas nativas); integración autorizada por el usuario.
 - **Entorno:** Asistente compatible en workspace de ensayo.
-- **Condición conocida:** MXC permitió la edición TypeScript y PostToolUse aprobó compilación, lint y Jest de tests/hooks. Se reprodujo un defecto del wrapper Windows: PowerShell convertía el rechazo 2 a 1 y creaba el marcador protegido. Tras añadir exit $LASTEXITCODE, revisar/confiar mediante /hooks y repetir desde cero, Codex rechazó explícitamente antes de crear el marcador. Fixtures retiradas; pruebas y políticas intactas. Corrección 637fbde en PR #58 hacia Dev, sin merge ni despliegue.
+- **Condición conocida:** Ensayo nativo completo con MXC: edición permitida, PostToolUse con compilación/lint/Jest aprobados y rechazo explícito antes de crear el marcador protegido. Defecto PowerShell 2→1 corregido mediante exit $LASTEXITCODE en siete comandos Windows, autorizado y revisado mediante /hooks. PR #58 fusionado en Dev como 5ba0c46ab46bc4b3d2d45d1b0d9d23723ce2d9eb; árbol idéntico al HEAD aprobado. Fixtures retiradas; 19 archivos de pruebas existentes intactos.
 
 **Pasos de reproducción o comprobación**
 
@@ -208,7 +208,7 @@ Los trabajos de Jest/pytest, recursos MCP y robustez no se ocultan ni se cierran
 
 **Referencia existente:** [código/prueba/documentación](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/ide-integration/ide-hooks.test.mjs). Es referencia del criterio, no constancia de que la nueva comprobación ya pasó.
 
-**Evidencia nueva:** https://github.com/LuisMI2005-sudo/DevGuardian-SDD-Obsidian/blob/main/specs/013-native-hook-acceptance/ACTA.md. **Rama:** fix/windows-hook-exit-codes. **PR:** https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/58. Anotar comando o recorrido exacto, resultado, fecha y SHA; responsable y revisor reales. Registrar fallo/No reproducido si corresponde.
+**Evidencia nueva:** https://github.com/LuisMI2005-sudo/DevGuardian-SDD-Obsidian/blob/main/specs/013-native-hook-acceptance/ACTA.md. **Rama:** Dev. **PR:** https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/58. Anotar comando o recorrido exacto, resultado, fecha y SHA; responsable y revisor reales. Registrar fallo/No reproducido si corresponde.
 
 ### QA-007
 
