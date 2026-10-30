@@ -1,0 +1,42 @@
+{
+  "recordedAt": "2026-10-30T12:10:43.287Z",
+  "pullRequest": {
+    "number": 59,
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/59",
+    "state": "open",
+    "draft": true,
+    "head": "2b78dd52a8b072ce9337c378c6b821bd658e09fa",
+    "base": "Dev"
+  },
+  "runs": [
+    {
+      "id": 41052722408,
+      "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/41052722408",
+      "head": "2b78dd52a8b072ce9337c378c6b821bd658e09fa",
+      "status": "in_progress",
+      "conclusion": null,
+      "jobs": [
+        {
+          "id": 124052613166,
+          "name": "Reparación real con Jest y pytest en Docker",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/41052722408/job/124052613166",
+          "currentSteps": [],
+          "failedSteps": []
+        },
+        {
+          "id": 124052613634,
+          "name": "TypeScript, ESLint, Jest y pytest",
+          "status": "in_progress",
+          "conclusion": null,
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/41052722408/job/124052613634",
+          "currentSteps": [
+            "Compilar y ejecutar todas las suites con Jest y pytest reales"
+          ],
+          "failedSteps": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 # Procedencia y alcance de la entrega
 
+Actualización 2026-10-30: [recursos MCP por proyecto](specs/014-mcp-project-resources/ACTA.md), implementación backend `8c7b7eb484158dd7236c0484c1bbc4d4e6fa44c7` y HEAD de revisión `2b78dd52a8b072ce9337c378c6b821bd658e09fa` sobre Dev `5ba0c46ab46bc4b3d2d45d1b0d9d23723ce2d9eb`, PR #59 pendiente de revisión/integración. Se incorpora acta nueva y recibo de CI, sin código de negocio ni sustitución del inventario histórico o de VERSION_FINAL.md. El segundo commit restaura exactamente el backlog histórico; código y pruebas coinciden con el primero.
+
 Separación documental realizada el **2026-10-28**, por solicitud del usuario para cumplir la revisión docente de SDD y Obsidian en un repositorio independiente.
 
 | Origen | Commit de la copia | Destino documental |

@@ -45,7 +45,7 @@ No se guarda ningún secreto, token, URL de conexión con credenciales ni conten
 | [QA-012 Completar rollback real conservando trabajo ajeno](#qa-012) | P1 | Cobertura pendiente | [HU-18](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/23) | Por asignar |
 | [QA-013 Completar escenarios negativos de pytest real](#qa-013) | P1 | Cobertura pendiente | [HU-19](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/24) | Por asignar |
 | [QA-014 Cerrar aceptación integral del Test Runner](#qa-014) | P1 | Capacidad incompleta | [HU-12](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/17) | Por asignar |
-| [QA-015 Completar recursos MCP por proyecto](#qa-015) | P1 | Capacidad incompleta | [HU-24](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/29) | Por asignar |
+| [QA-015 Completar recursos MCP por proyecto](#qa-015) | P1 | Capacidad incompleta | [HU-24](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/29) | Codex (implementación y ensayo solicitados por el usuario) |
 | [QA-016 Definir o implementar worker remoto autorizado](#qa-016) | P2 | Decisión de alcance | [HU-32](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/37) | Por asignar |
 | [QA-017 Verificar estado y configuración durante el run](#qa-017) | P1 | Cobertura pendiente | [HU-41](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/46) | Por asignar |
 | [QA-018 Comprobar presupuesto global y protección de evidencia](#qa-018) | P1 | Cobertura pendiente | [HU-42](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/47) | Por asignar |
@@ -415,11 +415,11 @@ Los trabajos de Jest/pytest, recursos MCP y robustez no se ocultan ni se cierran
 **Completar recursos MCP por proyecto**
 
 - **Tipo / prioridad:** Capacidad incompleta / P1.
-- **Estado registrado:** Por validar; consultar la evidencia antes de declararlo comprobado.
+- **Estado registrado:** Implementado y validado localmente; revisión e integración pendientes; consultar la evidencia antes de declararlo comprobado.
 - **HU / issue de seguimiento:** [HU-24](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/29).
-- **Área sugerida:** Backend / MCP. **Responsable:** Por asignar. **Revisor:** Por asignar.
+- **Área sugerida:** Backend / MCP. **Responsable:** Codex (implementación y ensayo solicitados por el usuario). **Revisor:** Codex (SDK, controles y pruebas); revisión de equipo pendiente.
 - **Entorno:** Cliente oficial MCP y workspace de ensayo.
-- **Condición conocida:** Existe recurso de análisis en compatibilidad; catálogo de recursos principal incompleto.
+- **Condición conocida:** Catálogo principal, tres plantillas y lectura de configuración, estructura y análisis por proyecto implementados en 8c7b7eb484158dd7236c0484c1bbc4d4e6fa44c7. Cien pruebas distintas aprobadas en cinco suites locales; trece casos SDK de recursos y nueve PostgreSQL. PR #59 abierto hacia Dev; revisión e integración pendientes. No se cambió el despliegue público.
 
 **Pasos de reproducción o comprobación**
 
@@ -429,11 +429,11 @@ Los trabajos de Jest/pytest, recursos MCP y robustez no se ocultan ni se cierran
 
 **Resultado esperado:** Recursos definidos con ámbito de proyecto y errores tipados; no se expone una raíz externa ni secretos.
 
-**Prueba o verificación de cierre:** Añadir integración SDK en tests/server/server.test.mjs y conservar tests/mcp-server/server.test.mjs para compatibilidad. Discovery de tools no sustituye resources.
+**Prueba o verificación de cierre:** Integración SDK en tests/server/resources.test.mjs, regresión tests/server/server.test.mjs y tests/mcp-server/server.test.mjs; controles entre tenants en tests/platform/postgres.test.mjs. Discovery de tools no sustituye resources. Evidencia: specs/014-mcp-project-resources/ACTA.md.
 
 **Referencia existente:** [código/prueba/documentación](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/mcp-server/server.test.mjs). Es referencia del criterio, no constancia de que la nueva comprobación ya pasó.
 
-**Evidencia nueva:** Sin registrar. **Rama:** Sin registrar. **PR:** Sin registrar. Anotar comando o recorrido exacto, resultado, fecha y SHA; responsable y revisor reales. Registrar fallo/No reproducido si corresponde.
+**Evidencia nueva:** https://github.com/LuisMI2005-sudo/DevGuardian-SDD-Obsidian/blob/main/specs/014-mcp-project-resources/ACTA.md. **Rama:** feat/mcp-project-resources. **PR:** https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/59. Anotar comando o recorrido exacto, resultado, fecha y SHA; responsable y revisor reales. Registrar fallo/No reproducido si corresponde.
 
 ### QA-016
 
