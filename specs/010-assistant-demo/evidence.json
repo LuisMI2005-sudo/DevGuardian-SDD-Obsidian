@@ -1,0 +1,83 @@
+{
+  "recordedAt": "2026-10-30T01:15:49.886Z",
+  "backend": "15eedc0c11a62535add7efc9fd3ecb038e5c8ad6",
+  "codex": "0.162.1",
+  "node": "v24.19.0",
+  "sources": [
+    {
+      "id": "skill-cli",
+      "localSource": "Informes/demostracion-asistente/sesion.jsonl",
+      "sha256": "2e20f8a38bf2c75e44565a8b47bfa47494eabbc6860f2c9e0507e277ed1684dc",
+      "bytes": 47232
+    },
+    {
+      "id": "hooks-cli",
+      "localSource": "Informes/demostracion-asistente/sesion-hooks.jsonl",
+      "sha256": "4ba02cdb124ab68247e838b79fb1adb03dea483db66c64b9e29b5b3f7df504a6",
+      "bytes": 3922
+    },
+    {
+      "id": "native-mcp",
+      "localSource": "C:/Users/HP/.codex/sessions/2026/10/29/rollout-2026-10-29T21-10-06-01a18a5b-5dbd-7142-a8f6-ba17e5ef7ce5.jsonl",
+      "sha256": "63e7567f966d50428231134aac0548a1400439ba7ac12e3d2c9d1bb84019198c",
+      "bytes": 119567
+    },
+    {
+      "id": "native-profile",
+      "localSource": "C:/Users/HP/.codex/sessions/2026/10/29/rollout-2026-10-29T21-03-39-01a18a55-708b-7690-b4b3-3e7be26edd8d.jsonl",
+      "sha256": "08510109e20b393181e044c3a7123fe8e93b704e5e8615df053f8d353f95871e",
+      "bytes": 256831
+    }
+  ],
+  "hookLog": {
+    "sha256": "5459d1b35f9b274c8d76e70fddb0dc1c527ad93efbd13ab9db0a051a74a2b145",
+    "eventCount": 11,
+    "events": [
+      "SessionStart",
+      "PreToolUse",
+      "PostToolUse",
+      "SubagentStart",
+      "SubagentStop"
+    ]
+  },
+  "skill": {
+    "name": "speckit-analyze",
+    "feature": "001-sdd-foundation",
+    "requirements": 5,
+    "tasks": 7,
+    "prerequisites": {
+      "nativeCli": "process-launch-failed",
+      "parentAgent": "exit-0"
+    }
+  },
+  "nativeMcp": {
+    "projects": {
+      "ok": true,
+      "count": 27
+    },
+    "source": {
+      "ok": true,
+      "lines": 3,
+      "fileHash": "93b0ebf4d6b65fcabaa19ccb77b2adbb95ddddd9c32f176490bc39569aa9147c"
+    },
+    "secretPath": {
+      "status": "cancelled-before-send",
+      "reason": "automatic-approval-review-rejected-secret-path"
+    }
+  },
+  "chatSubagent": {
+    "task": "/root/verificar_demostracion",
+    "sddCheck": {
+      "exitCode": 0,
+      "documents": 97,
+      "diagrams": 42,
+      "copies": 9
+    },
+    "protectedFileExists": false,
+    "allowedFileExists": false
+  },
+  "limitations": [
+    "Windows sandbox prevented both file writes; positive edit and post-edit verification remain pending.",
+    "The native secret-path request was cancelled; only the SDK negative call reached the server guard."
+  ]
+}

@@ -52,3 +52,7 @@ Actualización del ensayo técnico del 29/10/2026: los resultados por criterio y
 ## Recorrido de la aplicación desplegada
 
 El 29/10/2026 se consultó el panel de Render en modo de lectura: backend 15eedc0c11a62535add7efc9fd3ecb038e5c8ad6 y frontend ea8b600e018b008a40ec51a34d02994ffa815579 figuraron Live. Se ejecutó desde la web pública un registro de proyecto sintético, diagnóstico TS2322, recarga/historial y error por archivo inexistente; el detalle está en [specs/009-deployed-e2e/ACTA.md](specs/009-deployed-e2e/ACTA.md). Los recibos HTTP se redujeron a metadatos de este ensayo, sin credenciales ni código de negocio. No se modificó configuración de hosting ni fuentes del producto. Los cortes anteriores conservan su carácter histórico.
+
+## Demostración real del asistente (29/10/2026)
+
+`specs/010-assistant-demo/` registra ejecuciones nuevas sobre backend `15eedc0c11a62535add7efc9fd3ecb038e5c8ad6`, Codex CLI 0.162.1 y Node v24.19.0: habilidad speckit-analyze, MCP desplegado, confianza nativa autorizada por el usuario y eventos reales de hooks/perfil verificador. Los recibos son sanitizados por lista de campos; los rollouts completos permanecen locales. No se copió código de negocio ni contenido de secretos. Se preserva el fallo de escrituras del sandbox Windows y la cancelación de la solicitud nativa de ruta secreta tras rechazo de aprobación automática; QA-006 no se declara cerrado. Frontend de referencia `ea8b600e018b008a40ec51a34d02994ffa815579`.

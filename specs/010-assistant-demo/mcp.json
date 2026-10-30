@@ -1,0 +1,119 @@
+{
+  "startedAt": "2026-10-30T01:07:36.579Z",
+  "finishedAt": "2026-10-30T01:07:41.728Z",
+  "endpoint": "https://proyecto-certificacion-ai-backend.onrender.com/api/mcp",
+  "projectId": "7ac733ad-df76-4fe5-8fb7-542a3f3a024e",
+  "client": "@modelcontextprotocol/sdk",
+  "catalog": [
+    "read_file_context",
+    "analyze_code",
+    "get_symbol_context",
+    "run_tests",
+    "compare_test_runs",
+    "git_status",
+    "git_create_fix_branch",
+    "git_begin_attempt",
+    "git_apply_patch",
+    "git_diff",
+    "git_commit_fix",
+    "git_rollback_attempt",
+    "git_rollback",
+    "hooks_get_logs",
+    "hooks_get_config",
+    "subagents_get_delegations",
+    "db_list_projects",
+    "db_list_audits",
+    "db_get_audit"
+  ],
+  "calls": [
+    {
+      "at": "2026-10-30T01:07:39.812Z",
+      "name": "db_list_projects",
+      "arguments": {},
+      "ok": true,
+      "isError": false,
+      "auditId": "b73a423d-d115-4520-95d2-49e500adae83",
+      "count": 27
+    },
+    {
+      "at": "2026-10-30T01:07:40.482Z",
+      "name": "read_file_context",
+      "arguments": {
+        "projectId": "7ac733ad-df76-4fe5-8fb7-542a3f3a024e",
+        "path": "src/calculator.ts"
+      },
+      "ok": true,
+      "isError": false,
+      "auditId": "87d44fc3-649d-4da6-90af-70fb9ccd6080",
+      "fileHash": "93b0ebf4d6b65fcabaa19ccb77b2adbb95ddddd9c32f176490bc39569aa9147c",
+      "path": "src/calculator.ts",
+      "startLine": 1,
+      "endLine": 3,
+      "truncated": false
+    },
+    {
+      "at": "2026-10-30T01:07:40.824Z",
+      "name": "read_file_context",
+      "arguments": {
+        "projectId": "7ac733ad-df76-4fe5-8fb7-542a3f3a024e",
+        "path": ".env"
+      },
+      "ok": false,
+      "isError": true,
+      "auditId": "ea60bb35-c75f-4b68-99d1-45179ff38ddd",
+      "error": {
+        "code": "VERIFICATION_FAILED",
+        "message": "Secret configuration files cannot be read through MCP.",
+        "retryable": false,
+        "details": {
+          "hookId": "mcp-context-policy",
+          "event": "pre:tool_call"
+        }
+      }
+    }
+  ],
+  "hookLogRead": {
+    "ok": true,
+    "isError": false,
+    "auditId": "5132714e-a078-4f94-bb21-fe71c8bda974",
+    "count": 4
+  },
+  "hookLogs": [
+    {
+      "id": "51d8754b-bd0b-584f-89fb-0626593478ad",
+      "auditId": "ea60bb35-c75f-4b68-99d1-45179ff38ddd",
+      "hookId": "database-audit-trail",
+      "event": "db:on_hook_decision",
+      "decision": "allow",
+      "reason": "Decision audit recorded.",
+      "createdAt": "2026-10-30T01:07:40.720Z"
+    },
+    {
+      "id": "6b9e6103-6abb-59c8-8891-21c73c60d8e4",
+      "auditId": "ea60bb35-c75f-4b68-99d1-45179ff38ddd",
+      "hookId": "hook-manager",
+      "event": "post:tool_call",
+      "decision": "allow",
+      "reason": "No active rules for event.",
+      "createdAt": "2026-10-30T01:07:40.705Z"
+    },
+    {
+      "id": "9b3de79e-6015-52c1-8383-a785ba832d1f",
+      "auditId": "ea60bb35-c75f-4b68-99d1-45179ff38ddd",
+      "hookId": "database-audit-trail",
+      "event": "db:on_hook_decision",
+      "decision": "allow",
+      "reason": "Decision audit recorded.",
+      "createdAt": "2026-10-30T01:07:40.696Z"
+    },
+    {
+      "id": "a93faf41-dddd-5840-8af6-ab0da139ad7a",
+      "auditId": "ea60bb35-c75f-4b68-99d1-45179ff38ddd",
+      "hookId": "mcp-context-policy",
+      "event": "pre:tool_call",
+      "decision": "block",
+      "reason": "Secret configuration files cannot be read through MCP.",
+      "createdAt": "2026-10-30T01:07:40.687Z"
+    }
+  ]
+}

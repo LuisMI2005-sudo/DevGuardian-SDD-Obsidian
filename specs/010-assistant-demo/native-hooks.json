@@ -1,0 +1,123 @@
+[
+  {
+    "timestamp": "2026-10-30T01:09:04.379Z",
+    "event": "SessionStart",
+    "mode": "session",
+    "tool": null,
+    "agentType": null,
+    "session": "00363078a62028ac7d1a3338",
+    "agent": null,
+    "decision": "allow",
+    "reason": "DevGuardian listo. Protege secretos y pruebas; usa revisor-codigo, depurador, verificador o documentador segun la tarea."
+  },
+  {
+    "timestamp": "2026-10-30T01:09:09.484Z",
+    "event": "PreToolUse",
+    "mode": "files",
+    "tool": "apply_patch",
+    "agentType": null,
+    "session": "00363078a62028ac7d1a3338",
+    "agent": null,
+    "decision": "allow",
+    "reason": "Edicion autorizada por rutas, archivos protegidos y patrones de secretos."
+  },
+  {
+    "timestamp": "2026-10-30T01:09:15.861Z",
+    "event": "PreToolUse",
+    "mode": "files",
+    "tool": "apply_patch",
+    "agentType": null,
+    "session": "00363078a62028ac7d1a3338",
+    "agent": null,
+    "decision": "block",
+    "reason": "Protected file: tests/demo-hook-protected.test.mjs"
+  },
+  {
+    "timestamp": "2026-10-30T01:09:25.153Z",
+    "event": "PostToolUse",
+    "mode": "audit",
+    "tool": "collaborationspawn_agent",
+    "agentType": null,
+    "session": "00363078a62028ac7d1a3338",
+    "agent": null,
+    "decision": "allow",
+    "reason": "Evento del asistente registrado."
+  },
+  {
+    "timestamp": "2026-10-30T01:09:27.400Z",
+    "event": "SubagentStart",
+    "mode": "audit",
+    "tool": null,
+    "agentType": "verificador",
+    "session": "00363078a62028ac7d1a3338",
+    "agent": "33ce30a11fa64149e6fdc973",
+    "decision": "allow",
+    "reason": "Evento del asistente registrado."
+  },
+  {
+    "timestamp": "2026-10-30T01:09:35.582Z",
+    "event": "PreToolUse",
+    "mode": "commands",
+    "tool": "Bash",
+    "agentType": "verificador",
+    "session": "00363078a62028ac7d1a3338",
+    "agent": "33ce30a11fa64149e6fdc973",
+    "decision": "allow",
+    "reason": "El comando no coincide con patrones bloqueados."
+  },
+  {
+    "timestamp": "2026-10-30T01:09:45.773Z",
+    "event": "SubagentStop",
+    "mode": "audit",
+    "tool": null,
+    "agentType": "verificador",
+    "session": "00363078a62028ac7d1a3338",
+    "agent": "33ce30a11fa64149e6fdc973",
+    "decision": "allow",
+    "reason": "Evento del asistente registrado."
+  },
+  {
+    "timestamp": "2026-10-30T01:09:46.632Z",
+    "event": "PostToolUse",
+    "mode": "audit",
+    "tool": "collaborationwait_agent",
+    "agentType": null,
+    "session": "00363078a62028ac7d1a3338",
+    "agent": null,
+    "decision": "allow",
+    "reason": "Evento del asistente registrado."
+  },
+  {
+    "timestamp": "2026-10-30T01:10:09.385Z",
+    "event": "SessionStart",
+    "mode": "session",
+    "tool": null,
+    "agentType": null,
+    "session": "55a14f50fef91be6331ce8bc",
+    "agent": null,
+    "decision": "allow",
+    "reason": "DevGuardian listo. Protege secretos y pruebas; usa revisor-codigo, depurador, verificador o documentador segun la tarea."
+  },
+  {
+    "timestamp": "2026-10-30T01:11:14.985Z",
+    "event": "PostToolUse",
+    "mode": "audit",
+    "tool": "mcp__devguardian_demo__db_list_projects",
+    "agentType": null,
+    "session": "55a14f50fef91be6331ce8bc",
+    "agent": null,
+    "decision": "allow",
+    "reason": "Evento del asistente registrado."
+  },
+  {
+    "timestamp": "2026-10-30T01:11:52.531Z",
+    "event": "PostToolUse",
+    "mode": "audit",
+    "tool": "mcp__devguardian_demo__read_file_context",
+    "agentType": null,
+    "session": "55a14f50fef91be6331ce8bc",
+    "agent": null,
+    "decision": "allow",
+    "reason": "Evento del asistente registrado."
+  }
+]

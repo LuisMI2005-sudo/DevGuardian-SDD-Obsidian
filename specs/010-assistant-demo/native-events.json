@@ -1,0 +1,183 @@
+[
+  {
+    "source": "skill-cli",
+    "type": "thread.started",
+    "threadId": "01a18a55-708b-7690-b4b3-3e7be26edd8d"
+  },
+  {
+    "source": "skill-cli",
+    "type": "mcp_tool_call",
+    "id": "item_4",
+    "server": "devguardian-demo",
+    "tool": "db_list_projects",
+    "status": "failed",
+    "error": {
+      "message": "MCP tool call requires approval, but approval policy is never"
+    }
+  },
+  {
+    "source": "skill-cli",
+    "type": "mcp_tool_call",
+    "id": "item_5",
+    "server": "devguardian-demo",
+    "tool": "read_file_context",
+    "status": "failed",
+    "error": {
+      "message": "MCP tool call requires approval, but approval policy is never"
+    }
+  },
+  {
+    "source": "skill-cli",
+    "type": "mcp_tool_call",
+    "id": "item_6",
+    "server": "node_repl",
+    "tool": "js",
+    "status": "completed",
+    "error": null,
+    "operation": "read-project-skill"
+  },
+  {
+    "source": "skill-cli",
+    "type": "mcp_tool_call",
+    "id": "item_7",
+    "server": "devguardian-demo",
+    "tool": "read_file_context",
+    "status": "failed",
+    "error": {
+      "message": "MCP tool call requires approval, but approval policy is never"
+    }
+  },
+  {
+    "source": "skill-cli",
+    "type": "mcp_tool_call",
+    "id": "item_9",
+    "server": "node_repl",
+    "tool": "js",
+    "status": "completed",
+    "error": null
+  },
+  {
+    "source": "skill-cli",
+    "type": "mcp_tool_call",
+    "id": "item_12",
+    "server": "node_repl",
+    "tool": "js",
+    "status": "completed",
+    "error": null
+  },
+  {
+    "source": "hooks-cli",
+    "type": "thread.started",
+    "threadId": "01a18a5a-5bbd-7b71-a8f6-13d5c6ddeac3"
+  },
+  {
+    "source": "hooks-cli",
+    "type": "file_change",
+    "id": "item_1",
+    "status": "failed",
+    "changes": [
+      {
+        "path": "artifacts/assistant-demo/permitido.md",
+        "kind": "add"
+      }
+    ]
+  },
+  {
+    "source": "hooks-cli",
+    "type": "file_change",
+    "id": "item_2",
+    "status": "failed",
+    "changes": [
+      {
+        "path": "tests/demo-hook-protected.test.mjs",
+        "kind": "add"
+      }
+    ]
+  },
+  {
+    "source": "native-mcp",
+    "at": "2026-10-30T01:10:15.542Z",
+    "type": "custom_tool_call",
+    "name": "exec",
+    "callId": "call_048b886590064136a98b9c9a172913fb",
+    "tools": [
+      "mcp__devguardian_demo__db_list_projects"
+    ],
+    "operation": "project-list"
+  },
+  {
+    "source": "native-mcp",
+    "at": "2026-10-30T01:11:16.803Z",
+    "type": "function_call",
+    "name": "wait",
+    "callId": "call_9b8e5e2b810647918dcc7dbcf6dd97e7"
+  },
+  {
+    "source": "native-mcp",
+    "at": "2026-10-30T01:11:24.397Z",
+    "type": "custom_tool_call",
+    "name": "exec",
+    "callId": "call_bdf4455eb1ee4ba1aa1af58b2ecbf54a",
+    "tools": [
+      "mcp__devguardian_demo__read_file_context"
+    ],
+    "operation": "public-demo-source-read"
+  },
+  {
+    "source": "native-mcp",
+    "at": "2026-10-30T01:12:02.249Z",
+    "type": "custom_tool_call",
+    "name": "exec",
+    "callId": "call_96486a90175a48e08b5e843b7d39b7c5",
+    "tools": [
+      "mcp__devguardian_demo__read_file_context"
+    ],
+    "operation": "secret-path-negative-request-cancelled-before-send"
+  },
+  {
+    "source": "native-mcp",
+    "at": "2026-10-30T01:12:58.782Z",
+    "type": "function_call",
+    "name": "wait",
+    "callId": "call_c30ac5e3a8684cf2b36bc869fc5ff5b5"
+  },
+  {
+    "source": "native-profile",
+    "at": "2026-10-30T01:03:55.649Z",
+    "type": "function_call",
+    "name": "spawn_agent",
+    "callId": "call_0c29f83296114ce2b3ffdf0eb19c9072",
+    "agentType": "verificador",
+    "taskName": "verificacion_lectura"
+  },
+  {
+    "source": "native-profile",
+    "at": "2026-10-30T01:04:05.537Z",
+    "type": "custom_tool_call",
+    "name": "exec",
+    "callId": "call_af3576d573a44531918beb34b65a1471",
+    "tools": [
+      "mcp__devguardian_demo__db_list_projects",
+      "mcp__devguardian_demo__read_file_context"
+    ],
+    "operation": "public-demo-source-read"
+  },
+  {
+    "source": "native-profile",
+    "at": "2026-10-30T01:04:24.438Z",
+    "type": "custom_tool_call",
+    "name": "exec",
+    "callId": "call_960fefd0f20d4493ae9f8f2e85e295f4",
+    "tools": [
+      "mcp__devguardian_demo__read_file_context"
+    ],
+    "operation": "project-list"
+  },
+  {
+    "source": "native-profile",
+    "at": "2026-10-30T01:05:08.424Z",
+    "type": "function_call",
+    "name": "followup_task",
+    "callId": "call_70ad2eba980741e79d6aca5328aef221"
+  }
+]

@@ -32,6 +32,7 @@ Repositorio documental independiente para la revisión docente de **Specificatio
 | Backlog y trazabilidad final | [51 HU e issues](specs/005-final-traceability/backlog.md), [matriz de evidencia](specs/005-final-traceability/traceability.md), [especificación](specs/005-final-traceability/spec.md), [plan](specs/005-final-traceability/plan.md) y [validación](specs/005-final-traceability/validation.md) |
 | Dos incrementos del proyecto final | [INC-01 Organizaciones y accesos / INC-02 Espacio modular](specs/006-final-increments/spec.md), [antes y después](specs/006-final-increments/evidence.md) y [guion de demo](specs/006-final-increments/demo.md) |
 | Aceptación ejecutable de los dos incrementos | [Checklist con 12 criterios, resultados y acta](CHECKLIST_ACEPTACION_INCREMENTOS.md); seguimiento en QA-004/QA-005 y HU-37 |
+| Asistente en ejecución real | [Skill, MCP, hooks y perfil nativo con trazas y límites](specs/010-assistant-demo/ACTA.md) |
 | Lista única para coordinar fixes | [CONTROL_DE_FIXES.md](CONTROL_DE_FIXES.md): 18 seguimientos de HU y dos aceptaciones de incrementos, pasos, resultado esperado, prueba y responsable; [índice GitHub #57](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/57) |
 
 ## Abrir en Obsidian
