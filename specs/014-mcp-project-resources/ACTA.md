@@ -29,6 +29,8 @@ Los errores MCP distinguen URI inválido (-32602), recurso desconocido/inaccesib
 | platform/postgres con PostgreSQL local real | 9 pruebas aprobadas, 16.849 s |
 | npm run sdd:check | 103 documentos, 44 diagramas y 9 copias comprobados |
 | Gitleaks del cambio preparado, reglas oficiales y salida redactada | 28.26 KB examinados; cero hallazgos en este cambio |
+| CI del HEAD final 2b78dd52a8b072ce9337c378c6b821bd658e09fa | [41052722408](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/41052722408): ambos jobs aprobados, suite general y reparación real Docker |
+| CI documental del acta inicial 146cc981ec70ff96d9ee0e680ca72c9d3eadb6a6 | [41053456585](https://github.com/LuisMI2005-sudo/DevGuardian-SDD-Obsidian/actions/runs/41053456585): aprobado |
 
 Son **100 pruebas distintas** en cinco suites: los 12 casos originales de recursos se repiten en la suite definitiva y no se cuentan dos veces. SDK MCP 1.32.1 y Node 24 en Windows. El ensayo PostgreSQL acredita catálogo/lectura desde gateway, rechazo entre tenants y POST resources/list denegado para viewer. No se debilitó ese permiso.
 
@@ -41,6 +43,6 @@ Las fixtures son repositorios propios con datos ficticios. Durante la preparaci�
 
 ## Alcance del cierre
 
-QA-015 deja de ser una implementación faltante en esta rama. Permanece pendiente su revisión e integración en Dev. El CI del PR se registrará en [github.json](github.json); no se sustituye por los resultados locales. No se declara esta capacidad desplegada ni se modifica retrospectivamente el inventario del 29/10. La aceptación docente y el cierre de toda HU-24 no se presuponen.
+QA-015 deja de ser una implementación faltante en esta rama, validada en local y CI. Permanece pendiente su revisión e integración en Dev. El CI del PR está registrado en [github.json](github.json), con ambos jobs aprobados para el HEAD exacto. No se declara esta capacidad desplegada ni se modifica retrospectivamente el inventario del 29/10. La aceptación docente y el cierre de toda HU-24 no se presuponen.
 
 La autenticación configurable del servidor independiente y los hallazgos públicos de autenticación/CORS siguen en [auditoría de seguridad](../012-security-audit/ACTA.md). La caché efímera de análisis no sustituye historial SQL persistente.

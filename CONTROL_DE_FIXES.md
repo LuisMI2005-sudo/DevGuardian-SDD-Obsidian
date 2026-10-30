@@ -415,11 +415,11 @@ Los trabajos de Jest/pytest, recursos MCP y robustez no se ocultan ni se cierran
 **Completar recursos MCP por proyecto**
 
 - **Tipo / prioridad:** Capacidad incompleta / P1.
-- **Estado registrado:** Implementado y validado localmente; revisión e integración pendientes; consultar la evidencia antes de declararlo comprobado.
+- **Estado registrado:** Implementado y validado en local y CI; revisión e integración pendientes; consultar la evidencia antes de declararlo comprobado.
 - **HU / issue de seguimiento:** [HU-24](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/29).
 - **Área sugerida:** Backend / MCP. **Responsable:** Codex (implementación y ensayo solicitados por el usuario). **Revisor:** Codex (SDK, controles y pruebas); revisión de equipo pendiente.
 - **Entorno:** Cliente oficial MCP y workspace de ensayo.
-- **Condición conocida:** Catálogo principal, tres plantillas y lectura de configuración, estructura y análisis por proyecto implementados en 8c7b7eb484158dd7236c0484c1bbc4d4e6fa44c7. Cien pruebas distintas aprobadas en cinco suites locales; trece casos SDK de recursos y nueve PostgreSQL. PR #59 abierto hacia Dev; revisión e integración pendientes. No se cambió el despliegue público.
+- **Condición conocida:** Catálogo principal, tres plantillas y lectura de configuración, estructura y análisis por proyecto implementados en 8c7b7eb484158dd7236c0484c1bbc4d4e6fa44c7. Cien pruebas distintas aprobadas en cinco suites locales; trece casos SDK de recursos y nueve PostgreSQL. HEAD final 2b78dd52a8b072ce9337c378c6b821bd658e09fa con ambos jobs de CI 41052722408 aprobados. PR #59 abierto hacia Dev; revisión e integración pendientes. No se cambió el despliegue público.
 
 **Pasos de reproducción o comprobación**
 
