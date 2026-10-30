@@ -4,7 +4,7 @@ Consolidación autorizada por el usuario el 29/10/2026. Identificador documental
 
 | Componente | Rama de entrega | Commit integrado | PR |
 |---|---|---|---|
-| Backend | Dev | 5ba0c46ab46bc4b3d2d45d1b0d9d23723ce2d9eb | [#5](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5) y [#58](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/58) |
+| Backend | Dev | eea0218e7148c290211305ca450a93526aee2901 | [#5](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/5), [#58](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/58) y [#59](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/59) |
 | Frontend | dev | ea8b600e018b008a40ec51a34d02994ffa815579 | [#1](https://github.com/SebhastianCampero-Collab/Frontend/pull/1) |
 | SDD y evidencia | main del repositorio documental | Commit que contiene este archivo y el acta; consultar el historial de esta entrega | Bóveda independiente |
 
@@ -15,6 +15,8 @@ Los PRs de la tabla fueron fusionados mediante merge, preservando commits y auto
 El 30/10/2026 el usuario autorizó integrar el PR #58. Se fusionó con merge y la copia local avanzó por fast-forward. La diferencia respecto de `15eedc0` afecta únicamente siete comandos Windows de `.codex/hooks.json`; conserva el código de rechazo del adaptador. El árbol resultante coincide con el HEAD `637fbde` aprobado por CI. [Acta y recibo](specs/013-native-hook-acceptance/ACTA.md). Los ensayos anteriores conservan sus SHAs históricos.
 
 ## Cambio de comportamiento y revisión técnica
+
+El 30/10/2026 el usuario autorizó integrar y desplegar los recursos MCP. El PR #59 se fusionó en Dev como `eea0218e7148c290211305ca450a93526aee2901`, con árbol idéntico al HEAD `2b78dd5` aprobado por ambos jobs de CI. La copia local avanzó por fast-forward y quedó limpia. El CI posterior [41053920586](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/41053920586) también aprobó ambos jobs. El usuario confirmó que Render desplegaba el commit consultado; el ensayo iniciado a las 12:22:37 UTC aprobó ocho comprobaciones reales de recursos en la API pública, incluida reconexión del cliente. [Acta y recibos](specs/014-mcp-project-resources/ACTA.md). QA-015 cerrado técnicamente. Se verificó disponibilidad funcional; la etiqueta Live y el SHA final del panel no se observaron directamente porque el controlador del navegador se detuvo al no poder verificar la URL. No se atribuye ese SHA al hosting a partir del health, que no contiene commit.
 
 La entrega combina recuperación de repositorios con reparación verificada en Docker. Recuperar un checkout no habilita ejecución de código externo sin sandbox operativo. La interfaz aplica las capacidades del servidor y los guardrails siguen en el backend. La Shell ahora vuelve a Mis proyectos y limpia la selección al cambiar de organización.
 

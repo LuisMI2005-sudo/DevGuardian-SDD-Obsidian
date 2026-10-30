@@ -1,0 +1,31 @@
+{
+  "at": "2026-10-30T12:20:47.890Z",
+  "mergeCommit": "eea0218e7148c290211305ca450a93526aee2901",
+  "runs": [
+    {
+      "id": 41053920586,
+      "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/41053920586",
+      "head": "eea0218e7148c290211305ca450a93526aee2901",
+      "status": "completed",
+      "conclusion": "success",
+      "jobs": [
+        {
+          "id": 124056546996,
+          "name": "Reparación real con Jest y pytest en Docker",
+          "status": "completed",
+          "conclusion": "success",
+          "failedSteps": []
+        },
+        {
+          "id": 124056547609,
+          "name": "TypeScript, ESLint, Jest y pytest",
+          "status": "completed",
+          "conclusion": "success",
+          "failedSteps": []
+        }
+      ]
+    }
+  ],
+  "commitStatuses": [],
+  "deployments": []
+}

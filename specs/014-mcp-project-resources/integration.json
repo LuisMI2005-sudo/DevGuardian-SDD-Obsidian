@@ -1,0 +1,28 @@
+{
+  "at": "2026-10-30T12:15:00.975Z",
+  "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/59",
+  "state": "closed",
+  "draft": false,
+  "merged": true,
+  "mergedAt": "2026-10-30T12:14:58Z",
+  "head": "2b78dd52a8b072ce9337c378c6b821bd658e09fa",
+  "base": "Dev",
+  "mergeCommit": "eea0218e7148c290211305ca450a93526aee2901",
+  "headTree": "4a4ab4b1762fbb6cabee35a3413fcafc465129f5",
+  "mergeTree": "4a4ab4b1762fbb6cabee35a3413fcafc465129f5",
+  "treesEqual": true,
+  "checks": [
+    {
+      "name": "TypeScript, ESLint, Jest y pytest",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/41052722408/job/124052613634"
+    },
+    {
+      "name": "Reparación real con Jest y pytest en Docker",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/41052722408/job/124052613166"
+    }
+  ]
+}

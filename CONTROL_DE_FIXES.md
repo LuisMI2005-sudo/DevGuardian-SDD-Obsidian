@@ -415,11 +415,11 @@ Los trabajos de Jest/pytest, recursos MCP y robustez no se ocultan ni se cierran
 **Completar recursos MCP por proyecto**
 
 - **Tipo / prioridad:** Capacidad incompleta / P1.
-- **Estado registrado:** Implementado y validado en local y CI; revisión e integración pendientes; consultar la evidencia antes de declararlo comprobado.
+- **Estado registrado:** Cerrado; consultar la evidencia antes de declararlo comprobado.
 - **HU / issue de seguimiento:** [HU-24](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/29).
-- **Área sugerida:** Backend / MCP. **Responsable:** Codex (implementación y ensayo solicitados por el usuario). **Revisor:** Codex (SDK, controles y pruebas); revisión de equipo pendiente.
+- **Área sugerida:** Backend / MCP. **Responsable:** Codex (implementación y ensayo solicitados por el usuario). **Revisor:** Codex (revisión técnica y CI); integración autorizada expresamente por el usuario.
 - **Entorno:** Cliente oficial MCP y workspace de ensayo.
-- **Condición conocida:** Catálogo principal, tres plantillas y lectura de configuración, estructura y análisis por proyecto implementados en 8c7b7eb484158dd7236c0484c1bbc4d4e6fa44c7. Cien pruebas distintas aprobadas en cinco suites locales; trece casos SDK de recursos y nueve PostgreSQL. HEAD final 2b78dd52a8b072ce9337c378c6b821bd658e09fa con ambos jobs de CI 41052722408 aprobados. PR #59 abierto hacia Dev; revisión e integración pendientes. No se cambió el despliegue público.
+- **Condición conocida:** Catálogo principal y recursos por proyecto implementados: cien pruebas distintas locales y CI previo aprobado. PR #59 integrado con autorización en eea0218e7148c290211305ca450a93526aee2901, árbol idéntico y Dev local limpio. CI posterior 41053920586 aprobado en ambos jobs. El usuario confirmó el despliegue en curso en Render; a partir de las 12:22:37 UTC pasaron ocho comprobaciones reales de la API pública, incluidos configuración, estructura, análisis, reconexión y errores tipados. QA-015 cerrado técnicamente; el SHA Live del panel no fue observado directamente porque el controlador del navegador se detuvo por seguridad.
 
 **Pasos de reproducción o comprobación**
 
@@ -433,7 +433,7 @@ Los trabajos de Jest/pytest, recursos MCP y robustez no se ocultan ni se cierran
 
 **Referencia existente:** [código/prueba/documentación](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/mcp-server/server.test.mjs). Es referencia del criterio, no constancia de que la nueva comprobación ya pasó.
 
-**Evidencia nueva:** https://github.com/LuisMI2005-sudo/DevGuardian-SDD-Obsidian/blob/main/specs/014-mcp-project-resources/ACTA.md. **Rama:** feat/mcp-project-resources. **PR:** https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/59. Anotar comando o recorrido exacto, resultado, fecha y SHA; responsable y revisor reales. Registrar fallo/No reproducido si corresponde.
+**Evidencia nueva:** https://github.com/LuisMI2005-sudo/DevGuardian-SDD-Obsidian/blob/main/specs/014-mcp-project-resources/ACTA.md. **Rama:** Dev. **PR:** https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/59. Anotar comando o recorrido exacto, resultado, fecha y SHA; responsable y revisor reales. Registrar fallo/No reproducido si corresponde.
 
 ### QA-016
 

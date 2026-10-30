@@ -1,8 +1,8 @@
 # Recursos MCP por proyecto — HU-24 / QA-015
 
-Fecha: 2026-10-30. Operador: Codex, por solicitud del usuario de completar el catálogo. Estado: implementación y validación local terminadas; revisión e integración pendientes.
+Fecha: 2026-10-30. Operador: Codex, por solicitud del usuario de completar el catálogo y autorización posterior expresa de integrar y desplegar. Estado: integrado en Dev y funcionalidad desplegada comprobada por API. QA-015 cerrado técnicamente.
 
-Fuente de implementación: backend [8c7b7eb484158dd7236c0484c1bbc4d4e6fa44c7](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/commit/8c7b7eb484158dd7236c0484c1bbc4d4e6fa44c7), rama `feat/mcp-project-resources`, base Dev `5ba0c46ab46bc4b3d2d45d1b0d9d23723ce2d9eb`. HEAD de revisión: `2b78dd52a8b072ce9337c378c6b821bd658e09fa`; únicamente retira la nota añadida al backlog para preservar la huella histórica, sin cambiar código ni pruebas. [PR #59](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/59) hacia Dev. No se cambió frontend ni Render.
+Fuente de implementación: backend [8c7b7eb484158dd7236c0484c1bbc4d4e6fa44c7](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/commit/8c7b7eb484158dd7236c0484c1bbc4d4e6fa44c7), rama `feat/mcp-project-resources`, base Dev `5ba0c46ab46bc4b3d2d45d1b0d9d23723ce2d9eb`. HEAD de revisión: `2b78dd52a8b072ce9337c378c6b821bd658e09fa`; únicamente retira la nota añadida al backlog para preservar la huella histórica, sin cambiar código ni pruebas. [PR #59](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/59) integrado posteriormente en Dev. En la preparación del PR no se cambió frontend ni Render; la autorización posterior de despliegue y su verificación se detallan al final.
 
 ## Resultado funcional
 
@@ -43,6 +43,29 @@ Las fixtures son repositorios propios con datos ficticios. Durante la preparaci�
 
 ## Alcance del cierre
 
-QA-015 deja de ser una implementación faltante en esta rama, validada en local y CI. Permanece pendiente su revisión e integración en Dev. El CI del PR está registrado en [github.json](github.json), con ambos jobs aprobados para el HEAD exacto. No se declara esta capacidad desplegada ni se modifica retrospectivamente el inventario del 29/10. La aceptación docente y el cierre de toda HU-24 no se presuponen.
+QA-015 deja de ser una implementación faltante: validada en local y CI e integrada posteriormente con autorización del usuario. El CI previo del PR está registrado en [github.json](github.json), con ambos jobs aprobados para el HEAD exacto. No se modifica retrospectivamente el inventario del 29/10. La aceptación docente y el cierre de toda HU-24 no se presuponen.
 
 La autenticación configurable del servidor independiente y los hallazgos públicos de autenticación/CORS siguen en [auditoría de seguridad](../012-security-audit/ACTA.md). La caché efímera de análisis no sustituye historial SQL persistente.
+
+## Integración y comprobación del hosting
+
+El PR #59 se revisó frente al HEAD esperado y los trece archivos autorizados, se retiró del estado draft y se fusionó mediante merge el 30/10/2026 a las 12:14:58 UTC. Commit integrado: `eea0218e7148c290211305ca450a93526aee2901`. Ambos árboles coinciden exactamente. [Recibo](integration.json). La copia local Dev avanzó por fast-forward y quedó limpia.
+
+El [CI posterior al merge 41053920586](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/41053920586) terminó aprobado en ambos jobs para `eea0218e7148c290211305ca450a93526aee2901`; [recibo por SHA](post-merge.json). No debe confundirse con el CI previo del PR. El despliegue está autorizado, pero todavía no acreditado: el ensayo público del 30/10 a las 12:20:58 UTC respondió health 200 y PostgreSQL conectado, y MCP anunció únicamente tools, sin resources. [Ensayo público](live-smoke.json). La prueba se detuvo antes de crear una demo porque no estaba la capacidad requerida.
+
+El control Windows no pudo continuar: primero la revisión automática rechazó leer la pestaña activa de WhatsApp, ajena a la tarea; al intentar abrir una pestaña dedicada, el controlador se detuvo por no poder verificar la URL activa. No se continuó con acciones de navegador. Se solicitó al usuario comprobar Events en Render y, si no había despliegue, activar Manual Deploy del último commit. No se atribuye un SHA Live a partir de HTTP 200; el health no devuelve commit.
+
+El usuario respondió que el commit consultado aparecía **desplegándose** en Render. Después, el ensayo iniciado a las **12:22:37 UTC** verificó la funcionalidad nueva en [la API pública](https://proyecto-certificacion-ai-backend.onrender.com). Resultado final: **8 comprobaciones aprobadas**, en [live-smoke.json](live-smoke.json):
+
+- Health 200, PostgreSQL conectado y negociación MCP con capabilities resources y tools.
+- Tres plantillas y catálogo paginado (primera página de 50 recursos con siguiente cursor).
+- Rechazo de URI inválido con -32602.
+- Configuración con exactamente cinco metadatos permitidos.
+- Estructura de la demo: cuatro archivos, sin truncar, con rutas relativas.
+- Análisis real de sintaxis leído por su recurso, vinculado al proyecto.
+- Reconexión con otro cliente MCP y recuperación del mismo resultado de análisis.
+- Análisis desconocido rechazado con -32002.
+
+Se creó una única demo propia mediante el endpoint opt-in: proyecto `cf55afe3-c76e-4b79-b9d2-0fcdd80e8e25`, archivo `src/target-bug.ts`, análisis `3d7d09e9-2fa2-46a4-8780-3acc5f5e9c78`. No se ejecutaron pruebas ni código de repositorios externos. La demo queda identificada para futuras revisiones; el análisis conserva su TTL y no se presenta como historial SQL persistente.
+
+La disponibilidad funcional de los recursos está comprobada. El commit integrado es `eea0218e7148c290211305ca450a93526aee2901`, y la relación con el despliegue en curso fue confirmada por el usuario. **No se observó directamente la etiqueta Live ni el SHA final del panel de Render**; por ello el recibo mantiene deploymentCommitVerified=false. Esto delimita la atribución del hosting, no invalida las ocho comprobaciones reales de la API.

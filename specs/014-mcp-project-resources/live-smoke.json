@@ -1,0 +1,48 @@
+{
+  "at": "2026-10-30T12:22:37.109Z",
+  "url": "https://proyecto-certificacion-ai-backend.onrender.com",
+  "checks": [
+    "health-200",
+    "SDK-resources-discovery",
+    "invalid-URI-rejected",
+    "safe-configuration",
+    "bounded-structure",
+    "analysis-resource",
+    "analysis-survives-client-reconnection",
+    "unknown-analysis-rejected"
+  ],
+  "deploymentCommitVerified": false,
+  "health": {
+    "status": "ok",
+    "version": "0.1.0",
+    "databaseConnected": true,
+    "capabilities": {
+      "isolatedTests": false,
+      "requiresIsolation": true
+    }
+  },
+  "capabilities": {
+    "resources": {},
+    "tools": {}
+  },
+  "ready": true,
+  "templates": [
+    "devguardian://project/{projectId}/configuration",
+    "devguardian://project/{projectId}/structure",
+    "devguardian://analysis/{analysisId}?projectId={projectId}"
+  ],
+  "catalog": {
+    "count": 50,
+    "paginated": true
+  },
+  "fixture": {
+    "projectId": "cf55afe3-c76e-4b79-b9d2-0fcdd80e8e25",
+    "path": "src/target-bug.ts",
+    "createdBy": "opt-in cloud demo; no test execution"
+  },
+  "structure": {
+    "files": 4,
+    "truncated": false
+  },
+  "analysisId": "3d7d09e9-2fa2-46a4-8780-3acc5f5e9c78"
+}
