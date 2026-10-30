@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "served": [
+    {
+      "name": "projects",
+      "status": 200,
+      "preserved": true
+    },
+    {
+      "name": "review",
+      "status": 200,
+      "preserved": true
+    },
+    {
+      "name": "results",
+      "status": 200,
+      "preserved": true
+    },
+    {
+      "name": "security",
+      "status": 200,
+      "preserved": true
+    },
+    {
+      "name": "subagents",
+      "status": 200,
+      "preserved": true
+    },
+    {
+      "name": "mcp",
+      "status": 200,
+      "preserved": true
+    }
+  ],
+  "manifest": {
+    "version": 1,
+    "remotes": {
+      "projects": "/remotes/projects/remote-1128e86ac3a584a7.js",
+      "review": "/remotes/review/remote-22fde6dba9489ef2.js",
+      "results": "/remotes/results/remote-7f4e6f1e01127280.js",
+      "security": "/remotes/security/remote-c5f0b7e591e1bacc.js",
+      "subagents": "/remotes/subagents/remote-56d3a8d2f4db2f92.js",
+      "mcp": "/remotes/mcp/remote-064dd54e44d1c44c.js"
+    }
+  }
+}

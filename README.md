@@ -7,6 +7,8 @@
 
 Repositorio documental independiente para la revisión docente de **Specification-Driven Development (SDD)** y del segundo cerebro en **Obsidian**. Reúne las especificaciones, planes, tareas, constituciones, arquitectura, modelo de datos, diagramas Mermaid, grafos y evidencia de DevGuardian. El código de la aplicación permanece en sus repositorios propios.
 
+**Versión integrada vigente:** [commits finales y recibos de integración](VERSION_FINAL.md). Los estados anteriores de PRs abiertos se conservan como cortes históricos.
+
 ## Recorrido recomendado para el docente
 
 | Qué revisar | Documento o carpeta |

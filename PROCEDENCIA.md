@@ -44,3 +44,6 @@ CONTROL_DE_FIXES.md y specs/007-release-qa/cases.json se construyeron a partir d
 ## Checklist ejecutable de los incrementos
 
 CHECKLIST_ACEPTACION_INCREMENTOS.md traduce los 12 criterios ya definidos en specs/006-final-increments/ a pasos, resultados esperados y un acta por versión. Se contrastaron con gateway, Shell/loader y pruebas PostgreSQL existentes; la preparación no ejecutó ensayos nuevos ni marcó casillas de aceptación. QA-004/QA-005 y los issues #42/#57 enlazan el mismo protocolo. La comprobación documental valida que los IDs cubran exactamente los seis criterios de cada incremento; no acredita resultados manuales ni sustituye al revisor.
+
+
+Actualización del ensayo técnico del 29/10/2026: los resultados por criterio y versiones están en [ACTA](specs/006-final-increments/ensayo/ACTA.md). Se ejecutaron pruebas PostgreSQL reales, recorrido de Shell, cambios de organización y recuperación/rechazos del loader. La revisión humana y aceptación docente permanecen pendientes. La corrección de navegación del frontend está local, sin commit ni publicación.

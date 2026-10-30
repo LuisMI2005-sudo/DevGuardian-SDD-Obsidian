@@ -5,12 +5,12 @@ tags: [devguardian, dg/verificacion, dg/direccion]
 
 **Corte:** 2026-10-29. [Issue coordinador](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/57). Esta es la lista canónica de trabajo para el cierre; los README y los issues la enlazan, no mantienen listas competidoras.
 
-**Estado observado:** 18 HU de seguimiento y 20 casos, incluidos dos de aceptación de incrementos. Bugs confirmados según este registro: **0**. Generar la lista no ejecuta por sí solo pruebas de producto. Las HU-44/HU-46 siguen con cierre técnico; su ensayo final se coordina dentro de HU-37. Los registros anteriores a Spec Kit son retrospectivos y no modifican fechas o autorías originales.
+**Estado observado:** 18 HU de seguimiento y 20 casos, incluidos dos de aceptación de incrementos. Bugs confirmados según este registro: **1**. Generar la lista no ejecuta por sí solo pruebas de producto. Las HU-44/HU-46 siguen con cierre técnico; su ensayo final se coordina dentro de HU-37. Los registros anteriores a Spec Kit son retrospectivos y no modifican fechas o autorías originales.
 
 ## Cómo usarla antes de tocar código
 
 1. Buscar primero el problema por ID, HU y síntoma. Si ya existe, actualizar su issue; no crear otro fix para el mismo caso.
-2. Acordar un responsable en el issue antes de editar; indicar rama y archivos afectados. Los responsables actuales están por asignar: las áreas de la tabla son sugerencias, no asignaciones a personas.
+2. Acordar un responsable en el issue antes de editar; indicar rama y archivos afectados. Los responsables pendientes se acuerdan con el equipo; las áreas sugeridas no asignan personas y el operador técnico no sustituye a un revisor humano.
 3. Reproducir en un entorno de ensayo e identificar versión/condiciones. Si no falla, registrar No reproducido o clasificar como brecha de cobertura/aceptación; no inventar el resultado actual.
 4. Para un bug confirmado, añadir una prueba de regresión que falle por el defecto y pase con el arreglo, o una verificación manual reproducible cuando corresponda. No modificar tests para esconder el fallo.
 5. Abrir/actualizar PR con ID QA/HU/issue, cambio acotado y evidencia. Coordinar archivos compartidos antes de editar simultáneamente.
@@ -23,7 +23,7 @@ No se guarda ningún secreto, token, URL de conexión con credenciales ni conten
 - **P0:** comprobar o decidir antes de declarar la entrega lista. No implica por sí mismo una vulnerabilidad crítica o fallo de producción.
 - **P1:** brecha técnica que debe cerrarse si se incluye en el alcance; no cambiar el estado por falta de tiempo sin documentar la decisión.
 - **P2:** decisión de alcance/evolución; no implementar de urgencia sin acuerdo.
-- **Bug confirmado:** defecto con reproducción y evidencia actual. Ningún caso nuevo tiene todavía esta clasificación en este corte.
+- **Bug confirmado:** defecto con reproducción y evidencia actual. Los hallazgos corregidos conservan su reproducción y evidencia en el acta; este conteo no implica que sigan activos.
 - **Cobertura pendiente / capacidad incompleta:** falta una prueba o criterio; no se afirma automáticamente que el comportamiento sea incorrecto.
 - **Demostración / revisión / entrega:** falta evidencia o decisión; puede no requerir código.
 
@@ -31,11 +31,11 @@ No se guarda ningún secreto, token, URL de conexión con credenciales ni conten
 
 | Caso | Prioridad | Tipo | HU de seguimiento | Responsable |
 |---|---|---|---|---|
-| [QA-001 Cerrar una versión candidata coherente](#qa-001) | P0 | Entrega | [HU-38](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/43) | Por asignar |
+| [QA-001 Cerrar una versión candidata coherente](#qa-001) | P0 | Entrega | [HU-38](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/43) | Codex (integración autorizada por el usuario) |
 | [QA-002 Relacionar despliegue y commit validado](#qa-002) | P0 | Entrega | [HU-36](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/41) | Por asignar |
 | [QA-003 Repetir el recorrido punta a punta de la entrega](#qa-003) | P0 | Demostración | [HU-37](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/42) | Por asignar |
-| [QA-004 Aceptar INC-01 organizaciones y accesos](#qa-004) | P0 | Aceptación de incremento | [HU-37](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/42) | Por asignar |
-| [QA-005 Aceptar INC-02 Shell y seis remotos](#qa-005) | P0 | Aceptación de incremento | [HU-37](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/42) | Por asignar |
+| [QA-004 Aceptar INC-01 organizaciones y accesos](#qa-004) | P0 | Aceptación de incremento | [HU-37](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/42) | Codex (operador técnico de esta sesión) |
+| [QA-005 Aceptar INC-02 Shell y seis remotos](#qa-005) | P0 | Aceptación de incremento | [HU-37](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/42) | Codex (operador técnico de esta sesión) |
 | [QA-006 Acreditar activación de hooks del asistente](#qa-006) | P0 | Demostración | [HU-51](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/56) | Por asignar |
 | [QA-007 Auditar secretos y permisos de la entrega](#qa-007) | P0 | Revisión de seguridad | [HU-40](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/45) | Por asignar |
 | [QA-008 Revisar constitución y estados SDD con el equipo](#qa-008) | P0 | Revisión humana | [HU-47](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/52) | Por asignar |
@@ -65,11 +65,11 @@ Los trabajos de Jest/pytest, recursos MCP y robustez no se ocultan ni se cierran
 **Cerrar una versión candidata coherente**
 
 - **Tipo / prioridad:** Entrega / P0.
-- **Estado registrado:** Por validar; consultar la evidencia antes de declararlo comprobado.
+- **Estado registrado:** Integración técnica realizada; aceptación de entrega pendiente; consultar la evidencia antes de declararlo comprobado.
 - **HU / issue de seguimiento:** [HU-38](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/43).
-- **Área sugerida:** QA / integración. **Responsable:** Por asignar. **Revisor:** Por asignar.
+- **Área sugerida:** QA / integración. **Responsable:** Codex (integración autorizada por el usuario). **Revisor:** Por asignar.
 - **Entorno:** Repositorios locales y PRs abiertos.
-- **Condición conocida:** Los PRs siguen abiertos en el corte del inventario; no es un conflicto de merge ni un bug nuevo.
+- **Condición conocida:** PR backend #5 y frontend #1 fusionados en Dev/dev con CI previo de sus HEAD aprobado. Árboles finales iguales a los HEAD verificados. Revisión humana, versión desplegada y decisión de main según HU-38 permanecen separadas.
 
 **Pasos de reproducción o comprobación**
 
@@ -83,7 +83,7 @@ Los trabajos de Jest/pytest, recursos MCP y robustez no se ocultan ni se cierran
 
 **Referencia existente:** [código/prueba/documentación](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/README.md). Es referencia del criterio, no constancia de que la nueva comprobación ya pasó.
 
-**Evidencia nueva:** Sin registrar. **Rama:** Sin registrar. **PR:** Sin registrar. Anotar comando o recorrido exacto, resultado, fecha y SHA; responsable y revisor reales. Registrar fallo/No reproducido si corresponde.
+**Evidencia nueva:** VERSION_FINAL.md y specs/008-final-release/merge-receipt.json. **Rama:** Sin registrar. **PR:** Sin registrar. Anotar comando o recorrido exacto, resultado, fecha y SHA; responsable y revisor reales. Registrar fallo/No reproducido si corresponde.
 
 ### QA-002
 
@@ -140,11 +140,11 @@ Los trabajos de Jest/pytest, recursos MCP y robustez no se ocultan ni se cierran
 **Aceptar INC-01 organizaciones y accesos**
 
 - **Tipo / prioridad:** Aceptación de incremento / P0.
-- **Estado registrado:** Por validar; consultar la evidencia antes de declararlo comprobado.
+- **Estado registrado:** Ensayo técnico aprobado; revisión humana pendiente; consultar la evidencia antes de declararlo comprobado.
 - **HU / issue de seguimiento:** [HU-37](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/42); [HU-44 de implementación](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/49).
-- **Área sugerida:** QA / backend. **Responsable:** Por asignar. **Revisor:** Por asignar.
+- **Área sugerida:** QA / backend. **Responsable:** Codex (operador técnico de esta sesión). **Revisor:** Por asignar.
 - **Entorno:** Perfil local platform y PostgreSQL de ensayo.
-- **Condición conocida:** HU-44 tiene cierre técnico local/CI; la demo final y aceptación del docente siguen pendientes. Este caso se coordina dentro de HU-37, sin reabrir automáticamente HU-44.
+- **Condición conocida:** HU-44 tiene cierre técnico local/CI; el ensayo técnico final está registrado y la aceptación docente sigue pendiente. Este caso se coordina dentro de HU-37, sin reabrir automáticamente HU-44. Ensayo técnico ejecutado y documentado; seis criterios aprobados, revisión humana pendiente.
 
 **Pasos de reproducción o comprobación**
 
@@ -158,18 +158,18 @@ Los trabajos de Jest/pytest, recursos MCP y robustez no se ocultan ni se cierran
 
 **Referencia existente:** [código/prueba/documentación](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/platform/postgres.test.mjs). Es referencia del criterio, no constancia de que la nueva comprobación ya pasó.
 
-**Evidencia nueva:** Sin registrar. **Rama:** Sin registrar. **PR:** Sin registrar. Anotar comando o recorrido exacto, resultado, fecha y SHA; responsable y revisor reales. Registrar fallo/No reproducido si corresponde.
+**Evidencia nueva:** specs/006-final-increments/ensayo/ACTA.md. **Rama:** Sin registrar. **PR:** Sin registrar. Anotar comando o recorrido exacto, resultado, fecha y SHA; responsable y revisor reales. Registrar fallo/No reproducido si corresponde.
 
 ### QA-005
 
 **Aceptar INC-02 Shell y seis remotos**
 
 - **Tipo / prioridad:** Aceptación de incremento / P0.
-- **Estado registrado:** Por validar; consultar la evidencia antes de declararlo comprobado.
+- **Estado registrado:** Ensayo técnico aprobado; revisión humana pendiente; consultar la evidencia antes de declararlo comprobado.
 - **HU / issue de seguimiento:** [HU-37](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/42); [HU-46 de implementación](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/51).
-- **Área sugerida:** QA / frontend. **Responsable:** Por asignar. **Revisor:** Por asignar.
+- **Área sugerida:** QA / frontend. **Responsable:** Codex (operador técnico de esta sesión). **Revisor:** Por asignar.
 - **Entorno:** Perfil local platform, build:platform y preview:platform.
-- **Condición conocida:** Hay implementación y build local/CI; no se acredita todavía el ensayo manual completo. Se coordina dentro de HU-37.
+- **Condición conocida:** Hay implementación y build local/CI; el ensayo técnico completo quedó registrado en ACTA.md. Se coordina dentro de HU-37. Ensayo técnico ejecutado y documentado; seis criterios aprobados, revisión humana pendiente. Se reprodujo navegación conservada entre tenants; corregida localmente con regresión roja/verde y repetición browser.
 
 **Pasos de reproducción o comprobación**
 
@@ -183,7 +183,7 @@ Los trabajos de Jest/pytest, recursos MCP y robustez no se ocultan ni se cierran
 
 **Referencia existente:** [código/prueba/documentación](https://github.com/SebhastianCampero-Collab/Frontend/blob/3b06f56e3bf2a213155865760649218c8d3b16d6/tests/platform.test.tsx). Es referencia del criterio, no constancia de que la nueva comprobación ya pasó.
 
-**Evidencia nueva:** Sin registrar. **Rama:** Sin registrar. **PR:** Sin registrar. Anotar comando o recorrido exacto, resultado, fecha y SHA; responsable y revisor reales. Registrar fallo/No reproducido si corresponde.
+**Evidencia nueva:** specs/006-final-increments/ensayo/ACTA.md. **Rama:** Sin registrar. **PR:** Sin registrar. Anotar comando o recorrido exacto, resultado, fecha y SHA; responsable y revisor reales. Registrar fallo/No reproducido si corresponde.
 
 ### QA-006
 

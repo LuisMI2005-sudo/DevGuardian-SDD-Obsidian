@@ -50,3 +50,6 @@ La implementación y las pruebas citadas están disponibles. El ensayo de defens
 La definición documental se verificó con `npm run check`: 141 Markdown, tres Canvas, 66 Mermaid y 20 grupos; se conservaron las 51 HU con sus estados y se comprobaron exactamente dos incrementos con seis IDs de aceptación cada uno. Los chequeos SDD de backend y frontend y `git diff --check` también aprobaron. Se enlazó la selección en los issues #49/#51 y el soporte en #50, conservando sus estados técnicos; no se registró aprobación del docente ni una nueva demo.
 
 La preparación posterior del [checklist ejecutable](../../CHECKLIST_ACEPTACION_INCREMENTOS.md) pasó comprobación documental: 144 Markdown, tres Canvas, 67 Mermaid y 20 grupos, junto con 20 casos QA y correspondencia de los 12 criterios con QA-004/QA-005. Todos los resultados del protocolo comienzan en No ejecutado. Los números describen esa comprobación estructural; no son criterios aprobados en el producto.
+
+
+Actualización del ensayo técnico del 29/10/2026: los resultados por criterio y versiones están en [ACTA](ensayo/ACTA.md). Se ejecutaron pruebas PostgreSQL reales, recorrido de Shell, cambios de organización y recuperación/rechazos del loader. La revisión humana y aceptación docente permanecen pendientes. La corrección de navegación del frontend está local, sin commit ni publicación.

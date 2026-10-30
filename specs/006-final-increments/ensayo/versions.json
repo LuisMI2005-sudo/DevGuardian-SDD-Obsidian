@@ -1,0 +1,17 @@
+{
+  "backend": "163e70be25c39e780661655508620e9662d94073",
+  "frontendBase": "3a0eb0705bb27b2490ba576891274a49a65cdf87",
+  "frontendHasUncommittedFix": true,
+  "protocolBase": "24782fb537bb695b8c8a9bdb6f16e2aadda1836b",
+  "sourceSha256": {
+    "Frontend/src/platform/Shell.tsx": "499afdd51f677d63b3ef5944ca596866edbdbd82b7c015e2bc853e0e1cf3ece9",
+    "Frontend/tests/platform.test.tsx": "3637288383367ea3a1dc0c927d0487f9338ca9005c0293b0deb0c73661330fca"
+  },
+  "teacherAccepted": false,
+  "humanReviewPending": true,
+  "backendBranch": "Dev",
+  "frontendBranch": "dev",
+  "publishedFixCommit": "4ece391dde3611463b21a79901ed8cb281b295b7",
+  "integratedBackend": "15eedc0c11a62535add7efc9fd3ecb038e5c8ad6",
+  "integratedFrontend": "ea8b600e018b008a40ec51a34d02994ffa815579"
+}

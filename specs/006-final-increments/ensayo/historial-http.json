@@ -1,0 +1,750 @@
+[
+  {
+    "tenant": "0a218289-e04b-4d37-8231-f13ea39032ee",
+    "status": 200,
+    "body": {
+      "ok": true,
+      "data": [
+        {
+          "project": {
+            "id": "05864b48-569d-466c-a272-5caaddd2b39b",
+            "name": "Proyecto ensayo final",
+            "repoPath": "C:\\Users\\HP\\ProyectocertiIA\\ProyectoCertiIA\\.platform-local\\development\\workspaces\\0a218289-e04b-4d37-8231-f13ea39032ee\\acceptance-final",
+            "defaultBranch": "main",
+            "runnerType": "jest",
+            "createdAt": "2026-10-29T21:53:24.135Z"
+          },
+          "audit": {
+            "id": "8041e469-8656-4ce3-8043-fe1195857683",
+            "projectId": "05864b48-569d-466c-a272-5caaddd2b39b",
+            "status": "blocked",
+            "targetFile": "src/sample.ts",
+            "branchName": null,
+            "baselineRunId": null,
+            "candidateRunId": null,
+            "commitSha": null,
+            "startedAt": "2026-10-29T21:53:24.729Z",
+            "finishedAt": "2026-10-29T21:53:25.655Z",
+            "summaryJson": {
+              "mode": "diagnose",
+              "reason": "Diagnostic mode does not authorize a patch or commit.",
+              "outcome": "diagnosed",
+              "findings": [
+                {
+                  "code": "TS2322",
+                  "path": "src/sample.ts",
+                  "range": {
+                    "end": {
+                      "line": 1,
+                      "column": 19
+                    },
+                    "start": {
+                      "line": 1,
+                      "column": 14
+                    }
+                  },
+                  "source": "typescript",
+                  "message": "Type 'string' is not assignable to type 'number'.",
+                  "severity": "error"
+                }
+              ],
+              "diagnostic": {
+                "role": "diagnostic",
+                "output": {
+                  "path": "src/sample.ts",
+                  "snippet": {
+                    "content": "export const value: number = \"wrong\";\n",
+                    "endLine": 1,
+                    "fileHash": "ced628bbdf358da54b3eeefdbf67c32f68e12e6aef58929c0cef3b698e67531b",
+                    "startLine": 1
+                  },
+                  "findings": [
+                    {
+                      "code": "TS2322",
+                      "path": "src/sample.ts",
+                      "range": {
+                        "end": {
+                          "line": 1,
+                          "column": 19
+                        },
+                        "start": {
+                          "line": 1,
+                          "column": 14
+                        }
+                      },
+                      "source": "typescript",
+                      "message": "Type 'string' is not assignable to type 'number'.",
+                      "severity": "error"
+                    }
+                  ],
+                  "rootCause": "Type 'string' is not assignable to type 'number'.",
+                  "truncated": false,
+                  "analysisId": "c1bcff06-2fe0-40da-bed9-90e6bfbc1de5",
+                  "remediationCandidate": true
+                },
+                "reason": null,
+                "status": "completed",
+                "taskId": "cbf5d5cc-d016-4683-918f-c73889ec55cc",
+                "startedAt": "2026-10-29T21:53:25.051Z",
+                "durationMs": 558.9940999999963,
+                "finishedAt": "2026-10-29T21:53:25.610Z",
+                "subagentId": "72ca7ac5-010f-4037-ba9b-a234b5d2cd66",
+                "workerThreadId": 1,
+                "toolCallsExecuted": [
+                  {
+                    "tool": "analyze_code",
+                    "input": {
+                      "paths": [
+                        "src/sample.ts"
+                      ],
+                      "checks": [
+                        "syntax",
+                        "semantic"
+                      ]
+                    },
+                    "callId": "7620e6a7-1428-4c0a-a24a-fb98b3ca4081",
+                    "output": {
+                      "truncated": false,
+                      "analysisId": "c1bcff06-2fe0-40da-bed9-90e6bfbc1de5",
+                      "analyzedFiles": [
+                        "src/sample.ts"
+                      ]
+                    },
+                    "reason": null,
+                    "status": "completed",
+                    "startedAt": "2026-10-29T21:53:25.253Z",
+                    "dispatched": true,
+                    "durationMs": 341.3625000000029,
+                    "finishedAt": "2026-10-29T21:53:25.594Z"
+                  },
+                  {
+                    "tool": "read_file_context",
+                    "input": {
+                      "path": "src/sample.ts",
+                      "endLine": 2,
+                      "startLine": 1
+                    },
+                    "callId": "ddb7ece4-d9ab-4126-a350-17dbb2d1fa74",
+                    "output": {
+                      "path": "src/sample.ts",
+                      "endLine": 1,
+                      "fileHash": "ced628bbdf358da54b3eeefdbf67c32f68e12e6aef58929c0cef3b698e67531b",
+                      "startLine": 1,
+                      "truncated": false
+                    },
+                    "reason": null,
+                    "status": "completed",
+                    "startedAt": "2026-10-29T21:53:25.598Z",
+                    "dispatched": true,
+                    "durationMs": 5.532999999995809,
+                    "finishedAt": "2026-10-29T21:53:25.604Z"
+                  }
+                ]
+              }
+            }
+          },
+          "testRuns": [],
+          "hookLogs": [
+            {
+              "id": "008ac5bf-93d4-5b10-8f31-ddae8ee9e696",
+              "auditId": "8041e469-8656-4ce3-8043-fe1195857683",
+              "hookId": "database-audit-trail",
+              "hookName": "DatabaseAuditTrailHook",
+              "event": "db:on_hook_decision",
+              "decision": "allow",
+              "reason": "Decision audit recorded.",
+              "metadataJson": {
+                "config": {
+                  "rules": {},
+                  "enabled": true,
+                  "maxFiles": 200,
+                  "protectedFiles": [
+                    ".env",
+                    ".env.*",
+                    "**/.env",
+                    "**/.env.*",
+                    ".github/workflows/**",
+                    "package-lock.json"
+                  ],
+                  "allowedBranches": [
+                    "fix/*"
+                  ],
+                  "maxPatchCharacters": 1000000
+                },
+                "warning": false,
+                "workspaceStateHash": null
+              },
+              "durationMs": 3.1163999999989755,
+              "createdAt": "2026-10-29T21:53:25.637Z"
+            },
+            {
+              "id": "5693a5b4-b3ec-5d5d-8bee-b65f5d9b3252",
+              "auditId": "8041e469-8656-4ce3-8043-fe1195857683",
+              "hookId": "hook-manager",
+              "hookName": "Lifecycle event",
+              "event": "post:delegate",
+              "decision": "allow",
+              "reason": "No active rules for event.",
+              "metadataJson": {
+                "config": {
+                  "rules": {},
+                  "enabled": true,
+                  "maxFiles": 200,
+                  "protectedFiles": [
+                    ".env",
+                    ".env.*",
+                    "**/.env",
+                    "**/.env.*",
+                    ".github/workflows/**",
+                    "package-lock.json"
+                  ],
+                  "allowedBranches": [
+                    "fix/*"
+                  ],
+                  "maxPatchCharacters": 1000000
+                },
+                "warning": false,
+                "delegation": {
+                  "role": "diagnostic",
+                  "taskId": "cbf5d5cc-d016-4683-918f-c73889ec55cc",
+                  "subagentId": "72ca7ac5-010f-4037-ba9b-a234b5d2cd66",
+                  "parentSessionId": "8041e469-8656-4ce3-8043-fe1195857683"
+                },
+                "workspaceStateHash": null
+              },
+              "durationMs": 0.14310000000114087,
+              "createdAt": "2026-10-29T21:53:25.630Z"
+            },
+            {
+              "id": "7cde42f5-4d85-59e8-81fc-04a4cb74a039",
+              "auditId": "8041e469-8656-4ce3-8043-fe1195857683",
+              "hookId": "database-audit-trail",
+              "hookName": "DatabaseAuditTrailHook",
+              "event": "db:on_hook_decision",
+              "decision": "allow",
+              "reason": "Decision audit recorded.",
+              "metadataJson": {
+                "config": {
+                  "rules": {},
+                  "enabled": true,
+                  "maxFiles": 200,
+                  "protectedFiles": [
+                    ".env",
+                    ".env.*",
+                    "**/.env",
+                    "**/.env.*",
+                    ".github/workflows/**",
+                    "package-lock.json"
+                  ],
+                  "allowedBranches": [
+                    "fix/*"
+                  ],
+                  "maxPatchCharacters": 1000000
+                },
+                "warning": false,
+                "workspaceStateHash": null
+              },
+              "durationMs": 9.923800000004121,
+              "createdAt": "2026-10-29T21:53:25.047Z"
+            },
+            {
+              "id": "ba422ee3-5ec8-5991-8788-2a61f362a49a",
+              "auditId": "8041e469-8656-4ce3-8043-fe1195857683",
+              "hookId": "database-audit-trail",
+              "hookName": "DatabaseAuditTrailHook",
+              "event": "db:on_hook_decision",
+              "decision": "allow",
+              "reason": "Decision audit recorded.",
+              "metadataJson": {
+                "config": {
+                  "rules": {},
+                  "enabled": true,
+                  "maxFiles": 200,
+                  "protectedFiles": [
+                    ".env",
+                    ".env.*",
+                    "**/.env",
+                    "**/.env.*",
+                    ".github/workflows/**",
+                    "package-lock.json"
+                  ],
+                  "allowedBranches": [
+                    "fix/*"
+                  ],
+                  "maxPatchCharacters": 1000000
+                },
+                "warning": false,
+                "workspaceStateHash": null
+              },
+              "durationMs": 4.413100000005215,
+              "createdAt": "2026-10-29T21:53:25.268Z"
+            },
+            {
+              "id": "d051cd06-99e4-54cd-89fb-32bc9c7a2758",
+              "auditId": "8041e469-8656-4ce3-8043-fe1195857683",
+              "hookId": "hook-manager",
+              "hookName": "Lifecycle event",
+              "event": "pre:analyze",
+              "decision": "allow",
+              "reason": "No active rules for event.",
+              "metadataJson": {
+                "config": {
+                  "rules": {},
+                  "enabled": true,
+                  "maxFiles": 200,
+                  "protectedFiles": [
+                    ".env",
+                    ".env.*",
+                    "**/.env",
+                    "**/.env.*",
+                    ".github/workflows/**",
+                    "package-lock.json"
+                  ],
+                  "allowedBranches": [
+                    "fix/*"
+                  ],
+                  "maxPatchCharacters": 1000000
+                },
+                "warning": false,
+                "workspaceStateHash": null
+              },
+              "durationMs": 0.0544000000008964,
+              "createdAt": "2026-10-29T21:53:25.254Z"
+            },
+            {
+              "id": "e970f41e-10e9-578d-8c5c-d57d6a812b30",
+              "auditId": "8041e469-8656-4ce3-8043-fe1195857683",
+              "hookId": "hook-manager",
+              "hookName": "Lifecycle event",
+              "event": "pre:delegate",
+              "decision": "allow",
+              "reason": "No active rules for event.",
+              "metadataJson": {
+                "config": {
+                  "rules": {},
+                  "enabled": true,
+                  "maxFiles": 200,
+                  "protectedFiles": [
+                    ".env",
+                    ".env.*",
+                    "**/.env",
+                    "**/.env.*",
+                    ".github/workflows/**",
+                    "package-lock.json"
+                  ],
+                  "allowedBranches": [
+                    "fix/*"
+                  ],
+                  "maxPatchCharacters": 1000000
+                },
+                "warning": false,
+                "delegation": {
+                  "role": "diagnostic",
+                  "taskId": "cbf5d5cc-d016-4683-918f-c73889ec55cc",
+                  "parentSessionId": "8041e469-8656-4ce3-8043-fe1195857683"
+                },
+                "workspaceStateHash": null
+              },
+              "durationMs": 0.15479999999661231,
+              "createdAt": "2026-10-29T21:53:25.027Z"
+            }
+          ],
+          "delegations": [
+            {
+              "taskId": "cbf5d5cc-d016-4683-918f-c73889ec55cc",
+              "parentSessionId": "8041e469-8656-4ce3-8043-fe1195857683",
+              "subagentId": "72ca7ac5-010f-4037-ba9b-a234b5d2cd66",
+              "role": "diagnostic",
+              "status": "completed",
+              "objective": "Locate and prioritize static defects in one target file.",
+              "scopedContextJson": {
+                "path": "src/sample.ts",
+                "checks": [
+                  "syntax",
+                  "semantic"
+                ]
+              },
+              "toolCallsJson": [
+                {
+                  "tool": "analyze_code",
+                  "input": {
+                    "paths": [
+                      "src/sample.ts"
+                    ],
+                    "checks": [
+                      "syntax",
+                      "semantic"
+                    ]
+                  },
+                  "callId": "7620e6a7-1428-4c0a-a24a-fb98b3ca4081",
+                  "output": {
+                    "truncated": false,
+                    "analysisId": "c1bcff06-2fe0-40da-bed9-90e6bfbc1de5",
+                    "analyzedFiles": [
+                      "src/sample.ts"
+                    ]
+                  },
+                  "reason": null,
+                  "status": "completed",
+                  "startedAt": "2026-10-29T21:53:25.253Z",
+                  "dispatched": true,
+                  "durationMs": 341.3625000000029,
+                  "finishedAt": "2026-10-29T21:53:25.594Z"
+                },
+                {
+                  "tool": "read_file_context",
+                  "input": {
+                    "path": "src/sample.ts",
+                    "endLine": 2,
+                    "startLine": 1
+                  },
+                  "callId": "ddb7ece4-d9ab-4126-a350-17dbb2d1fa74",
+                  "output": {
+                    "path": "src/sample.ts",
+                    "endLine": 1,
+                    "fileHash": "ced628bbdf358da54b3eeefdbf67c32f68e12e6aef58929c0cef3b698e67531b",
+                    "startLine": 1,
+                    "truncated": false
+                  },
+                  "reason": null,
+                  "status": "completed",
+                  "startedAt": "2026-10-29T21:53:25.598Z",
+                  "dispatched": true,
+                  "durationMs": 5.532999999995809,
+                  "finishedAt": "2026-10-29T21:53:25.604Z"
+                }
+              ],
+              "outputJson": {
+                "path": "src/sample.ts",
+                "snippet": {
+                  "content": "export const value: number = \"wrong\";\n",
+                  "endLine": 1,
+                  "fileHash": "ced628bbdf358da54b3eeefdbf67c32f68e12e6aef58929c0cef3b698e67531b",
+                  "startLine": 1
+                },
+                "findings": [
+                  {
+                    "code": "TS2322",
+                    "path": "src/sample.ts",
+                    "range": {
+                      "end": {
+                        "line": 1,
+                        "column": 19
+                      },
+                      "start": {
+                        "line": 1,
+                        "column": 14
+                      }
+                    },
+                    "source": "typescript",
+                    "message": "Type 'string' is not assignable to type 'number'.",
+                    "severity": "error"
+                  }
+                ],
+                "rootCause": "Type 'string' is not assignable to type 'number'.",
+                "truncated": false,
+                "analysisId": "c1bcff06-2fe0-40da-bed9-90e6bfbc1de5",
+                "remediationCandidate": true
+              },
+              "consumptionStatus": "diagnosis_only",
+              "durationMs": 558.9940999999963,
+              "startedAt": "2026-10-29T21:53:25.005Z",
+              "finishedAt": "2026-10-29T21:53:25.610Z",
+              "phase": "consumed",
+              "snapshots": [
+                {
+                  "phase": "delegated",
+                  "result": null,
+                  "request": {
+                    "role": "diagnostic",
+                    "budget": {
+                      "timeoutMs": 60000,
+                      "maxToolCalls": 6
+                    },
+                    "taskId": "cbf5d5cc-d016-4683-918f-c73889ec55cc",
+                    "objective": "Locate and prioritize static defects in one target file.",
+                    "allowedTools": [
+                      "analyze_code",
+                      "read_file_context"
+                    ],
+                    "scopedContext": {
+                      "path": "src/sample.ts",
+                      "checks": [
+                        "syntax",
+                        "semantic"
+                      ]
+                    },
+                    "parentSessionId": "8041e469-8656-4ce3-8043-fe1195857683"
+                  },
+                  "timestamp": "2026-10-29T21:53:25.005Z",
+                  "consumption": null,
+                  "delegationId": "2ade3409-8acb-4c19-8152-084d3e96745f",
+                  "coordinatorId": "829521c9-d9de-45f4-af92-37f252e2afe3"
+                },
+                {
+                  "phase": "returned",
+                  "result": {
+                    "role": "diagnostic",
+                    "output": {
+                      "path": "src/sample.ts",
+                      "snippet": {
+                        "content": "export const value: number = \"wrong\";\n",
+                        "endLine": 1,
+                        "fileHash": "ced628bbdf358da54b3eeefdbf67c32f68e12e6aef58929c0cef3b698e67531b",
+                        "startLine": 1
+                      },
+                      "findings": [
+                        {
+                          "code": "TS2322",
+                          "path": "src/sample.ts",
+                          "range": {
+                            "end": {
+                              "line": 1,
+                              "column": 19
+                            },
+                            "start": {
+                              "line": 1,
+                              "column": 14
+                            }
+                          },
+                          "source": "typescript",
+                          "message": "Type 'string' is not assignable to type 'number'.",
+                          "severity": "error"
+                        }
+                      ],
+                      "rootCause": "Type 'string' is not assignable to type 'number'.",
+                      "truncated": false,
+                      "analysisId": "c1bcff06-2fe0-40da-bed9-90e6bfbc1de5",
+                      "remediationCandidate": true
+                    },
+                    "reason": null,
+                    "status": "completed",
+                    "taskId": "cbf5d5cc-d016-4683-918f-c73889ec55cc",
+                    "startedAt": "2026-10-29T21:53:25.051Z",
+                    "durationMs": 558.9940999999963,
+                    "finishedAt": "2026-10-29T21:53:25.610Z",
+                    "subagentId": "72ca7ac5-010f-4037-ba9b-a234b5d2cd66",
+                    "workerThreadId": 1,
+                    "toolCallsExecuted": [
+                      {
+                        "tool": "analyze_code",
+                        "input": {
+                          "paths": [
+                            "src/sample.ts"
+                          ],
+                          "checks": [
+                            "syntax",
+                            "semantic"
+                          ]
+                        },
+                        "callId": "7620e6a7-1428-4c0a-a24a-fb98b3ca4081",
+                        "output": {
+                          "truncated": false,
+                          "analysisId": "c1bcff06-2fe0-40da-bed9-90e6bfbc1de5",
+                          "analyzedFiles": [
+                            "src/sample.ts"
+                          ]
+                        },
+                        "reason": null,
+                        "status": "completed",
+                        "startedAt": "2026-10-29T21:53:25.253Z",
+                        "dispatched": true,
+                        "durationMs": 341.3625000000029,
+                        "finishedAt": "2026-10-29T21:53:25.594Z"
+                      },
+                      {
+                        "tool": "read_file_context",
+                        "input": {
+                          "path": "src/sample.ts",
+                          "endLine": 2,
+                          "startLine": 1
+                        },
+                        "callId": "ddb7ece4-d9ab-4126-a350-17dbb2d1fa74",
+                        "output": {
+                          "path": "src/sample.ts",
+                          "endLine": 1,
+                          "fileHash": "ced628bbdf358da54b3eeefdbf67c32f68e12e6aef58929c0cef3b698e67531b",
+                          "startLine": 1,
+                          "truncated": false
+                        },
+                        "reason": null,
+                        "status": "completed",
+                        "startedAt": "2026-10-29T21:53:25.598Z",
+                        "dispatched": true,
+                        "durationMs": 5.532999999995809,
+                        "finishedAt": "2026-10-29T21:53:25.604Z"
+                      }
+                    ]
+                  },
+                  "request": {
+                    "role": "diagnostic",
+                    "budget": {
+                      "timeoutMs": 60000,
+                      "maxToolCalls": 6
+                    },
+                    "taskId": "cbf5d5cc-d016-4683-918f-c73889ec55cc",
+                    "objective": "Locate and prioritize static defects in one target file.",
+                    "allowedTools": [
+                      "analyze_code",
+                      "read_file_context"
+                    ],
+                    "scopedContext": {
+                      "path": "src/sample.ts",
+                      "checks": [
+                        "syntax",
+                        "semantic"
+                      ]
+                    },
+                    "parentSessionId": "8041e469-8656-4ce3-8043-fe1195857683"
+                  },
+                  "timestamp": "2026-10-29T21:53:25.610Z",
+                  "consumption": null,
+                  "delegationId": "2ade3409-8acb-4c19-8152-084d3e96745f",
+                  "coordinatorId": "829521c9-d9de-45f4-af92-37f252e2afe3"
+                },
+                {
+                  "phase": "consumed",
+                  "result": {
+                    "role": "diagnostic",
+                    "output": {
+                      "path": "src/sample.ts",
+                      "snippet": {
+                        "content": "export const value: number = \"wrong\";\n",
+                        "endLine": 1,
+                        "fileHash": "ced628bbdf358da54b3eeefdbf67c32f68e12e6aef58929c0cef3b698e67531b",
+                        "startLine": 1
+                      },
+                      "findings": [
+                        {
+                          "code": "TS2322",
+                          "path": "src/sample.ts",
+                          "range": {
+                            "end": {
+                              "line": 1,
+                              "column": 19
+                            },
+                            "start": {
+                              "line": 1,
+                              "column": 14
+                            }
+                          },
+                          "source": "typescript",
+                          "message": "Type 'string' is not assignable to type 'number'.",
+                          "severity": "error"
+                        }
+                      ],
+                      "rootCause": "Type 'string' is not assignable to type 'number'.",
+                      "truncated": false,
+                      "analysisId": "c1bcff06-2fe0-40da-bed9-90e6bfbc1de5",
+                      "remediationCandidate": true
+                    },
+                    "reason": null,
+                    "status": "completed",
+                    "taskId": "cbf5d5cc-d016-4683-918f-c73889ec55cc",
+                    "startedAt": "2026-10-29T21:53:25.051Z",
+                    "durationMs": 558.9940999999963,
+                    "finishedAt": "2026-10-29T21:53:25.610Z",
+                    "subagentId": "72ca7ac5-010f-4037-ba9b-a234b5d2cd66",
+                    "workerThreadId": 1,
+                    "toolCallsExecuted": [
+                      {
+                        "tool": "analyze_code",
+                        "input": {
+                          "paths": [
+                            "src/sample.ts"
+                          ],
+                          "checks": [
+                            "syntax",
+                            "semantic"
+                          ]
+                        },
+                        "callId": "7620e6a7-1428-4c0a-a24a-fb98b3ca4081",
+                        "output": {
+                          "truncated": false,
+                          "analysisId": "c1bcff06-2fe0-40da-bed9-90e6bfbc1de5",
+                          "analyzedFiles": [
+                            "src/sample.ts"
+                          ]
+                        },
+                        "reason": null,
+                        "status": "completed",
+                        "startedAt": "2026-10-29T21:53:25.253Z",
+                        "dispatched": true,
+                        "durationMs": 341.3625000000029,
+                        "finishedAt": "2026-10-29T21:53:25.594Z"
+                      },
+                      {
+                        "tool": "read_file_context",
+                        "input": {
+                          "path": "src/sample.ts",
+                          "endLine": 2,
+                          "startLine": 1
+                        },
+                        "callId": "ddb7ece4-d9ab-4126-a350-17dbb2d1fa74",
+                        "output": {
+                          "path": "src/sample.ts",
+                          "endLine": 1,
+                          "fileHash": "ced628bbdf358da54b3eeefdbf67c32f68e12e6aef58929c0cef3b698e67531b",
+                          "startLine": 1,
+                          "truncated": false
+                        },
+                        "reason": null,
+                        "status": "completed",
+                        "startedAt": "2026-10-29T21:53:25.598Z",
+                        "dispatched": true,
+                        "durationMs": 5.532999999995809,
+                        "finishedAt": "2026-10-29T21:53:25.604Z"
+                      }
+                    ]
+                  },
+                  "request": {
+                    "role": "diagnostic",
+                    "budget": {
+                      "timeoutMs": 60000,
+                      "maxToolCalls": 6
+                    },
+                    "taskId": "cbf5d5cc-d016-4683-918f-c73889ec55cc",
+                    "objective": "Locate and prioritize static defects in one target file.",
+                    "allowedTools": [
+                      "analyze_code",
+                      "read_file_context"
+                    ],
+                    "scopedContext": {
+                      "path": "src/sample.ts",
+                      "checks": [
+                        "syntax",
+                        "semantic"
+                      ]
+                    },
+                    "parentSessionId": "8041e469-8656-4ce3-8043-fe1195857683"
+                  },
+                  "timestamp": "2026-10-29T21:53:25.640Z",
+                  "consumption": {
+                    "reason": "No patch was requested.",
+                    "decision": "diagnosis_only",
+                    "timestamp": "2026-10-29T21:53:25.640Z"
+                  },
+                  "delegationId": "2ade3409-8acb-4c19-8152-084d3e96745f",
+                  "coordinatorId": "829521c9-d9de-45f4-af92-37f252e2afe3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tenant": "a24ffe24-f880-45e9-be96-8658f9c0960b",
+    "status": 404,
+    "body": {
+      "ok": false,
+      "error": {
+        "code": "VALIDATION_ERROR",
+        "message": "Project not found.",
+        "retryable": false
+      },
+      "requestId": "b43b8618-7797-4f96-87ae-fe2ff3177f96"
+    }
+  }
+]

@@ -1606,7 +1606,7 @@
         "INC-01-AC06"
       ],
       "teacherAccepted": false,
-      "manualDemoRecorded": false
+      "manualDemoRecorded": true
     },
     {
       "id": "INC-02",
@@ -1625,7 +1625,7 @@
         "INC-02-AC06"
       ],
       "teacherAccepted": false,
-      "manualDemoRecorded": false
+      "manualDemoRecorded": true
     }
   ],
   "incrementBaseline": {

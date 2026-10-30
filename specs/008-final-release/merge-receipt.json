@@ -1,0 +1,70 @@
+{
+  "checkedAt": "2026-10-30T00:45:01.572Z",
+  "results": [
+    {
+      "repo": "LuisMI2005-sudo/ProyectoCertiIA",
+      "number": 5,
+      "head": "163e70be25c39e780661655508620e9662d94073",
+      "base": "a1ef8fd7bc6da85e84a98e49a0cf9fff80defaed",
+      "baseRef": "Dev",
+      "state": "open",
+      "merged": false,
+      "mergeable": true,
+      "checks": [
+        {
+          "name": "Reparación real con Jest y pytest en Docker",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "TypeScript, ESLint, Jest y pytest",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ],
+      "runs": [
+        {
+          "id": 40958143603,
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/40958143603"
+        }
+      ],
+      "integration": {
+        "sha": "15eedc0c11a62535add7efc9fd3ecb038e5c8ad6",
+        "merged": true,
+        "message": "Pull Request successfully merged"
+      }
+    },
+    {
+      "repo": "SebhastianCampero-Collab/Frontend",
+      "number": 1,
+      "head": "4ece391dde3611463b21a79901ed8cb281b295b7",
+      "base": "b7bd553894f1d99ca5d33674a2a328be76f0ee4b",
+      "baseRef": "dev",
+      "state": "open",
+      "merged": false,
+      "mergeable": true,
+      "checks": [
+        {
+          "name": "validate",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ],
+      "runs": [
+        {
+          "id": 40981452560,
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/SebhastianCampero-Collab/Frontend/actions/runs/40981452560"
+        }
+      ],
+      "integration": {
+        "sha": "ea8b600e018b008a40ec51a34d02994ffa815579",
+        "merged": true,
+        "message": "Pull Request successfully merged"
+      }
+    }
+  ]
+}

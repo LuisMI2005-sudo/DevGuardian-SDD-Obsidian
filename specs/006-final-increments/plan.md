@@ -20,10 +20,13 @@ La solicitud del usuario selecciona INC-01 Gestión segura de organizaciones y a
 - [x] T002 Identificar los commits posteriores que incorporaron los módulos.
 - [x] T003 Definir los dos incrementos, sus beneficios y criterios de aceptación con IDs.
 - [x] T004 Enlazar HU-44/HU-46 y HU de soporte, diferenciando pruebas reales y pruebas con loader controlado.
-- [ ] T005 Ejecutar y registrar el ensayo manual completo de INC-01.
-- [ ] T006 Ejecutar y registrar los seis remotos, fallo/reintento y reconstrucción independiente de INC-02.
+- [x] T005 Ejecutar y registrar el ensayo manual completo de INC-01.
+- [x] T006 Ejecutar y registrar los seis remotos, fallo/reintento y reconstrucción independiente de INC-02.
 - [ ] T007 Revisar esta selección con los tres integrantes y presentar el contraste al docente.
 - [ ] T008 Registrar la aceptación del docente, si se obtiene; no marcarla automáticamente.
 - [x] T009 Preparar checklist ejecutable de los 12 criterios con estados iniciales No ejecutado y acta por SHA; enlazarlo a QA-004/QA-005 sin cerrar el ensayo.
 
 Las revisiones humanas no se sustituyen por un comprobador. No se asignan expositores sin acuerdo del equipo.
+
+
+Actualización del ensayo técnico del 29/10/2026: los resultados por criterio y versiones están en [ACTA](ensayo/ACTA.md). Se ejecutaron pruebas PostgreSQL reales, recorrido de Shell, cambios de organización y recuperación/rechazos del loader. La revisión humana y aceptación docente permanecen pendientes. La corrección de navegación del frontend está local, sin commit ni publicación.
