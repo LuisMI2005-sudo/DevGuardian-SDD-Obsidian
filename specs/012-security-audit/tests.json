@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-30",
+  "node": "v24.19.0",
+  "backendBuild": {
+    "command": "npm run build",
+    "exitCode": 0
+  },
+  "httpAndSignature": {
+    "command": "node --experimental-vm-modules node_modules/jest/bin/jest.js --runInBand tests/server/server.test.mjs tests/platform/security.test.mjs --testNamePattern=\"supports bearer authentication|serves configured CORS|bounds bodies|rejects duplicate|platform trust boundary\"",
+    "exitCode": 0,
+    "passed": 10,
+    "skippedByFilter": 27,
+    "suitesPassed": 2
+  },
+  "postgres": {
+    "command": "node --experimental-vm-modules node_modules/jest/bin/jest.js --runInBand tests/platform/postgres.test.mjs",
+    "environment": "Existing loopback PostgreSQL test cluster; admin URL supplied privately without a password in the command; no URL published",
+    "initialAttempt": "Failed: assumed administrator role did not exist; no passing result asserted",
+    "correctedAttempt": {
+      "exitCode": 0,
+      "passed": 9,
+      "suitesPassed": 1
+    }
+  },
+  "executedPassedTotal": 19,
+  "fullTestSuiteRerun": false,
+  "documentation": {
+    "qaRender": {
+      "exitCode": 0
+    },
+    "check": {
+      "exitCode": 0,
+      "markdown": 154,
+      "mermaid": 69,
+      "canvas": 3,
+      "graphGroups": 20,
+      "userStories": 51,
+      "qaCases": 20
+    },
+    "diffCheck": {
+      "exitCode": 0
+    }
+  }
+}

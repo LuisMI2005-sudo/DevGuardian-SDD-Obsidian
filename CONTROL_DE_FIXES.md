@@ -37,7 +37,7 @@ No se guarda ningún secreto, token, URL de conexión con credenciales ni conten
 | [QA-004 Aceptar INC-01 organizaciones y accesos](#qa-004) | P0 | Aceptación de incremento | [HU-37](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/42) | Codex (operador técnico de esta sesión) |
 | [QA-005 Aceptar INC-02 Shell y seis remotos](#qa-005) | P0 | Aceptación de incremento | [HU-37](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/42) | Codex (operador técnico de esta sesión) |
 | [QA-006 Acreditar activación de hooks del asistente](#qa-006) | P0 | Demostración | [HU-51](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/56) | Codex (ensayo autorizado por el usuario) |
-| [QA-007 Auditar secretos y permisos de la entrega](#qa-007) | P0 | Revisión de seguridad | [HU-40](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/45) | Por asignar |
+| [QA-007 Auditar secretos y permisos de la entrega](#qa-007) | P0 | Revisión de seguridad | [HU-40](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/45) | Codex (auditoría autorizada por el usuario) |
 | [QA-008 Revisar constitución y estados SDD con el equipo](#qa-008) | P0 | Revisión humana | [HU-47](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/52) | Equipo Six seven; acta preparada por Codex |
 | [QA-009 Ensayar Obsidian como segundo cerebro](#qa-009) | P0 | Revisión humana | [HU-48](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/53) | Equipo Six seven; acta preparada por Codex |
 | [QA-010 Acreditar acceso y aportes reales](#qa-010) | P0 | Revisión de colaboración | [HU-22](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/27) | Por asignar |
@@ -215,11 +215,11 @@ Los trabajos de Jest/pytest, recursos MCP y robustez no se ocultan ni se cierran
 **Auditar secretos y permisos de la entrega**
 
 - **Tipo / prioridad:** Revisión de seguridad / P0.
-- **Estado registrado:** Por validar; consultar la evidencia antes de declararlo comprobado.
+- **Estado registrado:** Auditoría ejecutada; SEC-001 y SEC-002 de despliegue abiertos; consultar la evidencia antes de declararlo comprobado.
 - **HU / issue de seguimiento:** [HU-40](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/45).
-- **Área sugerida:** QA / DevOps. **Responsable:** Por asignar. **Revisor:** Por asignar.
+- **Área sugerida:** QA / DevOps. **Responsable:** Codex (auditoría autorizada por el usuario). **Revisor:** Por asignar.
 - **Entorno:** Repositorios, historial y artefactos autorizados.
-- **Condición conocida:** Auditoría integral pendiente; este registro no afirma haber encontrado secretos.
+- **Condición conocida:** Gitleaks 8.30.1: 736 archivos HEAD y 97 commits incluidos merges; solo fixture ficticia clasificada, sin credencial real identificada. 19 pruebas locales aprobadas y rol/RLS local comprobado. Producción: auditoría propia accesible sin bearer y con bearer inválido; CORS permite origen ajeno con wildcard. Sin remediación de hosting ni cierre de HU-40.
 
 **Pasos de reproducción o comprobación**
 
@@ -233,7 +233,7 @@ Los trabajos de Jest/pytest, recursos MCP y robustez no se ocultan ni se cierran
 
 **Referencia existente:** [código/prueba/documentación](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/.gitignore). Es referencia del criterio, no constancia de que la nueva comprobación ya pasó.
 
-**Evidencia nueva:** Sin registrar. **Rama:** Sin registrar. **PR:** Sin registrar. Anotar comando o recorrido exacto, resultado, fecha y SHA; responsable y revisor reales. Registrar fallo/No reproducido si corresponde.
+**Evidencia nueva:** https://github.com/LuisMI2005-sudo/DevGuardian-SDD-Obsidian/blob/main/specs/012-security-audit/ACTA.md. **Rama:** Sin registrar. **PR:** Sin registrar. Anotar comando o recorrido exacto, resultado, fecha y SHA; responsable y revisor reales. Registrar fallo/No reproducido si corresponde.
 
 ### QA-008
 

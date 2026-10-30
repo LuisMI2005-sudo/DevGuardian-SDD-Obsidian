@@ -1,0 +1,39 @@
+{
+  "scope": "Existing local development projects database only; no row data or connection secrets",
+  "at": "2026-10-30T10:50:49.095Z",
+  "runtime": [
+    {
+      "rolsuper": false,
+      "rolbypassrls": false,
+      "rolcreatedb": false,
+      "rolcreaterole": false
+    }
+  ],
+  "tables": [
+    {
+      "table": "domain_records",
+      "rls": true,
+      "forceRls": true,
+      "ownerIsDifferentFromRuntime": true
+    },
+    {
+      "table": "outbox",
+      "rls": true,
+      "forceRls": true,
+      "ownerIsDifferentFromRuntime": true
+    },
+    {
+      "table": "inbox",
+      "rls": true,
+      "forceRls": true,
+      "ownerIsDifferentFromRuntime": true
+    }
+  ],
+  "productionDbPermissions": "Not inspected",
+  "ci": {
+    "source": "Versioned workflows in the three repositories",
+    "permissions": "contents: read",
+    "persistCredentials": false,
+    "currentAccountAndCloudPermissions": "Not inspected"
+  }
+}

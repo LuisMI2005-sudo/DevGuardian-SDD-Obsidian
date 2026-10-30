@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-30T10:54:54.004Z",
+  "htmlStatus": 200,
+  "scope": "Initial same-origin JS script assets from published HTML; no execution and no source maps/dynamic chunks fetched",
+  "assets": [
+    {
+      "path": "/assets/index-CDxfReyX.js",
+      "http": 200,
+      "bytes": 402957,
+      "sha256": "5b4025949b96a63ff2f910ec142df605e23b385f13b0df5135111c5d3ec3adf2"
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "scope": "Only own synthetic project; no mutation, source contents or credentials recorded",
+  "base": "https://proyecto-certificacion-ai-backend.onrender.com",
+  "results": [
+    {
+      "id": "health",
+      "path": "/api/health",
+      "method": "GET",
+      "at": "2026-10-30T10:48:06.175Z",
+      "status": 200,
+      "headers": {
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": null,
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "access-control-allow-headers": "Content-Type, Authorization, MCP-Protocol-Version, MCP-Session-Id",
+        "vary": "Origin, Accept-Encoding",
+        "cache-control": "no-store",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": null,
+        "content-security-policy": null
+      },
+      "health": {
+        "ok": true,
+        "capabilities": {
+          "isolatedTests": false,
+          "requiresIsolation": true
+        }
+      }
+    },
+    {
+      "id": "own-project-no-bearer",
+      "path": "/api/projects/7ac733ad-df76-4fe5-8fb7-542a3f3a024e/files",
+      "method": "GET",
+      "at": "2026-10-30T10:48:06.814Z",
+      "status": 409,
+      "headers": {
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": null,
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "access-control-allow-headers": "Content-Type, Authorization, MCP-Protocol-Version, MCP-Session-Id",
+        "vary": "Origin, Accept-Encoding",
+        "cache-control": "no-store",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": null,
+        "content-security-policy": null
+      },
+      "responseOk": false,
+      "errorCode": "WORKSPACE_UNAVAILABLE"
+    },
+    {
+      "id": "own-project-invalid-bearer",
+      "path": "/api/projects/7ac733ad-df76-4fe5-8fb7-542a3f3a024e/files",
+      "method": "GET",
+      "at": "2026-10-30T10:48:07.102Z",
+      "status": 409,
+      "headers": {
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": null,
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "access-control-allow-headers": "Content-Type, Authorization, MCP-Protocol-Version, MCP-Session-Id",
+        "vary": "Origin, Accept-Encoding",
+        "cache-control": "no-store",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": null,
+        "content-security-policy": null
+      },
+      "responseOk": false,
+      "errorCode": "WORKSPACE_UNAVAILABLE"
+    },
+    {
+      "id": "allowed-origin",
+      "path": "/api/projects/7ac733ad-df76-4fe5-8fb7-542a3f3a024e/files",
+      "method": "GET",
+      "at": "2026-10-30T10:48:07.379Z",
+      "status": 409,
+      "headers": {
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": null,
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "access-control-allow-headers": "Content-Type, Authorization, MCP-Protocol-Version, MCP-Session-Id",
+        "vary": "Origin, Accept-Encoding",
+        "cache-control": "no-store",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": null,
+        "content-security-policy": null
+      },
+      "responseOk": false,
+      "errorCode": "WORKSPACE_UNAVAILABLE"
+    },
+    {
+      "id": "foreign-origin",
+      "path": "/api/projects/7ac733ad-df76-4fe5-8fb7-542a3f3a024e/files",
+      "method": "GET",
+      "at": "2026-10-30T10:48:07.635Z",
+      "status": 409,
+      "headers": {
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": null,
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "access-control-allow-headers": "Content-Type, Authorization, MCP-Protocol-Version, MCP-Session-Id",
+        "vary": "Origin, Accept-Encoding",
+        "cache-control": "no-store",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": null,
+        "content-security-policy": null
+      },
+      "responseOk": false,
+      "errorCode": "WORKSPACE_UNAVAILABLE"
+    },
+    {
+      "id": "preflight-allowed",
+      "path": "/api/projects/import",
+      "method": "OPTIONS",
+      "at": "2026-10-30T10:48:07.894Z",
+      "status": 204,
+      "headers": {
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": null,
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "access-control-allow-headers": "Content-Type, Authorization, MCP-Protocol-Version, MCP-Session-Id",
+        "vary": "Origin",
+        "cache-control": "no-store",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": null,
+        "content-security-policy": null
+      }
+    },
+    {
+      "id": "preflight-foreign",
+      "path": "/api/projects/import",
+      "method": "OPTIONS",
+      "at": "2026-10-30T10:48:08.312Z",
+      "status": 204,
+      "headers": {
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": null,
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "access-control-allow-headers": "Content-Type, Authorization, MCP-Protocol-Version, MCP-Session-Id",
+        "vary": "Origin",
+        "cache-control": "no-store",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": null,
+        "content-security-policy": null
+      }
+    },
+    {
+      "id": "profile-identification",
+      "path": "/api/platform",
+      "method": "GET",
+      "at": "2026-10-30T10:48:08.640Z",
+      "status": 404,
+      "headers": {
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": null,
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "access-control-allow-headers": "Content-Type, Authorization, MCP-Protocol-Version, MCP-Session-Id",
+        "vary": "Origin, Accept-Encoding",
+        "cache-control": "no-store",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": null,
+        "content-security-policy": null
+      },
+      "errorCode": "VALIDATION_ERROR"
+    },
+    {
+      "id": "mcp-catalog-no-bearer",
+      "path": "/api/mcp",
+      "method": "POST",
+      "at": "2026-10-30T10:48:09.049Z",
+      "status": 200,
+      "headers": {
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": null,
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "access-control-allow-headers": "Content-Type, Authorization, MCP-Protocol-Version, MCP-Session-Id",
+        "vary": "Origin, Accept-Encoding",
+        "cache-control": "no-store",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": null,
+        "content-security-policy": null
+      },
+      "toolCount": 19
+    },
+    {
+      "id": "own-audit-no-bearer",
+      "path": "/api/audits/553526fe-b1b0-465b-ad92-24511d0b8347",
+      "method": "GET",
+      "at": "2026-10-30T10:49:55.661Z",
+      "status": 200,
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-store"
+      },
+      "responseOk": true,
+      "ownAuditMatched": true
+    },
+    {
+      "id": "own-audit-invalid-bearer",
+      "path": "/api/audits/553526fe-b1b0-465b-ad92-24511d0b8347",
+      "method": "GET",
+      "at": "2026-10-30T10:49:56.347Z",
+      "status": 200,
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-store"
+      },
+      "responseOk": true,
+      "ownAuditMatched": true
+    },
+    {
+      "id": "own-audit-foreign-origin",
+      "path": "/api/audits/553526fe-b1b0-465b-ad92-24511d0b8347",
+      "method": "GET",
+      "at": "2026-10-30T10:49:56.669Z",
+      "status": 200,
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-store"
+      },
+      "responseOk": true,
+      "ownAuditMatched": true
+    }
+  ]
+}

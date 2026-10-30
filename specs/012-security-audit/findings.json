@@ -1,0 +1,31 @@
+{
+  "findings": [
+    {
+      "id": "SEC-001",
+      "severity": "High",
+      "status": "Open",
+      "category": "Deployment access control",
+      "evidence": [
+        "own-audit-no-bearer",
+        "own-audit-invalid-bearer",
+        "mcp-catalog-no-bearer"
+      ],
+      "remediation": "Explicitly define anonymous-demo scope or enforce access before private data; shared bearer does not supply per-user tenant authorization."
+    },
+    {
+      "id": "SEC-002",
+      "severity": "Medium",
+      "status": "Open",
+      "category": "Deployment CORS configuration",
+      "evidence": [
+        "own-audit-foreign-origin",
+        "preflight-foreign"
+      ],
+      "remediation": "Restrict ALLOWED_ORIGIN and repeat allowed/foreign GET and preflight; CORS alone does not fix missing authentication."
+    }
+  ],
+  "productionChanges": false,
+  "realCredentialIdentified": false,
+  "credentialValidityChecks": false,
+  "rotationOrRevocationPerformed": false
+}
