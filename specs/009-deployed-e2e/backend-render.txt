@@ -1,0 +1,199 @@
+Browser tab: 3, Title: "Proyecto-Certificacion-AI-Backend ・ Web Service ・ Render Dashboard", URL: "https://dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g".
+0 AXWebArea Proyecto-Certificacion-AI-Backend ・ Web Service ・ Render Dashboard, URL: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g
+	1 container
+		2 container root
+			3 container
+				4 link Description: Render, Value: dashboard.render.com/
+				5 pop up button (collapsed) L LM-workspace, ID: menu-_r_3_, Secondary Actions: Expand
+					6 text L
+					7 text LM-workspace
+				8 container Breadcrumbs
+					9 content list
+						58 link Description: Projects, Value: dashboard.render.com/
+						66 container
+							73 link Description: Proyecto Certificacion AI, Value: dashboard.render.com/project/prj-dbbcs0rrjlhs73dq59k0
+							68 pop up button (collapsed) Description: Switch Project, ID: menu-_r_10_, Secondary Actions: Expand
+						69 container
+							74 link Description: Production, Value: dashboard.render.com/project/prj-dbbcs0rrjlhs73dq59k0/environment/evm-dbbcs0rrjlhs73dq59kg
+							71 pop up button (collapsed) Description: Switch Environment, ID: menu-_r_12_, Secondary Actions: Expand
+						75 container
+							121 text Proyecto-Certificacion-AI-Backend
+							77 pop up button (collapsed) Description: Switch Service, ID: menu-_r_2i_, Secondary Actions: Expand
+						78 container
+							122 link Description: Deploys, Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/deploys
+							80 pop up button (collapsed) Description: Switch page, ID: menu-_r_2k_, Secondary Actions: Expand
+				11 button Search CTRL + K
+					12 text Search
+					13 text CTRL
+					14 text +
+					15 text K
+				16 pop up button (collapsed) New, ID: menu-_r_5_, Secondary Actions: Expand
+				17 pop up button (collapsed) Upgrade, ID: menu-_r_j_, Secondary Actions: Expand
+				18 pop up button (collapsed) Help, ID: menu-_r_7_, Secondary Actions: Expand
+					19 image Help
+				20 pop up button (collapsed) Description: Account menu, ID: menu-_r_9_, Secondary Actions: Expand
+			21 container
+				22 splitter Description: Resize sidebar, Value: 294
+				59 link Description: Environment, Value: dashboard.render.com/project/prj-dbbcs0rrjlhs73dq59k0/environment/evm-dbbcs0rrjlhs73dq59kg
+				72 text Proyecto-Certificacion-AI-Backend
+				81 content list
+					82 link Description: Deploys, Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/deploys
+					83 link Description: Settings, Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/settings
+				84 container
+					85 text MONITOR
+					86 content list MONITOR
+						87 link Description: Events, Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/events
+						88 link Description: Logs, Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/logs
+						89 link Description: Metrics, Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/metrics
+				90 container
+					91 text MANAGE
+					92 content list MANAGE
+						93 link Description: Compute, Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/compute
+						94 link Description: Environment, Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/env
+						95 link Description: Shell, Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/shell
+						96 link Description: Previews, Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/previews
+						97 link Description: Disk, Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/disks
+						98 link Description: One-Off Jobs, Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/jobs
+				43 container Promotions
+					44 container Introducing Workflows
+						45 container
+							46 heading Introducing Workflows, Value: 3
+								47 text Introducing Workflows
+							48 text An orchestration and execution engine for long-running, distributed tasks.
+							49 button Learn more
+								50 text Learn more
+								51 image
+							52 button Dismiss promo
+				53 container
+					54 content list Description: Footer navigation, ID: footer-nav-items
+						55 link Description: Changelog, Value: render.com/changelog
+					56 link Description: Status, Value: status.render.com/
+					57 button Collapse
+			99 container
+				100 text WEB SERVICE
+				101 heading Proyecto-Certificacion-AI-Backend Node Free Upgrade your instance, Value: 1
+					102 text Proyecto-Certificacion-AI-Backend
+					103 text Node
+					104 link Description: Free, Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/compute
+					105 link Description: Upgrade your instance, Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/compute
+				106 pop up button (collapsed) Connect, Secondary Actions: Expand
+				107 pop up button (collapsed) Manual Deploy, Secondary Actions: Expand
+				108 container entity-_r_37_
+					109 text Service ID :
+				110 container Service ID:
+					111 text srv-dbbeainf3r2c738j6g9g
+					112 button Copy
+				113 image GitHub
+				114 link Description: LuisMI2005-sudo / ProyectoCertiIA Dev, Value: github.com/LuisMI2005-sudo/ProyectoCertiIA/tree/Dev
+				115 link Description: Last successfully deployed commit, Value: github.com/LuisMI2005-sudo/ProyectoCertiIA/commit/15eedc0c11a62535add7efc9fd3ecb038e5c8ad6
+				116 link Description: Live, Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/deploys/dep-dbhuiuss728c73d6v60g
+				117 container Copy
+					118 link Description: https://proyecto-certificacion-ai-backend.onrender.com, Value: proyecto-certificacion-ai-backend.onrender.com/
+					119 button Copy
+			120 container
+				123 text Your free instance will spin down with inactivity, which can delay requests by 50 seconds or more.
+				124 link Description: Upgrade now, Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/plan
+				125 text field (settable)
+				126 heading DEPLOY 11 deploys, Value: 6
+					127 container
+						128 text DEPLOY
+						129 container 11 deploys
+							130 text 11
+				131 content list
+					132 container
+						133 link Description: Live, Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/deploys/dep-dbhuiuss728c73d6v60g
+						134 link Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/deploys/dep-dbhuiuss728c73d6v60g, Description: Deploy Merge pull request #5 from LuisMI2005-sudo/validate-isolated-repair Integrar reparacion Docker y recuperacion segura de workspaces TRIGGER Auto-Deploy DURATION 1m00s
+						135 link Description: 15eedc0, Value: github.com/LuisMI2005-sudo/ProyectoCertiIA/commit/15eedc0c11a62535add7efc9fd3ecb038e5c8ad6
+						136 text Deployed
+						137 button 10m ago
+							138 text 10m ago
+					139 container
+						140 link Description: Deploy succeeded, Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/deploys/dep-dbhmjhou01pc73ai8ef0
+						141 link Description: Deploy Fix: Repositorios Basura TRIGGER Auto-Deploy DURATION 1m19s, Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/deploys/dep-dbhmjhou01pc73ai8ef0
+						142 link Description: a1ef8fd, Value: github.com/LuisMI2005-sudo/ProyectoCertiIA/commit/a1ef8fd7bc6da85e84a98e49a0cf9fff80defaed
+						143 text Deployed
+						144 button 9h ago
+							145 text 9h ago
+						146 link Description: Rollback, Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/deploys/dep-dbhmjhou01pc73ai8ef0/rollback
+					147 container
+						148 link Description: Deploy succeeded, Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/deploys/dep-dbh68mvavr4c73f1l320
+						149 link Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/deploys/dep-dbh68mvavr4c73f1l320, Description: Deploy docs: enlazar repositorio docente independiente de SDD y Obsidian TRIGGER Auto-Deploy DURATION 1m19s
+						150 link Description: defd6ab, Value: github.com/LuisMI2005-sudo/ProyectoCertiIA/commit/defd6abba548bc6db821ccbc45788df8caddf1fa
+						151 text Deployed
+						152 button 1d ago
+							153 text 1d ago
+						154 link Description: Rollback, Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/deploys/dep-dbh68mvavr4c73f1l320/rollback
+					155 container
+						156 link Description: Deploy succeeded, Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/deploys/dep-dbh5bj3bc2fs73a6klc0
+						157 link Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/deploys/dep-dbh5bj3bc2fs73a6klc0, Description: Deploy feat(backend): integrar Spec Kit, SDD y Obsidian Agregar constitucion, plantillas SDD y segundo cerebro con diagramas Mermaid y evidencia de auditoria. Incorporar el perfil local multitenant, servicios autenticados, RLS y pruebas PostgreSQL; ampliar CI y documentar los limites pendientes. TRIGGER Auto-Deploy DURATION 1m16s
+						158 link Description: d6af0f7, Value: github.com/LuisMI2005-sudo/ProyectoCertiIA/commit/d6af0f7c0d67a5d7a0d9eb453ba77a3df82f10f6
+						159 text Deployed
+						160 button 1d ago
+							161 text 1d ago
+						162 link Description: Rollback, Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/deploys/dep-dbh5bj3bc2fs73a6klc0/rollback
+					163 container
+						164 link Description: Deploy succeeded, Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/deploys/dep-dbgk26mq1p3s7394s38g
+						165 link Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/deploys/dep-dbgk26mq1p3s7394s38g, Description: Deploy Rediseño de Hooks y guardrails como Panel de Seguridad, Transformar Trazas de subagentes en una Consola de Depuración y MCP y edición JSON como Sandbox de API TRIGGER Auto-Deploy DURATION 1m03s
+						166 link Description: 84a8b91, Value: github.com/LuisMI2005-sudo/ProyectoCertiIA/commit/84a8b91c0dbdcf89c96c6ca56c3484da1cc9246e
+						167 text Deployed
+						168 button 2d ago
+							169 text 2d ago
+						170 link Description: Rollback, Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/deploys/dep-dbgk26mq1p3s7394s38g/rollback
+					171 container
+						172 link Description: Deploy succeeded, Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/deploys/dep-dbgjk5uq1p3s7394b4r0
+						173 link Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/deploys/dep-dbgjk5uq1p3s7394b4r0, Description: Deploy este es Trazabilidad visual y prevención de errores (Full Stack) TRIGGER Auto-Deploy DURATION 1m14s
+						174 link Description: ca5265d, Value: github.com/LuisMI2005-sudo/ProyectoCertiIA/commit/ca5265dc1598895e20d816f403ee019efae8acc1
+						175 text Deployed
+						176 button 2d ago
+							177 text 2d ago
+						178 link Description: Rollback, Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/deploys/dep-dbgjk5uq1p3s7394b4r0/rollback
+					179 container
+						180 link Description: Deploy succeeded, Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/deploys/dep-dbgifc3bc2fs739bqkag
+						181 link Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/deploys/dep-dbgifc3bc2fs739bqkag, Description: Deploy Sustitución de JSON por Formularios Interactivos (Frontend) TRIGGER Auto-Deploy DURATION 1m07s
+						182 link Description: d3b08a1, Value: github.com/LuisMI2005-sudo/ProyectoCertiIA/commit/d3b08a1848b88d101d6e9485fd592eb2a5dd4cb0
+						183 text Deployed
+						184 button 2d ago
+							185 text 2d ago
+						186 link Description: Rollback, Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/deploys/dep-dbgifc3bc2fs739bqkag/rollback
+					187 container
+						188 link Description: Deploy succeeded, Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/deploys/dep-dbggul8ae00c73drivjg
+						189 link Value: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/deploys/dep-dbggul8ae00c73drivjg, Description: Deploy renovacion Flujo de importación y preparación del entorno (Full Stack) TRIGGER Auto-Deploy DURATION 1m12s
+						190 link Description: 628a5f1, Value: github.com/LuisMI2005-sudo/ProyectoCertiIA/commit/628a5f18e5aa82ab12706b96cbe9e40d7b6440c7
+						191 text Deployed
+						192 button 2d ago
+							193 text 2d ago
+						194 button (disabled) Rollback
+							195 image
+							196 text Rollback
+					197 container
+						198 link Description: Deploy succeeded, Value: …
+						199 link Description: Deploy fix implementeacion hooks y subagentes TRIGGER Auto-Deploy DURATION 1m12s, Value: …
+						200 link Description: e3abbec, Value: …
+						201 text Deployed
+						202 button 2d ago
+							203 text 2d ago
+						204 button (disabled) Rollback
+							205 image
+							206 text Rollback
+					207 container
+						208 link Description: Deploy succeeded, Value: …
+						209 link Value: …, Description: Deploy feat(demo): preparar reparaciones cloud aisladas y documentar entrega Render TRIGGER Auto-Deploy DURATION 1m18s
+						210 link Description: f9438ef, Value: …
+						211 text Deployed
+						212 button 9d ago
+							213 text 9d ago
+						214 button (disabled) Rollback
+							215 image
+							216 text Rollback
+					217 container
+						218 link Description: Deploy succeeded, Value: …
+						219 link Value: …, Description: Deploy merge: integrar HU-25 y HU-26 de Eduardo (feat/complete-user-stories) TRIGGER First Deploy DURATION 1m10s
+						220 link Description: 8348bca, Value: …
+						221 text Deployed
+						222 button 9d ago
+							223 text 9d ago
+						224 button (disabled) Rollback
+							225 image
+							226 text Rollback
+
+The focused UI element is 83 link Description: Settings, URL: dashboard.render.com/web/srv-dbbeainf3r2c738j6g9g/settings

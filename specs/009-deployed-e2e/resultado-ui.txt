@@ -1,0 +1,11 @@
+Browser tab: 2, Title: "DevGuardian Frontend", URL: "https://proyecto-certificacion-ai-frontend.onrender.com/#/results".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+~						50 Proyecto Certificacion AI · Dev
+~						51 Frontend · main
+~						57 (selected) PruebasDEVGuard · main
+~						52 PruebasDEVGuard · main
+~						53 PruebasDEVGuard · main
+~						54 PruebasDEVGuard · main
+~						55 Frontend · main
+~						56 PruebasDEVGuard · main
+The focused UI element is 0 AXWebArea DevGuardian Frontend, URL: proyecto-certificacion-ai-frontend.onrender.com/#/results

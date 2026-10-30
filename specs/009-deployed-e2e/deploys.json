@@ -1,0 +1,13 @@
+{
+  "backend": {
+    "commitUrl": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/commit/15eedc0c11a62535add7efc9fd3ecb038e5c8ad6",
+    "service": "srv-dbbeainf3r2c738j6g9g",
+    "deploy": "dep-dbhuiuss728c73d6v60g"
+  },
+  "frontend": {
+    "commitUrl": "https://github.com/SebhastianCampero-Collab/Frontend/commit/ea8b600e018b008a40ec51a34d02994ffa815579",
+    "service": "srv-dbbebtmq1p3s73cacms0",
+    "deploy": "dep-dbhuhhavcj2c73f8j8pg"
+  },
+  "projectId": "7ac733ad-df76-4fe5-8fb7-542a3f3a024e"
+}

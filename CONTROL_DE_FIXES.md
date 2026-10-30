@@ -32,8 +32,8 @@ No se guarda ningún secreto, token, URL de conexión con credenciales ni conten
 | Caso | Prioridad | Tipo | HU de seguimiento | Responsable |
 |---|---|---|---|---|
 | [QA-001 Cerrar una versión candidata coherente](#qa-001) | P0 | Entrega | [HU-38](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/43) | Codex (integración autorizada por el usuario) |
-| [QA-002 Relacionar despliegue y commit validado](#qa-002) | P0 | Entrega | [HU-36](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/41) | Por asignar |
-| [QA-003 Repetir el recorrido punta a punta de la entrega](#qa-003) | P0 | Demostración | [HU-37](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/42) | Por asignar |
+| [QA-002 Relacionar despliegue y commit validado](#qa-002) | P0 | Entrega | [HU-36](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/41) | Codex (operador técnico autorizado) |
+| [QA-003 Repetir el recorrido punta a punta de la entrega](#qa-003) | P0 | Demostración | [HU-37](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/42) | Codex (operador técnico autorizado) |
 | [QA-004 Aceptar INC-01 organizaciones y accesos](#qa-004) | P0 | Aceptación de incremento | [HU-37](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/42) | Codex (operador técnico de esta sesión) |
 | [QA-005 Aceptar INC-02 Shell y seis remotos](#qa-005) | P0 | Aceptación de incremento | [HU-37](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/42) | Codex (operador técnico de esta sesión) |
 | [QA-006 Acreditar activación de hooks del asistente](#qa-006) | P0 | Demostración | [HU-51](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/56) | Por asignar |
@@ -90,11 +90,11 @@ Los trabajos de Jest/pytest, recursos MCP y robustez no se ocultan ni se cierran
 **Relacionar despliegue y commit validado**
 
 - **Tipo / prioridad:** Entrega / P0.
-- **Estado registrado:** Por validar; consultar la evidencia antes de declararlo comprobado.
+- **Estado registrado:** Commits Live acreditados; prueba negativa de CI pendiente; consultar la evidencia antes de declararlo comprobado.
 - **HU / issue de seguimiento:** [HU-36](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/41).
-- **Área sugerida:** QA / DevOps. **Responsable:** Por asignar. **Revisor:** Por asignar.
-- **Entorno:** Ramas de entrega y dashboard de hosting.
-- **Condición conocida:** Existe despliegue previo y CI; falta acreditar la entrega final por SHA.
+- **Área sugerida:** QA / DevOps. **Responsable:** Codex (operador técnico autorizado). **Revisor:** Por asignar.
+- **Entorno:** Web pública de Render; backend Dev 15eedc0 y frontend dev ea8b600; proyecto sintético propio.
+- **Condición conocida:** Render confirma Live backend 15eedc0c11a62535add7efc9fd3ecb038e5c8ad6 y frontend ea8b600e018b008a40ec51a34d02994ffa815579; coinciden con la entrega y CI aprobados. No se provocó un pipeline fallido ni se alteró producción.
 
 **Pasos de reproducción o comprobación**
 
@@ -108,18 +108,18 @@ Los trabajos de Jest/pytest, recursos MCP y robustez no se ocultan ni se cierran
 
 **Referencia existente:** [código/prueba/documentación](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/.github/workflows/ci.yml). Es referencia del criterio, no constancia de que la nueva comprobación ya pasó.
 
-**Evidencia nueva:** Sin registrar. **Rama:** Sin registrar. **PR:** Sin registrar. Anotar comando o recorrido exacto, resultado, fecha y SHA; responsable y revisor reales. Registrar fallo/No reproducido si corresponde.
+**Evidencia nueva:** specs/009-deployed-e2e/ACTA.md, deploys.json, http.json y capturas. **Rama:** Sin registrar. **PR:** Sin registrar. Anotar comando o recorrido exacto, resultado, fecha y SHA; responsable y revisor reales. Registrar fallo/No reproducido si corresponde.
 
 ### QA-003
 
 **Repetir el recorrido punta a punta de la entrega**
 
 - **Tipo / prioridad:** Demostración / P0.
-- **Estado registrado:** Por validar; consultar la evidencia antes de declararlo comprobado.
+- **Estado registrado:** Recorrido diagnóstico desplegado aprobado; revisión humana pendiente; consultar la evidencia antes de declararlo comprobado.
 - **HU / issue de seguimiento:** [HU-37](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/42).
-- **Área sugerida:** QA. **Responsable:** Por asignar. **Revisor:** Por asignar.
-- **Entorno:** Versión candidata en entorno declarado.
-- **Condición conocida:** Hay evidencia histórica y tests; no se ha registrado un nuevo ensayo final en esta revisión.
+- **Área sugerida:** QA. **Responsable:** Codex (operador técnico autorizado). **Revisor:** Por asignar.
+- **Entorno:** Web pública de Render; backend Dev 15eedc0 y frontend dev ea8b600; proyecto sintético propio.
+- **Condición conocida:** Proyecto 7ac733ad-df76-4fe5-8fb7-542a3f3a024e importado desde UI; diagnóstico 553526fe-b1b0-465b-ad92-24511d0b8347 con TS2322; recarga recupera resultado. Archivo inexistente genera auditoría 0dbec726-fd3a-4e88-86d9-b7ab9849b0a5 con error comprensible. Ambos intentos persisten y el resultado anterior se recupera sin repetir diagnóstico. No acredita reparación generativa cloud.
 
 **Pasos de reproducción o comprobación**
 
@@ -133,7 +133,7 @@ Los trabajos de Jest/pytest, recursos MCP y robustez no se ocultan ni se cierran
 
 **Referencia existente:** [código/prueba/documentación](https://github.com/SebhastianCampero-Collab/Frontend/blob/3b06f56e3bf2a213155865760649218c8d3b16d6/tests/audit-state.test.tsx). Es referencia del criterio, no constancia de que la nueva comprobación ya pasó.
 
-**Evidencia nueva:** Sin registrar. **Rama:** Sin registrar. **PR:** Sin registrar. Anotar comando o recorrido exacto, resultado, fecha y SHA; responsable y revisor reales. Registrar fallo/No reproducido si corresponde.
+**Evidencia nueva:** specs/009-deployed-e2e/ACTA.md, deploys.json, http.json y capturas. **Rama:** Sin registrar. **PR:** Sin registrar. Anotar comando o recorrido exacto, resultado, fecha y SHA; responsable y revisor reales. Registrar fallo/No reproducido si corresponde.
 
 ### QA-004
 

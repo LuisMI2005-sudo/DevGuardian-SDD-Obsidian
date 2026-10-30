@@ -29,6 +29,6 @@ Clonar backend/frontend y seleccionar los commits exactos de la tabla. Usar Node
 
 ## Alcance pendiente
 
-La integración Git está realizada. Sigue pendiente acreditar el commit servido por el hosting y su recorrido final (HU-36/HU-37), revisión humana de SDD/Obsidian y defensa. HU-38 menciona main: las bases efectivas de estos PRs son Dev/dev; no se movió main ni se cambia esa condición académica silenciosamente. La decisión sobre main o estas ramas como entrega debe quedar explícita al presentar.
+La integración Git está realizada. El commit servido por cada componente y el recorrido diagnóstico desplegado quedaron acreditados en [el acta de Render](specs/009-deployed-e2e/ACTA.md), con recargas y error controlado. Continúan pendientes la revisión humana de SDD/Obsidian, defensa y los criterios restantes de las HU. HU-38 menciona main: las bases efectivas de estos PRs son Dev/dev; no se movió main ni se cambia esa condición académica silenciosamente. La decisión sobre main o estas ramas como entrega debe quedar explícita al presentar.
 
-La integración puede activar la automatización Git que ya tenga configurada el hosting. No se modificó la configuración de Render ni se afirma que el deploy corresponda a estos commits. El sandbox cloud y la generación Anthropic real conservan sus límites documentados.
+Render mostró ambos commits integrados como Live, con disparador Auto-Deploy. Se consultó el hosting en modo de lectura y no se modificó su configuración. El sandbox cloud y la generación Anthropic real conservan sus límites documentados.

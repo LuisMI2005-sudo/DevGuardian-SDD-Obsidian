@@ -1,0 +1,240 @@
+Browser tab: 4, Title: "Proyecto-Certificacion-AI-Frontend ・ Static Site ・ Render Dashboard", URL: "https://dashboard.render.com/static/srv-dbbebtmq1p3s73cacms0".
+0 AXWebArea Proyecto-Certificacion-AI-Frontend ・ Static Site ・ Render Dashboard, URL: dashboard.render.com/static/srv-dbbebtmq1p3s73cacms0
+	1 container
+		2 container root
+			3 container
+				4 link Description: Render, Value: dashboard.render.com/
+				5 pop up button (collapsed) L LM-workspace, ID: menu-_r_3_, Secondary Actions: Expand
+					6 text L
+					7 text LM-workspace
+				8 container Breadcrumbs
+					9 content list
+						10 link Description: Projects, Value: dashboard.render.com/
+						11 container
+							12 link Description: Proyecto Certificacion AI, Value: dashboard.render.com/project/prj-dbbcs0rrjlhs73dq59k0
+							13 pop up button (collapsed) Description: Switch Project, ID: menu-_r_l_, Secondary Actions: Expand
+						14 container
+							15 link Description: Production, Value: dashboard.render.com/project/prj-dbbcs0rrjlhs73dq59k0/environment/evm-dbbcs0rrjlhs73dq59kg
+							16 pop up button (collapsed) Description: Switch Environment, ID: menu-_r_n_, Secondary Actions: Expand
+						17 container
+							85 text Proyecto-Certificacion-AI-Frontend
+							19 pop up button (collapsed) Description: Switch Service, ID: menu-_r_p_, Secondary Actions: Expand
+						20 container
+							86 link Description: Deploys, Value: dashboard.render.com/static/srv-dbbebtmq1p3s73cacms0/deploys
+							22 pop up button (collapsed) Description: Switch page, ID: menu-_r_r_, Secondary Actions: Expand
+				23 button Search CTRL + K
+					24 text Search
+					25 text CTRL
+					26 text +
+					27 text K
+				28 pop up button (collapsed) New, ID: menu-_r_5_, Secondary Actions: Expand
+				29 pop up button (collapsed) Upgrade, ID: menu-_r_j_, Secondary Actions: Expand
+				30 pop up button (collapsed) Help, ID: menu-_r_7_, Secondary Actions: Expand
+					31 image Help
+				32 pop up button (collapsed) Description: Account menu, ID: menu-_r_9_, Secondary Actions: Expand
+			33 container
+				34 splitter Description: Resize sidebar, Value: 294
+				35 link Description: Environment, Value: dashboard.render.com/project/prj-dbbcs0rrjlhs73dq59k0/environment/evm-dbbcs0rrjlhs73dq59kg
+				36 text Proyecto-Certificacion-AI-Frontend
+				37 content list
+					38 link Description: Deploys, Value: dashboard.render.com/static/srv-dbbebtmq1p3s73cacms0/deploys
+					39 link Description: Settings, Value: dashboard.render.com/static/srv-dbbebtmq1p3s73cacms0/settings
+				40 container
+					41 text MONITOR
+					42 content list MONITOR
+						43 link Description: Events, Value: dashboard.render.com/static/srv-dbbebtmq1p3s73cacms0/events
+						44 link Description: Metrics, Value: dashboard.render.com/static/srv-dbbebtmq1p3s73cacms0/metrics
+				45 container
+					46 text MANAGE
+					47 content list MANAGE
+						48 link Description: Environment, Value: dashboard.render.com/static/srv-dbbebtmq1p3s73cacms0/env
+						49 link Description: Previews, Value: dashboard.render.com/static/srv-dbbebtmq1p3s73cacms0/previews
+						50 link Description: Redirects/Rewrites, Value: dashboard.render.com/static/srv-dbbebtmq1p3s73cacms0/redirects
+						51 link Description: Headers, Value: dashboard.render.com/static/srv-dbbebtmq1p3s73cacms0/headers
+				52 container Promotions
+					53 container Introducing Workflows
+						54 container
+							55 heading Introducing Workflows, Value: 3
+								56 text Introducing Workflows
+							57 text An orchestration and execution engine for long-running, distributed tasks.
+							58 button Learn more
+								59 text Learn more
+								60 image
+							61 button Dismiss promo
+				62 container
+					63 content list Description: Footer navigation, ID: footer-nav-items
+						64 link Description: Changelog, Value: render.com/changelog
+					65 link Description: Status, Value: status.render.com/
+					66 button Collapse
+			67 container
+				68 text STATIC SITE
+				69 heading Proyecto-Certificacion-AI-Frontend, Value: 1
+					70 text Proyecto-Certificacion-AI-Frontend
+				71 pop up button (collapsed) Manual Deploy, Secondary Actions: Expand
+				72 container entity-_r_12_
+					73 text Service ID :
+				74 container Service ID:
+					75 text srv-dbbebtmq1p3s73cacms0
+					76 button Copy
+				77 image GitHub
+				78 link Description: SebhastianCampero-Collab / Frontend dev, Value: github.com/SebhastianCampero-Collab/Frontend/tree/dev
+				82 link Description: Last successfully deployed commit, Value: github.com/SebhastianCampero-Collab/Frontend/commit/ea8b600e018b008a40ec51a34d02994ffa815579
+				83 link Description: Live, Value: dashboard.render.com/static/srv-dbbebtmq1p3s73cacms0/deploys/dep-dbhuhhavcj2c73f8j8pg
+				79 container Copy
+					80 link Description: https://proyecto-certificacion-ai-frontend.onrender.com, Value: proyecto-certificacion-ai-frontend.onrender.com/
+					81 button Copy
+			84 container
+				87 text field (settable)
+				88 heading DEPLOY 16 deploys, Value: 6
+					89 container
+						90 text DEPLOY
+						91 container 16 deploys
+							92 text 16
+				93 content list
+					94 container
+						95 link Description: Live, Value: dashboard.render.com/static/srv-dbbebtmq1p3s73cacms0/deploys/dep-dbhuhhavcj2c73f8j8pg
+						96 link Value: dashboard.render.com/static/srv-dbbebtmq1p3s73cacms0/deploys/dep-dbhuhhavcj2c73f8j8pg, Description: Deploy Merge pull request #1 from SebhastianCampero-Collab/validate-isolated-repair Integrar recuperacion de workspace con capacidades reales de sandbox TRIGGER Auto-Deploy DURATION 25.5s
+						97 link Description: ea8b600, Value: github.com/SebhastianCampero-Collab/Frontend/commit/ea8b600e018b008a40ec51a34d02994ffa815579
+						98 text Deployed
+						99 button 13m ago
+							100 text 13m ago
+					101 container
+						102 link Description: Deploy succeeded, Value: dashboard.render.com/static/srv-dbbebtmq1p3s73cacms0/deploys/dep-dbhmhotckfvc73fl12pg
+						103 link Description: Deploy Fix: Repositorios Basura TRIGGER Auto-Deploy DURATION 36.6s, Value: dashboard.render.com/static/srv-dbbebtmq1p3s73cacms0/deploys/dep-dbhmhotckfvc73fl12pg
+						104 link Description: b7bd553, Value: github.com/SebhastianCampero-Collab/Frontend/commit/b7bd553894f1d99ca5d33674a2a328be76f0ee4b
+						105 text Deployed
+						106 button 9h ago
+							107 text 9h ago
+						108 link Description: Rollback, Value: dashboard.render.com/static/srv-dbbebtmq1p3s73cacms0/deploys/dep-dbhmhotckfvc73fl12pg/rollback
+					109 container
+						110 link Description: Deploy succeeded, Value: dashboard.render.com/static/srv-dbbebtmq1p3s73cacms0/deploys/dep-dbh66rq9lscs73e3t4f0
+						111 link Value: dashboard.render.com/static/srv-dbbebtmq1p3s73cacms0/deploys/dep-dbh66rq9lscs73e3t4f0, Description: Deploy docs: enlazar repositorio docente independiente de SDD y Obsidian TRIGGER Auto-Deploy DURATION 26.1s
+						112 link Description: 796dcac, Value: github.com/SebhastianCampero-Collab/Frontend/commit/796dcac7e3c96c3293380002d7d472309e36fbab
+						113 text Deployed
+						114 button 1d ago
+							115 text 1d ago
+						116 link Description: Rollback, Value: dashboard.render.com/static/srv-dbbebtmq1p3s73cacms0/deploys/dep-dbh66rq9lscs73e3t4f0/rollback
+					117 container
+						118 link Description: Deploy succeeded, Value: dashboard.render.com/static/srv-dbbebtmq1p3s73cacms0/deploys/dep-dbh5a0a9lscs73e2dnsg
+						119 link Value: dashboard.render.com/static/srv-dbbebtmq1p3s73cacms0/deploys/dep-dbh5a0a9lscs73e2dnsg, Description: Deploy feat(frontend): integrar Spec Kit, SDD y Obsidian Agregar documentacion y plantillas SDD compatibles con Obsidian. Incorporar Shell multitenant, seis microfrontends independientes, pruebas y builds de plataforma en CI; mantener el modo anterior para comparacion. TRIGGER Auto-Deploy DURATION 28.0s
+						120 link Description: 22d4b2d, Value: github.com/SebhastianCampero-Collab/Frontend/commit/22d4b2d82c5dca9ca798cc6647ba9f2feca69965
+						121 text Deployed
+						122 button 1d ago
+							123 text 1d ago
+						124 link Description: Rollback, Value: dashboard.render.com/static/srv-dbbebtmq1p3s73cacms0/deploys/dep-dbh5a0a9lscs73e2dnsg/rollback
+					125 container
+						126 link Description: Deploy succeeded, Value: dashboard.render.com/static/srv-dbbebtmq1p3s73cacms0/deploys/dep-dbgkanvavr4c73dogq0g
+						127 link Value: dashboard.render.com/static/srv-dbbebtmq1p3s73cacms0/deploys/dep-dbgkanvavr4c73dogq0g, Description: Deploy Rediseño UI/UX - Estilo Premium Light Mode con acentos vibrantes y modo oscuro TRIGGER Auto-Deploy DURATION 21.8s
+						128 link Description: 325d6a2, Value: github.com/SebhastianCampero-Collab/Frontend/commit/325d6a23fdbd5a95ac29a302ed80aa18ae4f7f97
+						129 text Deployed
+						130 button 2d ago
+							131 text 2d ago
+						132 link Description: Rollback, Value: dashboard.render.com/static/srv-dbbebtmq1p3s73cacms0/deploys/dep-dbgkanvavr4c73dogq0g/rollback
+					133 container
+						134 link Description: Deploy succeeded, Value: dashboard.render.com/static/srv-dbbebtmq1p3s73cacms0/deploys/dep-dbgk0si9lscs73fiujng
+						135 link Value: dashboard.render.com/static/srv-dbbebtmq1p3s73cacms0/deploys/dep-dbgk0si9lscs73fiujng, Description: Deploy Rediseño de Hooks y guardrails como Panel de Seguridad, Transformar Trazas de subagentes en una Consola de Depuración y MCP y edición JSON como Sandbox de API TRIGGER Auto-Deploy DURATION 3m53s
+						136 link Description: c95d306, Value: github.com/SebhastianCampero-Collab/Frontend/commit/c95d3061963ad3cb18843c48ee0f3af7f2fc5175
+						137 text Deployed
+						138 button 2d ago
+							139 text 2d ago
+						140 link Description: Rollback, Value: dashboard.render.com/static/srv-dbbebtmq1p3s73cacms0/deploys/dep-dbgk0si9lscs73fiujng/rollback
+					141 container
+						142 link Description: Deploy succeeded, Value: dashboard.render.com/static/srv-dbbebtmq1p3s73cacms0/deploys/dep-dbgjiah42hec73bq1oa0
+						143 link Value: dashboard.render.com/static/srv-dbbebtmq1p3s73cacms0/deploys/dep-dbgjiah42hec73bq1oa0, Description: Deploy este es Trazabilidad visual y prevención de errores (Full Stack) el anterior era Refactorización de hooks y ejemplos de seguridad (Frontend) TRIGGER Auto-Deploy DURATION 21.5s
+						144 link Description: 890de12, Value: github.com/SebhastianCampero-Collab/Frontend/commit/890de121c5265ca33127ffed10feaa4b4f41956d
+						145 text Deployed
+						146 button 2d ago
+							147 text 2d ago
+						148 link Description: Rollback, Value: dashboard.render.com/static/srv-dbbebtmq1p3s73cacms0/deploys/dep-dbgjiah42hec73bq1oa0/rollback
+					149 container
+						150 link Description: Deploy succeeded, Value: dashboard.render.com/static/srv-dbbebtmq1p3s73cacms0/deploys/dep-dbgj53avcj2c73akmoo0
+						151 link Description: Deploy Trazabilidad visual y prevención de errores (Full Stack) TRIGGER Auto-Deploy DURATION 22.1s, Value: dashboard.render.com/static/srv-dbbebtmq1p3s73cacms0/deploys/dep-dbgj53avcj2c73akmoo0
+						152 link Description: 21deee2, Value: github.com/SebhastianCampero-Collab/Frontend/commit/21deee240f34acab9552bba8a16b801bfe9f17b2
+						153 text Deployed
+						154 button 2d ago
+							155 text 2d ago
+						156 button (disabled) Rollback
+							157 image
+							158 text Rollback
+					159 container
+						160 link Description: Deploy succeeded, Value: dashboard.render.com/static/srv-dbbebtmq1p3s73cacms0/deploys/dep-dbgiq1rbc2fs739c8ajg
+						161 link Description: Deploy Traducción de resultados y estados técnicos (Frontend) TRIGGER Auto-Deploy DURATION 43.2s, Value: dashboard.render.com/static/srv-dbbebtmq1p3s73cacms0/deploys/dep-dbgiq1rbc2fs739c8ajg
+						162 link Description: ef299f0, Value: …
+						163 text Deployed
+						164 button 2d ago
+							165 text 2d ago
+						166 button (disabled) Rollback
+							167 image
+							168 text Rollback
+					169 container
+						170 link Description: Deploy succeeded, Value: …
+						171 link Value: …, Description: Deploy Sustitución de JSON por Formularios Interactivos (Frontend) TRIGGER Auto-Deploy DURATION 26.7s
+						172 link Description: 1b7f307, Value: …
+						173 text Deployed
+						174 button 2d ago
+							175 text 2d ago
+						176 button (disabled) Rollback
+							177 image
+							178 text Rollback
+					179 container
+						180 link Description: Deploy succeeded, Value: …
+						181 link Description: Deploy Reestructuración de navegación y modo avanzado (Frontend) TRIGGER Auto-Deploy DURATION 23.1s, Value: …
+						182 link Description: c53c480, Value: …
+						183 text Deployed
+						184 button 2d ago
+							185 text 2d ago
+						186 button (disabled) Rollback
+							187 image
+							188 text Rollback
+					189 container
+						190 link Description: Deploy succeeded, Value: …
+						191 link Value: …, Description: Deploy fix(ui): retirar demos del dashboard y del selector de proyectos TRIGGER Auto-Deploy DURATION 21.8s
+						192 link Description: d9c75c9, Value: …
+						193 text Deployed
+						194 button 2d ago
+							195 text 2d ago
+						196 button (disabled) Rollback
+							197 image
+							198 text Rollback
+					199 container
+						200 link Description: Deploy succeeded, Value: …
+						201 link Value: …, Description: Deploy Flujo de importación y preparación del entorno (Full Stack) TRIGGER Auto-Deploy DURATION 21.4s
+						202 link Description: 11e083c, Value: …
+						203 text Deployed
+						204 button 2d ago
+							205 text 2d ago
+						206 button (disabled) Rollback
+							207 image
+							208 text Rollback
+					209 container
+						210 link Description: Deploy succeeded, Value: …
+						211 link Description: Deploy boton TRIGGER Auto-Deploy DURATION 31.1s, Value: …
+						212 link Description: b95924a, Value: …
+						213 text Deployed
+						214 button 7d ago
+							215 text 7d ago
+						216 button (disabled) Rollback
+							217 image
+							218 text Rollback
+					219 container
+						220 link Description: Deploy succeeded, Value: …
+						221 link Value: …, Description: Deploy feat(ui): cargar demos cloud verificables y consolidar documentacion de produccion TRIGGER Auto-Deploy DURATION 24.8s
+						222 link Description: f83d928, Value: …
+						223 text Deployed
+						224 button 9d ago
+							225 text 9d ago
+						226 button (disabled) Rollback
+							227 image
+							228 text Rollback
+					229 container
+						230 link Description: Deploy succeeded, Value: …
+						231 link Value: …, Description: Deploy feat(ui): implementar dashboard completo, custom hooks y conexion real con backend MCP/REST Conectar auditorias, guardrails, subagentes y 19 herramientas MCP con contratos tipados y datos reales. Agregar 44 pruebas Vitest, TypeScript estricto, ESLint, build reproducible y CI; documentar el alcance REST de patch-safety y la preparacion de despliegue. TRIGGER First Deploy DURATION 25.0s
+						232 link Description: e50561e, Value: …
+						233 text Deployed
+						234 button 9d ago
+							235 text 9d ago
+						236 button (disabled) Rollback
+							237 image
+							238 text Rollback
+
+The focused UI element is 39 link Description: Settings, URL: dashboard.render.com/static/srv-dbbebtmq1p3s73cacms0/settings

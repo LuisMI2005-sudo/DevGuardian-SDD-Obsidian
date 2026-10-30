@@ -1,0 +1,155 @@
+{
+  "observedAt": "2026-10-30T00:55:20.588Z",
+  "projectId": "7ac733ad-df76-4fe5-8fb7-542a3f3a024e",
+  "health": {
+    "http": 200,
+    "data": {
+      "status": "ok",
+      "database": {
+        "connected": true,
+        "mode": "postgres",
+        "tables": 5
+      },
+      "version": "0.1.0",
+      "uptimeSeconds": 335.927730465,
+      "runners": [
+        {
+          "runner": "jest",
+          "available": true
+        },
+        {
+          "runner": "pytest",
+          "available": false
+        }
+      ],
+      "capabilities": {
+        "isolatedTests": false,
+        "requiresIsolation": true
+      }
+    }
+  },
+  "history": {
+    "http": 200,
+    "route": "/api/audits?projectId=7ac733ad-df76-4fe5-8fb7-542a3f3a024e",
+    "records": [
+      {
+        "project": {
+          "id": "7ac733ad-df76-4fe5-8fb7-542a3f3a024e",
+          "name": "PruebasDEVGuard",
+          "sourceUrl": "https://github.com/LuisMI2005-sudo/PruebasDEVGuard.git",
+          "defaultBranch": "main",
+          "createdAt": "2026-10-30T00:53:22.323Z"
+        },
+        "audit": {
+          "id": "0dbec726-fd3a-4e88-86d9-b7ab9849b0a5",
+          "projectId": "7ac733ad-df76-4fe5-8fb7-542a3f3a024e",
+          "status": "failed",
+          "targetFile": "src/archivo-inexistente-ensayo.ts",
+          "startedAt": "2026-10-30T00:54:47.177Z",
+          "finishedAt": "2026-10-30T00:54:48.843Z",
+          "mode": "diagnose",
+          "outcome": "failed",
+          "reason": "Diagnostic mode does not authorize a patch or commit."
+        },
+        "diagnostic": {
+          "status": "failed",
+          "reason": "Specialist could not complete its delegated task.",
+          "findings": []
+        },
+        "delegations": [
+          {
+            "phase": "consumed",
+            "role": "diagnostic",
+            "taskId": "6d4423fd-7b76-4992-9507-4ff48f15feaa",
+            "status": "failed",
+            "consumptionStatus": "diagnosis_only",
+            "toolCount": 1,
+            "snapshots": [
+              {
+                "phase": "delegated",
+                "timestamp": "2026-10-30T00:54:47.321Z"
+              },
+              {
+                "phase": "returned",
+                "timestamp": "2026-10-30T00:54:48.737Z"
+              },
+              {
+                "phase": "consumed",
+                "timestamp": "2026-10-30T00:54:48.837Z",
+                "decision": "diagnosis_only"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "project": {
+          "id": "7ac733ad-df76-4fe5-8fb7-542a3f3a024e",
+          "name": "PruebasDEVGuard",
+          "sourceUrl": "https://github.com/LuisMI2005-sudo/PruebasDEVGuard.git",
+          "defaultBranch": "main",
+          "createdAt": "2026-10-30T00:53:22.323Z"
+        },
+        "audit": {
+          "id": "553526fe-b1b0-465b-ad92-24511d0b8347",
+          "projectId": "7ac733ad-df76-4fe5-8fb7-542a3f3a024e",
+          "status": "blocked",
+          "targetFile": "src/calculator.ts",
+          "startedAt": "2026-10-30T00:53:33.655Z",
+          "finishedAt": "2026-10-30T00:53:41.624Z",
+          "mode": "diagnose",
+          "outcome": "diagnosed",
+          "reason": "Diagnostic mode does not authorize a patch or commit."
+        },
+        "diagnostic": {
+          "status": "completed",
+          "reason": null,
+          "findings": [
+            {
+              "code": "TS2322",
+              "path": "src/calculator.ts",
+              "range": {
+                "end": {
+                  "line": 2,
+                  "column": 9
+                },
+                "start": {
+                  "line": 2,
+                  "column": 3
+                }
+              },
+              "source": "typescript",
+              "message": "Type 'string' is not assignable to type 'number'.",
+              "severity": "error"
+            }
+          ]
+        },
+        "delegations": [
+          {
+            "phase": "consumed",
+            "role": "diagnostic",
+            "taskId": "6bdac770-d9f0-4912-a663-97fb7ac4c487",
+            "status": "completed",
+            "consumptionStatus": "diagnosis_only",
+            "toolCount": 2,
+            "snapshots": [
+              {
+                "phase": "delegated",
+                "timestamp": "2026-10-30T00:53:33.919Z"
+              },
+              {
+                "phase": "returned",
+                "timestamp": "2026-10-30T00:53:41.030Z"
+              },
+              {
+                "phase": "consumed",
+                "timestamp": "2026-10-30T00:53:41.523Z",
+                "decision": "diagnosis_only"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

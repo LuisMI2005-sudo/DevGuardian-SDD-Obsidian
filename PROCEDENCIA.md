@@ -47,3 +47,8 @@ CHECKLIST_ACEPTACION_INCREMENTOS.md traduce los 12 criterios ya definidos en spe
 
 
 Actualización del ensayo técnico del 29/10/2026: los resultados por criterio y versiones están en [ACTA](specs/006-final-increments/ensayo/ACTA.md). Se ejecutaron pruebas PostgreSQL reales, recorrido de Shell, cambios de organización y recuperación/rechazos del loader. La revisión humana y aceptación docente permanecen pendientes. La corrección de navegación del frontend está local, sin commit ni publicación.
+
+
+## Recorrido de la aplicación desplegada
+
+El 29/10/2026 se consultó el panel de Render en modo de lectura: backend 15eedc0c11a62535add7efc9fd3ecb038e5c8ad6 y frontend ea8b600e018b008a40ec51a34d02994ffa815579 figuraron Live. Se ejecutó desde la web pública un registro de proyecto sintético, diagnóstico TS2322, recarga/historial y error por archivo inexistente; el detalle está en [specs/009-deployed-e2e/ACTA.md](specs/009-deployed-e2e/ACTA.md). Los recibos HTTP se redujeron a metadatos de este ensayo, sin credenciales ni código de negocio. No se modificó configuración de hosting ni fuentes del producto. Los cortes anteriores conservan su carácter histórico.
