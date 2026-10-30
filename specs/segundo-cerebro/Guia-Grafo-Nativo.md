@@ -8,7 +8,7 @@ tags: [devguardian, dg/direccion]
 
 ## Abrir como en GameZone
 
-1. Seleccionar la bóveda ProyectoCertiIA.
+1. Seleccionar la bóveda de entrega **DevGuardian-SDD-Obsidian**. La bóveda ProyectoCertiIA corresponde al repositorio de código y conserva el recorrido histórico del 28/10/2026.
 2. Pulsar el icono de nodos conectados de la barra izquierda: Open graph view.
 3. En los ajustes del grafo, Filters, usar path:"specs/segundo-cerebro".
 4. Los grupos dg/ dan color a fuentes, análisis, arquitectura, seguridad, verificación, IA, investigación y dirección.
@@ -25,6 +25,6 @@ GameZone conserva su grafo independiente en la bóveda practica. No se mezclaron
 
 ## Configuración y evidencia
 
-La configuración local vive en .obsidian/graph.json y permanece ignorada por Git. El [preset de filtros y colores](grafo-nativo.json) documenta los valores portables, sin publicar el estado personal de la ventana. Los ajustes de Graph view pueden cambiarse desde la interfaz y se guardan localmente. No requiere plugins ni aceptar el permiso de Mermaid: este grafo se basa en enlaces Markdown.
+En esta bóveda independiente se versiona el preset compartido `.obsidian/graph.json`, con filtros y 20 grupos de colores. El [preset conceptual anterior](grafo-nativo.json) conserva el subconjunto del segundo cerebro. El estado personal de ventanas (`workspace*.json`) permanece ignorado por Git. No se necesitan plugins comunitarios ni aceptar el permiso de Mermaid para el grafo nativo: este se basa en enlaces Markdown. Los diagramas Mermaid dentro de las notas sí requieren el permiso de visualización de Obsidian cuando aparezca.
 
 El 2026-10-28 se observó la vista nativa con categorías coloreadas y notas de conceptos y módulos. Se verificaron los enlaces con sdd:check. No se cambiaron fuentes de la aplicación. El [Canvas](Grafo-DevGuardian.canvas) y los diagramas Mermaid siguen siendo vistas complementarias.

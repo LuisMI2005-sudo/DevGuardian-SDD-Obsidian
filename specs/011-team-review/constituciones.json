@@ -1,0 +1,26 @@
+{
+  "reviewedAt": "2026-10-29",
+  "normalization": "LF",
+  "constitutions": [
+    {
+      "component": "backend",
+      "version": "1.1.0",
+      "source": ".specify/memory/constitution.md",
+      "visible": "specs/constitution.md",
+      "sha256LF": "4aca5a3e4805c2546bd6ed01449e35dc817a39f7ab2ea1c6972c66950f1192a2",
+      "visibleMatchesSource": true,
+      "applicationSource": "ProyectoCertiIA/.specify/memory/constitution.md",
+      "applicationSourceMatches": true
+    },
+    {
+      "component": "frontend",
+      "version": "1.1.0",
+      "source": "frontend/.specify/memory/constitution.md",
+      "visible": "frontend/specs/constitution.md",
+      "sha256LF": "39c9e3a880db721267418ac6ddf082d1b0d294063dd77d698492e1209094a76d",
+      "visibleMatchesSource": true,
+      "applicationSource": "Frontend/.specify/memory/constitution.md",
+      "applicationSourceMatches": true
+    }
+  ]
+}

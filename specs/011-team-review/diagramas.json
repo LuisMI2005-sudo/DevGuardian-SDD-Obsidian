@@ -1,0 +1,347 @@
+[
+  {
+    "path": "README.md",
+    "line": 61,
+    "type": "flowchart"
+  },
+  {
+    "path": "frontend/specs/001-sdd-foundation/architecture.md",
+    "line": 5,
+    "type": "flowchart"
+  },
+  {
+    "path": "frontend/specs/001-sdd-foundation/data-model.md",
+    "line": 5,
+    "type": "erDiagram"
+  },
+  {
+    "path": "frontend/specs/001-sdd-foundation/plan.md",
+    "line": 35,
+    "type": "flowchart"
+  },
+  {
+    "path": "frontend/specs/001-sdd-foundation/processes.md",
+    "line": 5,
+    "type": "sequenceDiagram"
+  },
+  {
+    "path": "frontend/specs/001-sdd-foundation/spec.md",
+    "line": 29,
+    "type": "flowchart"
+  },
+  {
+    "path": "frontend/specs/README.md",
+    "line": 47,
+    "type": "flowchart"
+  },
+  {
+    "path": "frontend/specs/constitution.md",
+    "line": 28,
+    "type": "flowchart"
+  },
+  {
+    "path": "frontend/specs/templates/architecture-template.md",
+    "line": 5,
+    "type": "flowchart"
+  },
+  {
+    "path": "frontend/specs/templates/data-model-template.md",
+    "line": 5,
+    "type": "erDiagram"
+  },
+  {
+    "path": "frontend/specs/templates/plan-template.md",
+    "line": 50,
+    "type": "flowchart"
+  },
+  {
+    "path": "frontend/specs/templates/plan-template.md",
+    "line": 67,
+    "type": "flowchart"
+  },
+  {
+    "path": "frontend/specs/templates/plan-template.md",
+    "line": 99,
+    "type": "flowchart"
+  },
+  {
+    "path": "frontend/specs/templates/processes-template.md",
+    "line": 5,
+    "type": "sequenceDiagram"
+  },
+  {
+    "path": "frontend/specs/templates/spec-template.md",
+    "line": 145,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/001-sdd-foundation/architecture.md",
+    "line": 5,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/001-sdd-foundation/data-model.md",
+    "line": 5,
+    "type": "erDiagram"
+  },
+  {
+    "path": "specs/001-sdd-foundation/plan.md",
+    "line": 35,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/001-sdd-foundation/processes.md",
+    "line": 5,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/001-sdd-foundation/spec.md",
+    "line": 29,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/002-platform-migration/architecture.md",
+    "line": 5,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/002-platform-migration/architecture.md",
+    "line": 62,
+    "type": "sequenceDiagram"
+  },
+  {
+    "path": "specs/002-platform-migration/plan.md",
+    "line": 13,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/003-documentation-repository/architecture.md",
+    "line": 6,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/003-documentation-repository/data-model.md",
+    "line": 6,
+    "type": "erDiagram"
+  },
+  {
+    "path": "specs/003-documentation-repository/plan.md",
+    "line": 19,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/003-documentation-repository/processes.md",
+    "line": 6,
+    "type": "sequenceDiagram"
+  },
+  {
+    "path": "specs/004-safe-repair-deployment/consolidation.md",
+    "line": 28,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/004-safe-repair-deployment/plan.md",
+    "line": 13,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/004-safe-repair-deployment/validation.md",
+    "line": 24,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/005-final-traceability/spec.md",
+    "line": 24,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/006-final-increments/spec.md",
+    "line": 63,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/007-release-qa/spec.md",
+    "line": 27,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/009-deployed-e2e/spec.md",
+    "line": 22,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/010-assistant-demo/spec.md",
+    "line": 23,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/README.md",
+    "line": 49,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/constitution.md",
+    "line": 28,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/segundo-cerebro/00-Segundo-cerebro.md",
+    "line": 54,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/segundo-cerebro/05-Arquitectura-y-patrones.md",
+    "line": 16,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/segundo-cerebro/10-Flujo-reparacion.md",
+    "line": 14,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/segundo-cerebro/arquitectura-objetivo/00-Arquitectura-Objetivo.md",
+    "line": 32,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/segundo-cerebro/arquitectura-objetivo/AR-Flujos.md",
+    "line": 23,
+    "type": "sequenceDiagram"
+  },
+  {
+    "path": "specs/segundo-cerebro/arquitectura-objetivo/AR-Microfrontends.md",
+    "line": 27,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/segundo-cerebro/arquitectura-objetivo/AR-SOLID.md",
+    "line": 46,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/segundo-cerebro/arquitectura-objetivo/BE-Auditorias.md",
+    "line": 40,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/segundo-cerebro/arquitectura-objetivo/BE-Ejecucion.md",
+    "line": 40,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/segundo-cerebro/arquitectura-objetivo/BE-Identidad.md",
+    "line": 40,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/segundo-cerebro/arquitectura-objetivo/BE-Planificador-IA.md",
+    "line": 40,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/segundo-cerebro/arquitectura-objetivo/BE-Politicas.md",
+    "line": 40,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/segundo-cerebro/arquitectura-objetivo/BE-Proyectos.md",
+    "line": 40,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/segundo-cerebro/arquitectura-objetivo/BE-Telemetria.md",
+    "line": 40,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/segundo-cerebro/arquitectura-objetivo/DB-Auditorias.md",
+    "line": 24,
+    "type": "erDiagram"
+  },
+  {
+    "path": "specs/segundo-cerebro/arquitectura-objetivo/DB-Ejecucion.md",
+    "line": 24,
+    "type": "erDiagram"
+  },
+  {
+    "path": "specs/segundo-cerebro/arquitectura-objetivo/DB-Identidad.md",
+    "line": 24,
+    "type": "erDiagram"
+  },
+  {
+    "path": "specs/segundo-cerebro/arquitectura-objetivo/DB-Planificador.md",
+    "line": 24,
+    "type": "erDiagram"
+  },
+  {
+    "path": "specs/segundo-cerebro/arquitectura-objetivo/DB-Politicas.md",
+    "line": 24,
+    "type": "erDiagram"
+  },
+  {
+    "path": "specs/segundo-cerebro/arquitectura-objetivo/DB-Proyectos.md",
+    "line": 24,
+    "type": "erDiagram"
+  },
+  {
+    "path": "specs/segundo-cerebro/arquitectura-objetivo/DB-Telemetria.md",
+    "line": 24,
+    "type": "erDiagram"
+  },
+  {
+    "path": "specs/segundo-cerebro/arquitectura/00-Arquitectura-modulos.md",
+    "line": 29,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/segundo-cerebro/auditoria-integral/00-Informe-Integral.md",
+    "line": 46,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/segundo-cerebro/auditoria-integral/04-Evaluacion-arquitectonica.md",
+    "line": 37,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/segundo-cerebro/auditoria-integral/06-Modelo-comercial.md",
+    "line": 39,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/templates/architecture-template.md",
+    "line": 5,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/templates/data-model-template.md",
+    "line": 5,
+    "type": "erDiagram"
+  },
+  {
+    "path": "specs/templates/plan-template.md",
+    "line": 50,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/templates/plan-template.md",
+    "line": 67,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/templates/plan-template.md",
+    "line": 99,
+    "type": "flowchart"
+  },
+  {
+    "path": "specs/templates/processes-template.md",
+    "line": 5,
+    "type": "sequenceDiagram"
+  },
+  {
+    "path": "specs/templates/spec-template.md",
+    "line": 145,
+    "type": "flowchart"
+  }
+]

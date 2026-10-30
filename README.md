@@ -14,6 +14,7 @@ Repositorio documental independiente para la revisión docente de **Specificatio
 | Qué revisar | Documento o carpeta |
 |---|---|
 | Recorrido de la versión publicada y commits Live | [Protocolo](specs/009-deployed-e2e/spec.md), [acta con IDs y capturas](specs/009-deployed-e2e/ACTA.md) |
+| Revisión del equipo | [Acta de constituciones y Obsidian; confirmación de los tres integrantes](specs/011-team-review/ACTA.md) |
 | Constitución y principios | [Constitución del backend](specs/constitution.md) y [frontend](frontend/specs/constitution.md) |
 | Especificación, plan y tareas SDD | [Adopción SDD](specs/001-sdd-foundation/spec.md), [plan](specs/001-sdd-foundation/plan.md), [tareas](specs/001-sdd-foundation/tasks.md) |
 | Separación de este repositorio | [Especificación](specs/003-documentation-repository/spec.md), [plan](specs/003-documentation-repository/plan.md), [tareas](specs/003-documentation-repository/tasks.md) |

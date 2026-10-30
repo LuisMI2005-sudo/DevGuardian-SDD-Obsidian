@@ -38,8 +38,8 @@ No se guarda ningún secreto, token, URL de conexión con credenciales ni conten
 | [QA-005 Aceptar INC-02 Shell y seis remotos](#qa-005) | P0 | Aceptación de incremento | [HU-37](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/42) | Codex (operador técnico de esta sesión) |
 | [QA-006 Acreditar activación de hooks del asistente](#qa-006) | P0 | Demostración | [HU-51](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/56) | Codex (ensayo autorizado por el usuario) |
 | [QA-007 Auditar secretos y permisos de la entrega](#qa-007) | P0 | Revisión de seguridad | [HU-40](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/45) | Por asignar |
-| [QA-008 Revisar constitución y estados SDD con el equipo](#qa-008) | P0 | Revisión humana | [HU-47](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/52) | Por asignar |
-| [QA-009 Ensayar Obsidian como segundo cerebro](#qa-009) | P0 | Revisión humana | [HU-48](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/53) | Por asignar |
+| [QA-008 Revisar constitución y estados SDD con el equipo](#qa-008) | P0 | Revisión humana | [HU-47](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/52) | Equipo Six seven; acta preparada por Codex |
+| [QA-009 Ensayar Obsidian como segundo cerebro](#qa-009) | P0 | Revisión humana | [HU-48](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/53) | Equipo Six seven; acta preparada por Codex |
 | [QA-010 Acreditar acceso y aportes reales](#qa-010) | P0 | Revisión de colaboración | [HU-22](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/27) | Por asignar |
 | [QA-011 Preparar defensa individual y pitch](#qa-011) | P0 | Revisión humana | [HU-39](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/44) | Por asignar |
 | [QA-012 Completar rollback real conservando trabajo ajeno](#qa-012) | P1 | Cobertura pendiente | [HU-18](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/23) | Por asignar |
@@ -240,11 +240,11 @@ Los trabajos de Jest/pytest, recursos MCP y robustez no se ocultan ni se cierran
 **Revisar constitución y estados SDD con el equipo**
 
 - **Tipo / prioridad:** Revisión humana / P0.
-- **Estado registrado:** Por validar; consultar la evidencia antes de declararlo comprobado.
+- **Estado registrado:** Cerrado; consultar la evidencia antes de declararlo comprobado.
 - **HU / issue de seguimiento:** [HU-47](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/52).
-- **Área sugerida:** Equipo / QA. **Responsable:** Por asignar. **Revisor:** Por asignar.
+- **Área sugerida:** Equipo / QA. **Responsable:** Equipo Six seven; acta preparada por Codex. **Revisor:** Eduardo Quinteros, Sebhastian Campero y Luis Miguel Gonzales (confirmación de ambas revisiones aportada por el usuario el 29/10/2026).
 - **Entorno:** Bóveda documental y versión candidata.
-- **Condición conocida:** Verificadores aprobados; falta revisión y aceptación del equipo.
+- **Condición conocida:** Constituciones 1.1.0 contrastadas y fuentes coincidentes. El usuario confirmó expresamente que los tres integrantes revisaron y aprobaron ambas constituciones. Declaración identificada en el acta, sin firmas independientes ni aceptación docente.
 
 **Pasos de reproducción o comprobación**
 
@@ -258,18 +258,18 @@ Los trabajos de Jest/pytest, recursos MCP y robustez no se ocultan ni se cierran
 
 **Referencia existente:** [código/prueba/documentación](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/scripts/spec-kit-docs.mjs). Es referencia del criterio, no constancia de que la nueva comprobación ya pasó.
 
-**Evidencia nueva:** Sin registrar. **Rama:** Sin registrar. **PR:** Sin registrar. Anotar comando o recorrido exacto, resultado, fecha y SHA; responsable y revisor reales. Registrar fallo/No reproducido si corresponde.
+**Evidencia nueva:** https://github.com/LuisMI2005-sudo/DevGuardian-SDD-Obsidian/blob/main/specs/011-team-review/ACTA.md. **Rama:** Sin registrar. **PR:** Sin registrar. Anotar comando o recorrido exacto, resultado, fecha y SHA; responsable y revisor reales. Registrar fallo/No reproducido si corresponde.
 
 ### QA-009
 
 **Ensayar Obsidian como segundo cerebro**
 
 - **Tipo / prioridad:** Revisión humana / P0.
-- **Estado registrado:** Por validar; consultar la evidencia antes de declararlo comprobado.
+- **Estado registrado:** Cerrado; consultar la evidencia antes de declararlo comprobado.
 - **HU / issue de seguimiento:** [HU-48](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/53).
-- **Área sugerida:** Equipo / QA. **Responsable:** Por asignar. **Revisor:** Por asignar.
+- **Área sugerida:** Equipo / QA. **Responsable:** Equipo Six seven; acta preparada por Codex. **Revisor:** Eduardo Quinteros, Sebhastian Campero y Luis Miguel Gonzales (confirmación de ambas revisiones aportada por el usuario el 29/10/2026).
 - **Entorno:** Bóveda DevGuardian-SDD-Obsidian.
-- **Condición conocida:** Estructura validada; no se da por ejecutado el ensayo visual del equipo.
+- **Condición conocida:** Bóveda independiente y enlace README a constitución comprobados por Codex; el controlador impidió completar su render/grafo. El usuario confirmó el recorrido visual por Obsidian, diagramas, enlaces y grafos de los tres integrantes. Se corrigió la guía de bóveda/preset; la confirmación humana se distingue del recorrido parcial del asistente.
 
 **Pasos de reproducción o comprobación**
 
@@ -283,7 +283,7 @@ Los trabajos de Jest/pytest, recursos MCP y robustez no se ocultan ni se cierran
 
 **Referencia existente:** [código/prueba/documentación](https://github.com/LuisMI2005-sudo/DevGuardian-SDD-Obsidian/blob/b1e1a41865058aea1f41440a53b32268ae053555/scripts/check-vault.mjs). Es referencia del criterio, no constancia de que la nueva comprobación ya pasó.
 
-**Evidencia nueva:** Sin registrar. **Rama:** Sin registrar. **PR:** Sin registrar. Anotar comando o recorrido exacto, resultado, fecha y SHA; responsable y revisor reales. Registrar fallo/No reproducido si corresponde.
+**Evidencia nueva:** https://github.com/LuisMI2005-sudo/DevGuardian-SDD-Obsidian/blob/main/specs/011-team-review/ACTA.md. **Rama:** Sin registrar. **PR:** Sin registrar. Anotar comando o recorrido exacto, resultado, fecha y SHA; responsable y revisor reales. Registrar fallo/No reproducido si corresponde.
 
 ### QA-010
 

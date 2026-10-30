@@ -1,0 +1,19 @@
+{
+  "check": {
+    "command": "npm run check",
+    "exitCode": 0,
+    "qaCases": 20,
+    "graphGroups": 20,
+    "mermaid": 69,
+    "userStories": 51,
+    "markdown": 152,
+    "canvas": 3
+  },
+  "priorFailure": "El comprobador frontend rechazó un enlace relativo fuera de su raíz; se sustituyó por el enlace al acta publicada y la repetición pasó.",
+  "qaRender": {
+    "command": "npm run qa:render",
+    "exitCode": 0
+  },
+  "scope": "Validación estructural; revisión del equipo confirmada por el usuario, recorrido visual del asistente parcial.",
+  "recordedAt": "2026-10-30T01:34:41.5896458Z"
+}
