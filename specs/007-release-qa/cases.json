@@ -1,7 +1,7 @@
 {
   "recordedAt": "2026-10-29",
   "scope": "Lista de coordinación; no es una ejecución nueva de producto.",
-  "confirmedBugs": 1,
+  "confirmedBugs": 2,
   "coordinatorIssue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/57",
   "cases": [
     {
@@ -150,12 +150,12 @@
     {
       "id": "QA-006",
       "title": "Acreditar activación de hooks del asistente",
-      "type": "Demostración",
+      "type": "Bug confirmado",
       "priority": "P0",
       "area": "QA / entorno de desarrollo",
-      "owner": "Codex (ensayo autorizado por el usuario)",
+      "owner": "Codex (ensayo nativo autorizado por el usuario)",
       "reviewer": null,
-      "state": "Activación real acreditada; edición positiva pendiente por runtime Windows",
+      "state": "Ensayo nativo completo; corrección en PR #58 pendiente de integración",
       "hu": 51,
       "trackingHu": 51,
       "issue": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/56",
@@ -168,12 +168,12 @@
       ],
       "expected": "La sesión real demuestra la interceptación y el especialista presentado; una configuración en disco no se usa como sustituto de activación.",
       "verification": "tests/ide-integration/ide-hooks.test.mjs más evidencia de sesión/evento real y rol. No desactivar políticas ni tocar un .env real para obtener la captura.",
-      "observed": "Codex CLI 0.162.1 ejecutó SessionStart, PreToolUse allow/block, PostToolUse y SubagentStart/Stop del perfil verificador; MCP nativo de lectura correcto. Ambos apply_patch fallaron por windows_sandbox: falta edición positiva, verificación posterior y causalidad aislada del rechazo. Subagente del chat: sdd:check exit 0.",
+      "observed": "MXC permitió la edición TypeScript y PostToolUse aprobó compilación, lint y Jest de tests/hooks. Se reprodujo un defecto del wrapper Windows: PowerShell convertía el rechazo 2 a 1 y creaba el marcador protegido. Tras añadir exit $LASTEXITCODE, revisar/confiar mediante /hooks y repetir desde cero, Codex rechazó explícitamente antes de crear el marcador. Fixtures retiradas; pruebas y políticas intactas. Corrección 637fbde en PR #58 hacia Dev, sin merge ni despliegue.",
       "evidenceAvailable": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/ide-integration/ide-hooks.test.mjs",
-      "evidenceRecorded": "https://github.com/LuisMI2005-sudo/DevGuardian-SDD-Obsidian/blob/main/specs/010-assistant-demo/ACTA.md",
-      "branch": null,
-      "pullRequest": null,
-      "confirmedBug": false
+      "evidenceRecorded": "https://github.com/LuisMI2005-sudo/DevGuardian-SDD-Obsidian/blob/main/specs/013-native-hook-acceptance/ACTA.md",
+      "branch": "fix/windows-hook-exit-codes",
+      "pullRequest": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/58",
+      "confirmedBug": true
     },
     {
       "id": "QA-007",

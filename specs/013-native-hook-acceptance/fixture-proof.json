@@ -1,0 +1,62 @@
+{
+  "initial": {
+    "at": "2026-10-30T11:13:17.354Z",
+    "path": "src/hooks/qa-native-demo.ts",
+    "exists": true,
+    "contentMatchesExpected": true,
+    "sha256": "1c1928f4a624fc3257aa3455b457539cdb2a7648e055d6430c0f728785e17355",
+    "bytes": 40,
+    "protectedMarkerExists": true,
+    "protectedFilesUnchanged": true,
+    "protectedCount": 29,
+    "changedProtectedPaths": []
+  },
+  "corrected": {
+    "at": "2026-10-30T11:18:04.073Z",
+    "path": "src/hooks/qa-native-demo.ts",
+    "exists": true,
+    "contentMatchesExpected": true,
+    "sha256": "1c1928f4a624fc3257aa3455b457539cdb2a7648e055d6430c0f728785e17355",
+    "bytes": 40,
+    "protectedMarkerExists": false,
+    "protectedFilesUnchanged": false,
+    "protectedCount": 29,
+    "changedProtectedPaths": [
+      ".codex/hooks.json"
+    ]
+  },
+  "initialCleanup": {
+    "at": "2026-10-30T11:13:39.723Z",
+    "label": "initial",
+    "removed": [
+      "src/hooks/qa-native-demo.ts",
+      "tests/demo-hook-protected.test.mjs",
+      "dist/hooks/qa-native-demo.js",
+      "dist/hooks/qa-native-demo.js.map",
+      "dist/hooks/qa-native-demo.d.ts",
+      "dist/hooks/qa-native-demo.d.ts.map"
+    ],
+    "absent": [
+      "src/hooks/qa-native-demo.ts",
+      "tests/demo-hook-protected.test.mjs"
+    ],
+    "scope": "Only exact authorized temporary fixtures and their compiled outputs; no recursive cleanup"
+  },
+  "finalCleanup": {
+    "at": "2026-10-30T11:18:49.374Z",
+    "label": "final",
+    "removed": [
+      "src/hooks/qa-native-demo.ts",
+      "dist/hooks/qa-native-demo.js",
+      "dist/hooks/qa-native-demo.js.map",
+      "dist/hooks/qa-native-demo.d.ts",
+      "dist/hooks/qa-native-demo.d.ts.map"
+    ],
+    "absent": [
+      "src/hooks/qa-native-demo.ts",
+      "tests/demo-hook-protected.test.mjs"
+    ],
+    "scope": "Only exact authorized temporary fixtures and their compiled outputs; no recursive cleanup"
+  },
+  "note": "corrected.changedProtectedPaths contains exactly the explicitly authorized hooks.json fix, not a test or rule change"
+}

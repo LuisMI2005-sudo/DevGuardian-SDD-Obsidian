@@ -1,0 +1,65 @@
+{
+  "at": "2026-10-30T11:11:16.233Z",
+  "method": "Harmless child-process exit codes; no manual injection of native hook events",
+  "changedHandlers": 7,
+  "ruleChanges": false,
+  "results": [
+    {
+      "shell": "powershell.exe",
+      "expectedNodeExit": 0,
+      "preserveLastExitCode": false,
+      "shellExit": 0,
+      "spawnFailed": false
+    },
+    {
+      "shell": "powershell.exe",
+      "expectedNodeExit": 0,
+      "preserveLastExitCode": true,
+      "shellExit": 0,
+      "spawnFailed": false
+    },
+    {
+      "shell": "powershell.exe",
+      "expectedNodeExit": 2,
+      "preserveLastExitCode": false,
+      "shellExit": 1,
+      "spawnFailed": false
+    },
+    {
+      "shell": "powershell.exe",
+      "expectedNodeExit": 2,
+      "preserveLastExitCode": true,
+      "shellExit": 2,
+      "spawnFailed": false
+    },
+    {
+      "shell": "pwsh.exe",
+      "expectedNodeExit": 0,
+      "preserveLastExitCode": false,
+      "shellExit": 0,
+      "spawnFailed": false
+    },
+    {
+      "shell": "pwsh.exe",
+      "expectedNodeExit": 0,
+      "preserveLastExitCode": true,
+      "shellExit": 0,
+      "spawnFailed": false
+    },
+    {
+      "shell": "pwsh.exe",
+      "expectedNodeExit": 2,
+      "preserveLastExitCode": false,
+      "shellExit": 1,
+      "spawnFailed": false
+    },
+    {
+      "shell": "pwsh.exe",
+      "expectedNodeExit": 2,
+      "preserveLastExitCode": true,
+      "shellExit": 2,
+      "spawnFailed": false
+    }
+  ],
+  "proposedFixPasses": true
+}

@@ -1,0 +1,25 @@
+{
+  "codex": "0.162.1",
+  "node": "v24.19.0",
+  "windowsBuild": "26300",
+  "legacyDiagnostic": "helper_unknown_error: setup refresh had errors",
+  "mxcDiagnostic": {
+    "command": "codex -c windows.sandbox=mxc -C <backend> sandbox --include-managed-config --permission-profile :workspace -- cmd.exe /d /c echo MXC_HOOK_CHECK",
+    "stdout": "MXC_HOOK_CHECK",
+    "exitCode": 0
+  },
+  "nativeExecution": {
+    "sandbox": "MXC",
+    "permissionMode": "workspace-write",
+    "scope": "Session only; saved global selection unchanged"
+  },
+  "userAuthorization": {
+    "date": "2026-10-30",
+    "text": "Autorizo la corrección y la revisión normal de /hooks"
+  },
+  "trustReview": {
+    "method": "Operator observed native /hooks; reviewed modified PreToolUse command with explicit exit, then approved seven changed handlers through normal Trust all flow",
+    "trustBypass": false
+  },
+  "manualHookEventInjection": false
+}

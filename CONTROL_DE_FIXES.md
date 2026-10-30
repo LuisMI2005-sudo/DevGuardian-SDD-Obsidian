@@ -5,7 +5,7 @@ tags: [devguardian, dg/verificacion, dg/direccion]
 
 **Corte:** 2026-10-29. [Issue coordinador](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/57). Esta es la lista canónica de trabajo para el cierre; los README y los issues la enlazan, no mantienen listas competidoras.
 
-**Estado observado:** 18 HU de seguimiento y 20 casos, incluidos dos de aceptación de incrementos. Bugs confirmados según este registro: **1**. Generar la lista no ejecuta por sí solo pruebas de producto. Las HU-44/HU-46 siguen con cierre técnico; su ensayo final se coordina dentro de HU-37. Los registros anteriores a Spec Kit son retrospectivos y no modifican fechas o autorías originales.
+**Estado observado:** 18 HU de seguimiento y 20 casos, incluidos dos de aceptación de incrementos. Bugs confirmados según este registro: **2**. Generar la lista no ejecuta por sí solo pruebas de producto. Las HU-44/HU-46 siguen con cierre técnico; su ensayo final se coordina dentro de HU-37. Los registros anteriores a Spec Kit son retrospectivos y no modifican fechas o autorías originales.
 
 ## Cómo usarla antes de tocar código
 
@@ -36,7 +36,7 @@ No se guarda ningún secreto, token, URL de conexión con credenciales ni conten
 | [QA-003 Repetir el recorrido punta a punta de la entrega](#qa-003) | P0 | Demostración | [HU-37](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/42) | Codex (operador técnico autorizado) |
 | [QA-004 Aceptar INC-01 organizaciones y accesos](#qa-004) | P0 | Aceptación de incremento | [HU-37](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/42) | Codex (operador técnico de esta sesión) |
 | [QA-005 Aceptar INC-02 Shell y seis remotos](#qa-005) | P0 | Aceptación de incremento | [HU-37](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/42) | Codex (operador técnico de esta sesión) |
-| [QA-006 Acreditar activación de hooks del asistente](#qa-006) | P0 | Demostración | [HU-51](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/56) | Codex (ensayo autorizado por el usuario) |
+| [QA-006 Acreditar activación de hooks del asistente](#qa-006) | P0 | Bug confirmado | [HU-51](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/56) | Codex (ensayo nativo autorizado por el usuario) |
 | [QA-007 Auditar secretos y permisos de la entrega](#qa-007) | P0 | Revisión de seguridad | [HU-40](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/45) | Codex (auditoría autorizada por el usuario) |
 | [QA-008 Revisar constitución y estados SDD con el equipo](#qa-008) | P0 | Revisión humana | [HU-47](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/52) | Equipo Six seven; acta preparada por Codex |
 | [QA-009 Ensayar Obsidian como segundo cerebro](#qa-009) | P0 | Revisión humana | [HU-48](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/53) | Equipo Six seven; acta preparada por Codex |
@@ -189,12 +189,12 @@ Los trabajos de Jest/pytest, recursos MCP y robustez no se ocultan ni se cierran
 
 **Acreditar activación de hooks del asistente**
 
-- **Tipo / prioridad:** Demostración / P0.
-- **Estado registrado:** Activación real acreditada; edición positiva pendiente por runtime Windows; consultar la evidencia antes de declararlo comprobado.
+- **Tipo / prioridad:** Bug confirmado / P0.
+- **Estado registrado:** Ensayo nativo completo; corrección en PR #58 pendiente de integración; consultar la evidencia antes de declararlo comprobado.
 - **HU / issue de seguimiento:** [HU-51](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/issues/56).
-- **Área sugerida:** QA / entorno de desarrollo. **Responsable:** Codex (ensayo autorizado por el usuario). **Revisor:** Por asignar.
+- **Área sugerida:** QA / entorno de desarrollo. **Responsable:** Codex (ensayo nativo autorizado por el usuario). **Revisor:** Por asignar.
 - **Entorno:** Asistente compatible en workspace de ensayo.
-- **Condición conocida:** Codex CLI 0.162.1 ejecutó SessionStart, PreToolUse allow/block, PostToolUse y SubagentStart/Stop del perfil verificador; MCP nativo de lectura correcto. Ambos apply_patch fallaron por windows_sandbox: falta edición positiva, verificación posterior y causalidad aislada del rechazo. Subagente del chat: sdd:check exit 0.
+- **Condición conocida:** MXC permitió la edición TypeScript y PostToolUse aprobó compilación, lint y Jest de tests/hooks. Se reprodujo un defecto del wrapper Windows: PowerShell convertía el rechazo 2 a 1 y creaba el marcador protegido. Tras añadir exit $LASTEXITCODE, revisar/confiar mediante /hooks y repetir desde cero, Codex rechazó explícitamente antes de crear el marcador. Fixtures retiradas; pruebas y políticas intactas. Corrección 637fbde en PR #58 hacia Dev, sin merge ni despliegue.
 
 **Pasos de reproducción o comprobación**
 
@@ -208,7 +208,7 @@ Los trabajos de Jest/pytest, recursos MCP y robustez no se ocultan ni se cierran
 
 **Referencia existente:** [código/prueba/documentación](https://github.com/LuisMI2005-sudo/ProyectoCertiIA/blob/39cb46a93b3c750100e09aab93950607aff357da/tests/ide-integration/ide-hooks.test.mjs). Es referencia del criterio, no constancia de que la nueva comprobación ya pasó.
 
-**Evidencia nueva:** https://github.com/LuisMI2005-sudo/DevGuardian-SDD-Obsidian/blob/main/specs/010-assistant-demo/ACTA.md. **Rama:** Sin registrar. **PR:** Sin registrar. Anotar comando o recorrido exacto, resultado, fecha y SHA; responsable y revisor reales. Registrar fallo/No reproducido si corresponde.
+**Evidencia nueva:** https://github.com/LuisMI2005-sudo/DevGuardian-SDD-Obsidian/blob/main/specs/013-native-hook-acceptance/ACTA.md. **Rama:** fix/windows-hook-exit-codes. **PR:** https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/58. Anotar comando o recorrido exacto, resultado, fecha y SHA; responsable y revisor reales. Registrar fallo/No reproducido si corresponde.
 
 ### QA-007
 

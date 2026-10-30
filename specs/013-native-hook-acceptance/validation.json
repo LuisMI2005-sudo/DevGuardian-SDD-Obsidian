@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-30",
+  "nativeAcceptance": {
+    "allowedEdit": true,
+    "postToolVerification": "TypeScript, schema copy, ESLint and Jest tests/hooks passed",
+    "protectedAttempt": "Explicit PreToolUse denial; marker not created",
+    "fixturesCleaned": true,
+    "existingTestFilesUnchanged": 19
+  },
+  "backendPullRequest": {
+    "url": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/pull/58",
+    "draft": true,
+    "base": "Dev",
+    "head": "637fbde2abba69255ed22c326dee5ed3dfb58849",
+    "merged": false,
+    "ci": "https://github.com/LuisMI2005-sudo/ProyectoCertiIA/actions/runs/41047398799",
+    "conclusion": "success",
+    "jobs": [
+      {"name": "TypeScript, ESLint, Jest y pytest", "conclusion": "success"},
+      {"name": "Reparación real con Jest y pytest en Docker", "conclusion": "success"}
+    ]
+  },
+  "documentation": {
+    "qaRenderExitCode": 0,
+    "checkExitCode": 0,
+    "markdown": 156,
+    "canvas": 3,
+    "mermaid": 69,
+    "graphGroups": 20,
+    "userStories": 51,
+    "qaCases": 20,
+    "confirmedDefectsInHistory": 2
+  },
+  "productionChanged": false
+}

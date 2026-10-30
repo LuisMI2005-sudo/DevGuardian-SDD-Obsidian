@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-30T11:22:53.032Z",
+  "baseHead": "15eedc0c11a62535add7efc9fd3ecb038e5c8ad6",
+  "fixHead": "637fbde2abba69255ed22c326dee5ed3dfb58849",
+  "protectedFilesInventoried": 29,
+  "existingTestsChecked": 19,
+  "changedProtectedPaths": [
+    ".codex/hooks.json"
+  ],
+  "unchangedProtectedCount": 28,
+  "onlyAuthorizedWindowsWrapperChange": true,
+  "changedWindowsCommands": 7,
+  "rulesMatchersPathsAndLimitsUnchanged": true,
+  "beforeConfigSha256": "c7388a99c80ef05c7addde4c1e6776df5b7e37386d05044c210dfb429a99f043",
+  "afterConfigSha256": "fce5bf50cada8cadcf0003fc70f3682a7b8eff884dc79455ea2a91d5ccb3c4d4",
+  "fixturesAbsentAfterCleanup": true
+}

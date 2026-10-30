@@ -3,7 +3,11 @@ tags: [devguardian, dg/verificacion, dg/ia, dg/seguridad]
 ---
 # Acta: habilidad, MCP, hooks y subagentes
 
-**Fecha local:** 29/10/2026, America/La_Paz. Las trazas usan UTC y por eso muestran 30/10/2026. **Resultado:** activación real acreditada; recorrido completo de edición de QA-006 pendiente por el runtime Windows. [Criterios](spec.md).
+**Fecha local:** 29/10/2026, America/La_Paz. Las trazas usan UTC y por eso muestran 30/10/2026. **Resultado del ensayo inicial:** activación real acreditada; recorrido completo de edición de QA-006 pendiente por el runtime Windows. [Criterios](spec.md).
+
+## Actualización del 30/10/2026
+
+La prueba de edición permitida, verificación posterior y rechazo protegido se completó en [la aceptación nativa posterior](../013-native-hook-acceptance/ACTA.md), usando MXC y una corrección autorizada que conserva el código 2 de PowerShell. Los fallos y pendientes narrados abajo corresponden al ensayo inicial del 29/10. La corrección está en PR #58 y no modifica la versión desplegada mientras no se integre.
 
 ## Versiones y trazabilidad
 

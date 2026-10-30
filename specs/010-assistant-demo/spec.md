@@ -12,7 +12,7 @@ Solicitud del usuario del 29/10/2026: mostrar funcionando una habilidad, MCP, ho
 - [x] AS-03 Aprobar los hooks mediante el flujo normal, con autorización expresa, y obtener eventos nativos reales.
 - [x] AS-04 Cargar el perfil nativo `verificador`, observar inicio y fin, y registrar el resultado y sus límites. Ejecutar además una verificación independiente mediante un subagente del chat.
 - [x] AS-05 Conservar una traza sanitizada y distinguir hooks nativos, controles MCP del motor y rechazos del runtime.
-- [ ] AS-06 Completar una edición permitida con verificación posterior y demostrar aisladamente la interceptación de una edición protegida. El sandbox Windows impidió escribir ambos archivos; queda pendiente este recorrido completo de QA-006.
+- [x] AS-06 Completar una edición permitida con verificación posterior y demostrar aisladamente la interceptación de una edición protegida. Ensayo inicial bloqueado por Windows legacy; repetición completa del 30/10 con MXC y corrección autorizada del wrapper documentada en [acta posterior](../013-native-hook-acceptance/ACTA.md).
 
 ## Método y alcance
 
